@@ -1,0 +1,450 @@
+,rt,stimulus,response,trial_type,trial_index,time_elapsed,internal_node_id,run_id,condition,recorded_at,source_code_version,ip,user_agent,device,browser,browser_version,platform,platform_version,referer,accept_language,transcript,annotation,timestamp
+0,130911,"
+        <div style=""max-width: 800px; margin: 0 auto; text-align: left;"">
+            <h2>Transcript Annotation Task</h2>
+            <p>In this task, you will:</p>
+            <ol>
+                <li>Read a transcript of someone solving a math puzzle</li>
+                <li>Use the provided buttons to insert code templates</li>
+                <li>Fill in the templates to annotate what the person did</li>
+            </ol>
+            <p>For each trial:</p>
+            <ul>
+                <li>Click buttons to insert code templates</li>
+                <li>Edit the text as needed</li>
+                <li>Click Submit when you're done to move to the next trial</li>
+            </ul>
+            <p style=""text-align: center; margin-top: 20px; font-style: italic;"">Press any key to begin</p>
+        </div>
+    ",meta,html-keyboard-response,0,130917,0.0-0.0,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5",,,
+1,10571,,,survey-text,1,141507,0.0-1.0-0.0,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5", 12 multiplied by 8 divided by 6 plus 2. 6 x 6 6 x 6 divided by 12 divided by Tiz.,"start_state = [6,6,8,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:52.693Z
+2,1330,,,survey-text,2,142839,0.0-1.0-0.1,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Okay, 12 plus 9 is 21. 12 plus... let's see here... 9 plus 7 is 16. So, 6 plus 7, that's 13. So, 72 minus 9 times 6, which is 54. 72 minus 54... 9 times... 7 is 63 and 72... 9 times 6 is 54. 12... 12 times 7 minus 9 times 6. Could that be 72? No, that'd be 84 minus 54, which would be 30. So I can do 12 times 6 is 72, minus 9 times 7 is about 72 minus 6. That's still not right. About 12 minus 6. That's 2. Or 6. Plus 16. That sounds right. Plus 9 plus 7. 6 plus 16, that's 22. So what if it was 12 minus 7, that's 5. 9 plus 6 is 15, that's 20. So that's not right either. So it's 12 plus 9 is 21. That's not right. Minus 3.","start_state = [6,7,9,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:54.025Z
+3,505,,,survey-text,3,143346,0.0-1.0-0.2,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5", We go on. 12 minus 5. 12 minus 7 which is 5. Times 7. It is at 5 minus 11. So print bracket 12 minus 7. Close the bracket right by 7. Subtract bracket 11.,"start_state = [7,7,11,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:54.532Z
+4,456,,,survey-text,4,143804,0.0-1.0-0.3,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5", 1 plus 11 multiplied by 13 divided by 6 Eleven multiplied by thirteen plus one divided by six. Eleven multiplied by thirteen You will You will play a mathematical game where you start with a set of 4 numbers and have to,"start_state = [1,6,11,13]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:54.991Z
+5,385,,,survey-text,5,144195,0.0-1.0-0.4,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," 12, 9, 10, 11, 12, 13, 14, 15, 16, 17, plus 12, 9, 29, 12, 9, 18, 18, 19, and 12 times 2. Oh yeah. 9 minus 8 plus 1 times Open parenthesis, 12. All right. 1 times 12. Oh, no, I got to do 12 times 1. Plus 12. 9 minus 8 is 1. 9 minus 8 is 1. Plus 1. Times 2. 12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x m12 x 8, close parenthesis, plus 1, times 12. Okay. Plus 1, open parenthesis, times 12, close parenthesis.","start_state = [1,8,9,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:55.382Z
+6,359,,,survey-text,6,144559,0.0-1.0-0.5,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," 18, 19, 21, 22, 23, 24. 7, closed parenthesis, no, 18, 19, 20, 222, 420, okay, 5, 15, 20, 25, 30, 35, Minus 11, open parenthesis, 5, times 7, close parenthesis, minus, open parenthesis, 11, times 1, close parenthesis, 11, Climb in there.","start_state = [1,5,7,11]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:55.745Z
+7,393,,,survey-text,7,144956,0.0-1.0-0.6,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Okay, here's the same thing. 8 times 3 is already 24, so I can go. Yeah, these are easier. I'm pretty sure the first ones were unsolvable, or at least difficult. 8 times 3 plus 12 minus 12.","start_state = [3,8,12,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:56.142Z
+8,572,,,survey-text,8,145533,0.0-1.0-0.7,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Alright, let's see. So 12 times 2 is 24, right off the bat. So we can go 8 minus 9, oh, wrong way. 9 minus 8, that's going to be 1. Times 12 plus 2, which would be 24. How the fuck did I not write? 1 times 20, oh, right. That's not the right. There we go.","start_state = [2,8,9,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:56.719Z
+9,541,,,survey-text,9,146078,0.0-1.0-0.8,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Target number 24. So we have 2, 2, 7, 7. And we need a multiple of 24. So it's going to be 2 times 2 is 4. 7 plus 7 is 14. So the highest if we add them all together is going to be 18, which means the multiplication has to be done here. So 7 times 2 is 14. And so I have 14, 7, and 2. If I multiply 7 times 2, that's 14, that's 28, too much. If I do 14 minus 7 plus 2, no. If I do 14 times 2, yes, that would work, but then I'd have an extra 7 left over. How could I solve that? 14 times 2 would be 28. I'd have an extra 7 left over. And that would not work. It would bring me back down to 21. Okay, let's do 7 plus 2, which is 9, which means I have 9, 7, and 2. 9 times 7 is 30. Wait, 9 times 7 is 63. That's too freaking much, girl. I So let's do 2 plus 2, which is 4. So I have 7, 7, 4. What's 4 times 7? 28. 4 times 7 is 28. And I have an extra 7 left over. How can I fix this problem? I'm thinking maybe there's a way to square them, or maybe I'm missing parentheses. No, no. Parentheses can come last. 7 minus 7 is 0, 7 minus 2 is 5, 10 times 2 is 10, plus 7 is 17, 7 times 2 is 14, plus 7 is 21, plus 2 is 23, no, 7 times 2 divided by, wait, 7 times 2, 14 divided by 7, Now is equal to.","start_state = [2,2,7,7]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:57.264Z
+10,561,,,survey-text,10,146640,0.0-1.0-0.9,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Target number is 24, and we have 5, 5, 8, and 13. 8 plus 13 is 20-something. Let's do it a different way. 13 plus 5 is 3, 5, 6, 7, 8. 13 plus 5 is 18, so we have 18, 5, and 8. 8 minus 5, 5, 6, 7, 8 is 3. 18, 19, 20, 21. Dang it, it's 21, not 24. 18 plus 5 is 23. Hmm, this one might be harder. Okay, 5 plus 13. I mean, 5 plus 18 is 13. Then I'd have 13, 13, and 5. That's 26. Nope. Um, 5 times 5 is 25, 8, 13, um, 25 plus 8 maybe, 25, what is that, 35, I mean, 5, 6, 7, 8, 33 and 13, no, that would make 20. We subtracted those. Okay. 5 times 8, so that's going to give us 40, 13, and 5. 5 divided by 40 is 8, and then 8 plus 13 is 21. I keep getting 21. Okay, let's do it a different way. 5, 5, 8, 13, 13 times 5 is what? Um, 5 first and then 5 times 3 is 15. 5, 1, 5. Um, and then what if I divided that by 5 again? That would give me 13, 13, and 8, girl. Okay, um, let's change it up again. 5 plus 5. Um, 10 plus 18. I mean, plus 8. No, not going to work because that's 24. I mean, let's do 8 minus 5. That gives us 3. So now we have 13, 5, and 3, right? What if I did 3 times 15? No. Times 13? No. No, still doesn't work. Let's do another way. Okay, what about, okay, start again. 5, 5, 8,","start_state = [5,5,8,13]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:55:57.826Z
+11,2371,,,survey-text,11,149013,0.0-1.0-0.10,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," I don't think my mind is registering what I need to do. . . . 7 plus 7 is 14, 4 times 8, 4, 8, 12, 16, 20, 24, 28, 32, 32 minus 14, no, 32 to 24 is going to be less than 10. Okay, 4 times 7, 4, 8, 12, 16, 20, 24, 28, 28, 7 and 8, 28, 7 and 8, 28, 7 and 8. 28, 7, 8, minus 8, 20, plus 7, 27, doesn't seem to be working. Let's do minus 8, minus 4, that's 477. 4 times 7, 4, 8, 12, 16, 20, 24, 28. Okay, let's see. Maybe I was onto something. 8 minus 4 is equal to 4. Leftover, I'll have 4. Wait, 8 minus 4, no more 4, no more 8. So, 4, 7, and 7. 7 plus 7 is 14. No, that doesn't work. 7 minus 4 is 3 times 7 is 21. No, 7 divided by 7, no, none of that works. I feel like I was onto something there. 7 minus 4 is equal to 4, 5, 6, 7, 3, 7 and 8, 21, 29, 7 times 8, excuse me, 3 times 8 is 24. Dang, I feel like I'm getting farther and farther away. I felt like I was super close a second ago, but I could have just done my math incorrectly. Let's go back to 8.","start_state = [4,7,7,8]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:00.199Z
+12,553,,,survey-text,12,149569,0.0-1.0-0.11,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Number 24! Let's see... Target number is 24... Umm... 11, 9, 3, 3... Let's see... Let's give it a try. 3 times 9, open parenthesis, 3 times 9, close parenthesis, minus 3. 3 times 9 is 27. 9 divided by 3 times 4 is 24. 9 divided by 3 times 4 is 24. 9 divided by 3 is 4.","start_state = [3,3,9,11]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:00.755Z
+13,621,,,survey-text,13,150194,0.0-1.0-0.12,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Continue. All right, so let's see. If we go 9 plus 9, that's 18. And this is another 8. 18. Let's see, that's not right. So if we go 9 times 3, that's 27. Minus 9 would be 18, plus 5, that's 23, so that's 9. If we go... Minus 5 is 4. Minus 3 is 1 times 9. 5 times 3 is 15, plus 9. So if we go 5 times 3 plus 9, that'd be 24. Then you have this 9 floating here. If you have 9 divided by 3, that's 3. Oh, I think I figured it out. So you've got 9 divided by 3, which is 3, plus 5, which is 8, plus 9, that's only 17. 9 plus 9, that's 18, minus 18 plus 8, 9 minus 3, that's 6.","start_state = [3,5,9,9]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:01.380Z
+14,917,,,survey-text,14,151116,0.0-1.0-0.13,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Are you kidding me, dude? This is supposed to be 3 trials, this is like 6. This doesn't even make any freaking sense, dude. 12 plus 11 plus 6 plus 6, right? That means that I'm literally, literally, literally at 35. If I subtract a 6, that puts me at 23. 66 minus 12 is 52. It seems to be 54. Divided by, what's 24 times 6? It's 144. Can I get to 144? 11 times 12 is 132. Plus 6 is 138. Divided by 6. 11 times 12 is 132. Plus 6 is 138 divided by 6. 138 divided by 6 is 23. Hang on. I don't even know what to… I'm not even sure how to even get to this problem dude. Okay, 6 times 6 is 36. 6 times 6 is 36. Plus 12 or minus 12 is 24. But then I just can't get rid of this 11. 6 plus 6 minus 11 is 25. 6 minus 6 is 0. 11 plus 12 is 23, so of course I'm sure it's 1. 12 plus 6 is 18, plus 11 is 29, minus 6 is 23. 12 plus 6 is 18. Dude, I don't know. 6, I've already tried 6 times 6, I've tried 11 times 12. 6 times 11, so like the multiplication doesn't add up for me, or the addition. 12 plus 6 is 18. 12 plus 11 is 23. 12 plus 6 is 18, plus 6 is 24.","start_state = [6,6,11,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:02.302Z
+15,706,,,survey-text,15,151825,0.0-1.0-0.14,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," . . . Okay, so 13, nope, delete. 13, nope, minus 13. Plus 11, plus 13.","start_state = [11,13,13,13]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:03.011Z
+16,1032,,,survey-text,16,152863,0.0-1.0-0.15,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," For example, 10 times 11 is 16. 5 x 10 is 50, 5 x 10 is 50, 5 x 10 is 50, 5 x 10 is 50, 5 x 10 is 50, 5 x 10 is 50, 5 x 10 is 50, 4 times 10 is 14. Number minus 5 is 6 plus 10 plus 10 is 6. 2 plus 10 is 11. That's 23. Let me see. Ten times 11.","start_state = [5,10,10,11]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:04.049Z
+17,348,,,survey-text,17,153215,0.0-1.0-0.16,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Target number 24. 8 plus 8 is 16. 16, 17, 18, 19, 20, 16, 8 plus 8 plus 11 minus 4. You play 16, 26, open parenthesis 8 plus 8 close parenthesis plus 11 is 26 Close parentheses, 11 minus 4. Close parentheses, that is 26. 16, 17, 18, 19, 20, 22, 23, 24, and that's 12. Plus 8, 12, 13, 14, 15, 16, 17, 18, 19. Close parenthesis. 12, 13, 14, 15, 16, 17, 18, 19. Minus 4. Plus, open parenthesis, 8 minus 4. Alright, 11 plus 8.","start_state = [4,8,8,11]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:04.401Z
+18,510,,,survey-text,18,153731,0.0-1.0-0.17,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," 6, 8, 12, 12. 12 minus 12, no. 8 minus 6, 2. This one must work also. 12 minus 8. Let's see. Ah, yeah, yeah, yeah. 12 times 8, put the broker finals into broker 12, times 6,","start_state = [6,8,12,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:04.917Z
+19,825,,,survey-text,19,154561,0.0-1.0-0.18,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5", 5 multiplied by 9 divided by 3 plus 9.,"start_state = [3,5,9,9]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:05.747Z
+20,1320,,,survey-text,20,155883,0.0-1.0-0.19,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, so 6 times 4. 6 times 4 is 24. 9 minus 6 is 3. 9-6 times 4 times 2","start_state = [2,4,6,9]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+",2025-01-05T18:56:07.069Z
+21,1016731,,,survey-text,21,1172617,0.0-1.0-0.20,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Okay, you've got to be kidding me here. Minus 3 is 29. Divided by 3, no, divided by 8 is 5. Dude, 10 times 8 plus, oh no. I do not know. I've been saying my thoughts out loud this entire time, dude. I can't take a break or pause. This is actually heating me up, dude. I need help. 3 plus 4, I'm already done. 8 plus 10 is 18, which makes no sense. 3 times 4 is 15 times 8 times 2.","start_state = [3,4,8,10]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10+8+4+3=25"",
+    resulting_state=(25,),
+    comment='""10 plus 8 plus 4 plus 3 is 25""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*3=12"",
+    resulting_state=(8, 10, 12),
+    comment='""4 times 3""',
+)
+
+# Then the participant uses the 12 from the previous computation
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12+8+10=30"",
+    resulting_state=(30,),
+    comment='""12 plus 8 plus 10 is 30""',
+)
+
+# Then the participant tries ""10 times 8"", which doesn't use the 12 from the last state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10*8=80"",
+    resulting_state=(3, 4, 80),
+    comment='""10 times 8""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""(10*4)-8-3=29"",
+    resulting_state=(29,),
+    comment='""10 times 4 is 40 minus 8 is 32 minus 3 is 29""',
+)
+
+# It's not clear what ""divided by 3 no, divided by 8"" means
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10*8=80"",
+    resulting_state=(3, 4, 80),
+    comment='""10 times 8""',
+)
+
+# Then the participant seems to be responding to a reminder notification, which isn't part of their search
+
+# Then the participant lists the operations that they've already tried -- saying ""already done"" -- which doesn't count as exploring an operation
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""8+10=18"",
+    resulting_state=(3, 4, 18),
+    comment='""8 plus 10 is 18""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""3*4=12"",
+    resulting_state=(8, 10, 12),
+    comment='""3 times 4""',
+)
+
+# It's not clear what the ""4 36 9 so it was 15 times"" means
+
+# The participant submitted (3x4)x(10-8), so they must have multiplied the 12 they just computed by (10-8)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12*(10-8)=24"",
+    resulting_state=(24,),
+    comment=""Based on the response"",
+)",2025-01-05T19:13:03.803Z
+22,133271,,,survey-text,22,1305882,0.0-1.0-0.21,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Okay, oh this is easy. 1, 2, 3, and 8. 1, 2, 3, and 8. So this, I know we're going to go, uh, let's see. 1, 2, 3, and 8. So I'm going to do 2 times my parentheses. 1 plus 8 parentheses plus 3 parentheses.","start_state = [1,2,3,8]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# First, the participant states the starting numbers
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*((1+8)+3)=24"",
+    resulting_state=(24,),
+    comment='""I\'m going to do 2 times 1 my parenthesis 1 plus 8 parenthesis plus 3 parenthesis""',
+)",2025-01-05T19:15:17.068Z
+23,1055999,,,survey-text,23,2361894,0.0-1.0-0.22,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," This is 10, this is 3, this is 5, 15, no, 5 divided by 5, 5 times 5 is 5, 8 minus 5 is 3, so it's 6. This is quite taxing. So, 15 x 10 x 5 x 10 x 5 x 10 x 5 x 10 x 5 If they're still, they're his. Let's replace 1, 2, 3, 4.","start_state = [5,5,8,13]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# It looks like the transcript starts with some irrelevant stuff
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""5*(8-5)=15"",
+    resulting_state=(13, 15),
+    comment='The participant said ""15"", and this is the simplest way to make 15',
+)
+
+# ""Each"" probably means 8, and this was a transcription error
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""(8*13)/(5*5)=4.16"",
+    resulting_state=(4.16,),
+    comment='""each times 13, divided by 25""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""8*5=40"",
+    resulting_state=(5, 13, 40),
+    comment='""each times 5""',
+)
+
+# Then the participant says ""divided by"" but it's not clear whether they actually divided by anything, so we won't consider it exploring an operation
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""8*(5+5)=80"",
+    resulting_state=(13, 80),
+    comment='""8 times 5 x times 10"" probably means 8*(5+5)',
+)
+
+# The participant must have explored the response they submitted
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""(5/5)+8+13=22"",
+    resulting_state=(22,),
+    comment=""from the response"",
+)",2025-01-05T19:32:53.080Z
+24,270896,,,survey-text,24,2632793,0.0-1.0-0.23,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Okay, we have 2, 3, 5, and 10. 2 times 3 plus... Okay, so we start by 2. Times 3, okay, okay, okay Delete, delete 2 Times 3 minus No, no, no, no, no, no, no, no, no, no. into bracket two plus three what is that? I get it. Delete, delete, delete, delete.","start_state = [2,3,5,10]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*3=6"",
+    resulting_state=(5, 6, 10),
+    comment='""two times 3""',
+)
+
+# Then the participant seems to be deleting what they had entered
+
+# ""into"" was probably a transcription error
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""(10-5)*(2+3)=25"",
+    resulting_state=(25,),
+    comment='""10 minus 5 times into bracket 2 plus 3""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""5-3=2"",
+    resulting_state=(2, 2, 10),
+    comment='""5 minus 3""',
+)
+
+# Then the participant says ""24"", but they don't state any way of making 24",2025-01-05T19:37:23.979Z
+25,349572,,,survey-text,25,2982368,0.0-1.0-0.24,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," 4 times 6 is 24. It's Oh no, oh no, oh no, I don't know. Ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, ok, Let's see. Let's see. Let's see. Let's see.","start_state = [2,4,6,13]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*6=48"",
+    resulting_state=(2, 13, 48),
+    comment='""4 times 6 48""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""13-6=7"",
+    resulting_state=(2, 4, 7),
+    comment='""six that\'s seven"" probably means 13-6=7',
+)
+
+# It's not clear what the rest of the transcript means",2025-01-05T19:43:13.554Z
+26,1201182,,,survey-text,26,4183542,0.0-1.0-0.25,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," 9 plus 6 is 15? 15 plus 4 plus 2. 4 times 2 is 8. 9 plus 6 plus 8 is 23. 12 6 times 2 is 12 plus 9 plus 4 is 25. 9 times 2 is 18. 18 plus 4 plus 6 is 28. Okay, so I need to do some type of more multiplication. 9 times 654 divided by 8 is 645. That's not right, is it? 9 times 4 is 36 minus 6 minus 2 is 28. 9 times 2 plus 6. Times 4. 6 minus 2. 4 plus 16 plus 9 is 25? Are you serious? 6 minus 2 times 4 plus 9. 6 minus... Is it 9? Maybe 9 minus 6. 4 times 2. 9 minus 6 is 3. 4 plus 2 times 6. 6 times 6 is 36. What is 9? No, it puts you at 27. What was multiple?","start_state = [2,4,6,9]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9+6=15"",
+    resulting_state=(2, 4, 15),
+    comment='""9 plus 6 is 15""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""15+4+2=21"",
+    resulting_state=(21,),
+    comment='""15 plus 4 plus 2""',
+)
+
+# Then the participant goes back to using numbers in the start state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*2=8"",
+    resulting_state=(6, 8, 9),
+    comment='""4 times 2 is 8""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9+6+4=25"",
+    resulting_state=(2, 25),
+    comment='""9 plus 6 plus 4 is 25""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9*2=18"",
+    resulting_state=(4, 6, 18),
+    comment='""9 times 2 is 18""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""18+4+6=28"",
+    resulting_state=(28,),
+    comment='""18 plus 4 plus 6 is 28""',
+)
+
+# ""Okay, so I need to do some time of more multiplication"" suggests that the participant rethinks their approach and returns to the start state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9*6/(4*2)=6.5"",
+    resulting_state=(6.5,),
+    comment='""9 times 6 is 54. Divided by 8 is 6.5"", and the 8 probably came from 4*2',
+)
+
+# ""That's not right"" means the participant is trying again
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9*4-6-2=28"",
+    resulting_state=(28,),
+    comment='""9 times 4 is 36 minus 6 minus 2 is 28""',
+)
+
+# There's a stray ""minus"", but it might have been a disfluency or transcription error
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9*2+6=24"",
+    resulting_state=(4, 24),
+    comment='""9 times 2 plus 6""',
+)
+
+# Then there's some text that doesn't seem to be relevant to the search
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9-6=3"",
+    resulting_state=(2, 3, 4),
+    comment='""nine minus six""',
+)
+
+# ""four times so"" is probably actually ""four times two""
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""(4+2)*6=36"",
+    resulting_state=(9, 36),
+    comment='""six times six is 36"", one of the sixes probably came from 4+2',
+)
+
+# Then the participant uses the 36 from the previous state
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""36-9=27"",
+    resulting_state=(27,),
+    comment='""minus 9.""',
+)",2025-01-05T20:03:14.728Z
+27,492066,,,survey-text,27,4675636,0.0-1.0-0.26,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," Alright, 12 divided by 6 is 2, times 8 is 16. So if we do 8 times 12 divided by 2, that's 16, plus 6 is 24. 8 times 12 divided by 6 is 16 plus 6. How does that mount? 12 divided by 6 is 2 times 8 plus 6. Oh, I'm talking only. All right. We have 12 divided by 8 is 4. 12 divided by 8, that's 4. Times 6, that's 24. So that's not right. So it's 12 divided by 6 plus 8 plus 6. I feel like some of these are designed not to work. Because 12 divided by 6 is 2. Times 8 is 16. That's 22. So I was wrong the entire time. So 6 times 6 is 36. 6 times 6 is 36. Oops. Times 6 is 36 minus","start_state = [6,6,8,12]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""(12/6)*8=16"",
+    resulting_state=(6, 16),
+    comment='""12 divided by 6 is 2 times 8 is 16.""',
+)
+
+# Then the participant uses the 16 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+6=22"",
+    resulting_state=(22,),
+    comment='""sixteen plus six is twenty-four""',
+)
+
+# The participant repeats operations they have already tried several times before realizing they had made a calculation error.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6*6=36"",
+    resulting_state=(8, 12, 36),
+    comment='""So 6 times 6 is 36""',
+)",2025-01-05T20:11:26.822Z
+28,213160,,,survey-text,28,4888801,0.0-1.0-0.27,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5"," 9 plus 9 is 18. 19, 20, 22, 23, 24. Open parenthesis. 9 plus... I don't even need to do all that. 9 plus 9 plus 3 plus 3.","start_state = [3,3,9,9]
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9+9=18"",
+    resulting_state=(3, 3, 18),
+    comment='""nine plus nine is eighteen""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9+9+3+3=24"",
+    resulting_state=(24,),
+    comment='""Nine plus nine plus three plus three.""',
+)",2025-01-05T20:14:59.987Z
+29,3594,"
+        <div style=""max-width: 800px; margin: 0 auto; text-align: center;"">
+            <h2>Task Complete!</h2>
+            <p>Thank you for completing the annotation task.</p>
+            <p>Your data has been saved and will download automatically.</p>
+            <p style=""font-style: italic;"">Press any key to finish</p>
+        </div>
+    ", ,html-keyboard-response,29,4892399,0.0-2.0,8,4,2025-01-05 18:53:29,fa36d76c4699a627e33a91273f083d6e,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0,Macintosh,Firefox,133.0,OS X,10.15,,"en-US,en;q=0.5",,,

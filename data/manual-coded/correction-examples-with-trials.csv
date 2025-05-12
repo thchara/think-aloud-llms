@@ -1,0 +1,1067 @@
+transcript,translation,fixed_translation,start_state,response,rt_s
+" Target number 246112. Um, so... 8 to 16... 15, 18, 19, 20, 21, 22... Okay. So, 8... So, 6... Plus... Okay, so eight. So six plus one plus one times two. Six, seven. Oh, no, that's times three. Six times... Six... Open Parentheses 6 times Oh no, delete, delete, delete 6 plus 1 plus 1 closed parentheses plus one plus one, close parentheses, my God. 6 times 2 is 12. So, 6 times 2... plus... open parenthesis... 1... plus 1... close parenthesis...","```python
+start_state = (1, 1, 2, 6)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant starts by saying some numbers that aren't related to the task
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6+1+1=8"",
+    resulting_state=(1, 2, 8),
+    comment='""six plus one plus one""',
+)
+
+# Then the participant tries multiplying by 3, but they don't say what they're multiplying
+
+# Then the participant tries adding 1+1 again, but this time they multiply 6 by 2
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6*2=12"",
+    resulting_state=(1, 1, 12),
+    comment='""6 times 2 is 12""',
+)
+
+# Then the participant uses the 12 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6*2*(1+1)=24"",
+    resulting_state=(24,),
+    comment='""6 times 2... plus... open parenthesis... 1... plus 1... close parenthesis...""',
+)
+
+```","```python
+start_state = (1, 1, 2, 6)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant starts by saying some numbers that aren't related to the task
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6+1+1=8"",
+    resulting_state=(2, 8),
+    comment='""six plus one plus one""',
+)
+
+# Then the participant tries multiplying by 3, but they don't say what they're multiplying
+
+# Then the participant tries adding 1+1 again, but this time they multiply 6 by 2
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6*2=12"",
+    resulting_state=(1, 1, 12),
+    comment='""6 times 2 is 12""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6*2*(1+1)=24"",
+    resulting_state=(24,),
+    comment='""6 times 2... plus... open parenthesis... 1... plus 1... close parenthesis...""',
+)
+
+```","[6,1,1,2]",6x2x(1+1),146
+ one close level x 13 divided by six a level multiplied by 13 plus one divided by six a little multiplied by 13 plus 1 1 divided by 6 11 multiplied by 13 11x13 plus 1 11x13 plus 1,"```python
+start_state = (1, 6, 11, 13)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant seems to be trying out different operations, but most of them don't make sense
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""11*13=143"",
+    resulting_state=(1, 6, 143),
+    comment='""11 multiplied by 13""',
+)
+
+# Then the participant uses the 143 from the previous computation
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""11*13+1=144"",
+    resulting_state=(6, 144),
+    comment='""11x13 plus 1""',
+)
+
+```","```python
+start_state = (1, 6, 11, 13)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant seems to be trying out different operations, but most of them don't make sense
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""11*13=143"",
+    resulting_state=(1, 6, 143),
+    comment='""11 multiplied by 13""',
+)
+
+# Then the participant uses the 143 from the previous computation
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""143+1=144"",
+    resulting_state=(6, 144),
+    comment='""11x13 plus 1""',
+)
+```
+","[1,6,11,13]",((11x13)+1,180
+ okay this is easy 1 2 3 and 8 1 2 3 and 8 so this I know we're going to go let's see 1 2 3 and 8 so I'm going to do 2 times my parenthesis 1 plus 8 parenthesis plus 3 parenthesis,"```python
+start_state = (1, 2, 3, 8)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant states the starting numbers
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*((1+8)+3)=2*(9+3)=2*12=24"",
+    resulting_state=(24,),
+    comment='""I\'m going to do 2 times 1 my parenthesis 1 plus 8 parenthesis plus 3 parenthesis""',
+)
+
+```","```python
+start_state = (1, 2, 3, 8)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant states the starting numbers
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*((1+8)+3)=24"",
+    resulting_state=(24,),
+    comment='""I\'m going to do 2 times 1 my parenthesis 1 plus 8 parenthesis plus 3 parenthesis""',
+)
+
+```
+","[1,2,3,8]",2x((1+8)+3),26
+" and for this is 14 is 14 plus 14 oh my goodness for two plus two four plus 14 okay let me think of going to divide it by 7 1 and 4 Sometimes 7 is 49 That's right, that's right, so I see 2 times 2 2 times 7 that's 14","```python
+start_state = (2, 2, 7, 7)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7+7=14"",
+    resulting_state=(2, 2, 14),
+    comment='""14 is 14 plus 14""',
+)
+
+# Then the participant uses the 14 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""14+2+2=18"",
+    resulting_state=(18,),
+    comment='""two plus two four plus 14""',
+)
+
+# Then the participant tries dividing by 7
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""14/7=2"",
+    resulting_state=(2, 2, 2),
+    comment='""divide it by 7 1 and 4""',
+)
+
+# Then the participant computes 7*7
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7*7=49"",
+    resulting_state=(2, 2, 49),
+    comment='""Sometimes 7 is 49""',
+)
+
+# Then the participant goes back to using numbers in the start state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*2=4"",
+    resulting_state=(4, 7, 7),
+    comment='""2 times 2""',
+)
+
+# Then the participant uses the 4 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*7=14"",
+    resulting_state=(4, 7, 14),
+    comment='""2 times 7 that\'s 14""',
+)
+
+```","```python
+start_state = (2, 2, 7, 7)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7+7=14"",
+    resulting_state=(2, 2, 14),
+    comment='""14 is 14 plus 14""',
+)
+
+# Then the participant uses the 14 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""14+2+2=18"",
+    resulting_state=(18,),
+    comment='""two plus two four plus 14""',
+)
+
+# Then the participant tries dividing by 7
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""(7*2)/7=2"",
+    resulting_state=(2, 2),
+    comment='""divide it by 7 1 and 4""',
+)
+
+# Then the participant computes 7*7
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7*7=49"",
+    resulting_state=(2, 2, 49),
+    comment='""Sometimes 7 is 49""',
+)
+
+# Then the participant goes back to using numbers in the start state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*2=4"",
+    resulting_state=(4, 7, 7),
+    comment='""2 times 2""',
+)
+
+# Then the participant tries 2 times 7
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*7=14"",
+    resulting_state=(2, 7, 14),
+    comment='""2 times 7 that\'s 14""',
+)
+
+```
+
+","[2,2,7,7]",2x7),180
+" please I'm like begging at this point I've no idea so it was five plus four before it's just 24 dude 10 times 5 is 50 actually 10 times 4 is 40 minus 5 is 50. Actually, 10 times 4 is 40, minus 5 is 35, minus 4 is 31. 10 times 4 is 40, divided by 5, plus we have 8, divided by 4, plus we have 10, plus 5 is 15. I don't know I'm trying I'm trying I'm trying, I'm trying, I'm trying, I'm trying, I'm trying, I'm sorry. 4 times 4 is 16, plus 10 is 26 26 minus 5 is 1. 4 times 5 is 20 plus 10 is 30 minus 5 is 25. So I'm one off. Minus 4 is 26. 4 times 5 is 20. Plus 4 is 24. I can't get rid of that 10 then. So you said 4 times 5. Plus 4. That's 24. Boom. Incurred answer and not all the numbers you use. 10. I can't divide. I can't subtract that either. I'm not sure that I'm saying the right thing. I feel like I just put everything I don't know. I have no idea how to get to this number.","```python
+start_state = (4, 4, 5, 10)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant starts by trying to use all the numbers
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10*5=50"",
+    resulting_state=(4, 4, 50),
+    comment='""10 times 5 is 50""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10*4=40"",
+    resulting_state=(4, 4, 5, 40),
+    comment='""10 times 4 is 40""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""40-5=35"",
+    resulting_state=(4, 4, 35),
+    comment='""40, minus 5 is 35""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""35-4=31"",
+    resulting_state=(31,),
+    comment='""35, minus 4 is 31""',
+)
+
+# Then the participant tries dividing
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10*4=40"",
+    resulting_state=(4, 4, 5, 40),
+    comment='""10 times 4 is 40""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""40/5=8"",
+    resulting_state=(4, 4, 8),
+    comment='""40, divided by 5, plus we have 8""',
+)
+
+# Then the participant tries using the 8 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""8/4=2"",
+    resulting_state=(2, 4),
+    comment='""divided by 4, plus we have""',
+)
+
+# Then the participant goes back to the start state and tries something else
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*4=16"",
+    resulting_state=(5, 10, 16),
+    comment='""4 times 4 is 16""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+10=26"",
+    resulting_state=(5, 26),
+    comment='""plus 10 is 26""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""26-5=21"",
+    resulting_state=(21,),
+    comment='""26 minus 5 is 1""',
+)
+
+# Then the participant tries another operation
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*5=20"",
+    resulting_state=(4, 10, 20),
+    comment='""4 times 5 is 20""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""20+10=30"",
+    resulting_state=(4, 30),
+    comment='""plus 10 is 30""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""30-5=25"",
+    resulting_state=(25,),
+    comment='""30 minus 5 is 25""',
+)
+
+# Then the participant tries another operation
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*5=20"",
+    resulting_state=(4, 10, 20),
+    comment='""4 times 5 is 20""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""20+4=24"",
+    resulting_state=(10, 24),
+    comment='""Plus 4 is 24""',
+)
+
+```","```python
+start_state = (4, 4, 5, 10)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant starts by trying to use all the numbers
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10*5=50"",
+    resulting_state=(4, 4, 50),
+    comment='""10 times 5 is 50""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10*4=40"",
+    resulting_state=(4, 5, 40),
+    comment='""10 times 4 is 40""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""40-5=35"",
+    resulting_state=(4, 35),
+    comment='""40, minus 5 is 35""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""35-4=31"",
+    resulting_state=(31,),
+    comment='""35, minus 4 is 31""',
+)
+
+# Then the participant tries dividing
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""10*4=40"",
+    resulting_state=(4, 5, 40),
+    comment='""10 times 4 is 40""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""40/5=8"",
+    resulting_state=(4, 8),
+    comment='""40, divided by 5, plus we have 8""',
+)
+
+# Then the participant tries using the 8 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""8/4=2"",
+    resulting_state=(2,),
+    comment='""divided by 4, plus we have""',
+)
+
+# Then the participant goes back to the start state and tries something else
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*4=16"",
+    resulting_state=(5, 10, 16),
+    comment='""4 times 4 is 16""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+10=26"",
+    resulting_state=(5, 26),
+    comment='""plus 10 is 26""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""26-5=21"",
+    resulting_state=(21,),
+    comment='""26 minus 5 is 1""',
+)
+
+# Then the participant tries another operation
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*5=20"",
+    resulting_state=(4, 10, 20),
+    comment='""4 times 5 is 20""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""20+10=30"",
+    resulting_state=(4, 30),
+    comment='""plus 10 is 30""',
+)
+
+# The participant says ""30 minus 5 is 25"" but isn't clear how they could get the 5
+
+# Then the participant tries another operation
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*5=20"",
+    resulting_state=(4, 10, 20),
+    comment='""4 times 5 is 20""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""20+4=24"",
+    resulting_state=(10, 24),
+    comment='""Plus 4 is 24""',
+)
+
+```","[4,4,5,10]",4x5+4,180
+" Target number 24, so we have two, two, seven, seven, and we need a multiple of 24, so it's gonna be two times two is four, seven times, I mean, seven plus seven is 14, so the highest if we add them all together is gonna be 18, which means the multiplication has to be done here so 7 times 2 is 14. um and so i have 14 7 and 2 if i uh multiply 7 times 2 that's 14 that's 28 too much. If I do 14 minus 7 plus 2, no. If I do 14 times 2, yes that would work but then I'd have an extra 7 left over. How could I solve that? 14 times 2 would be 28. I'd have an extra 7 left over. And that would not work. It would bring me back down to 21. Okay, let's do 7 plus 2, which is 9. Which means I have 9, 7, and 2. 9 times 7 is 30. Wait, 9 times 7 is 63. that's too freaking much girl uh seven times two is 14 maybe and then 14 plus nine um why am i being slow right now? 6, 7, 8, 9, 3, oh I think that's 23, that sucks. Yeah, that's 23. So one less, okay. Then I have 2, 2, 7, 7. So let's do 2 plus 2, which is 4. So I have 7, 7, 4 was 4 times 7, 28. 4 times 7 is 28. And I have an extra 7 left over. How can I fix this problem? I'm thinking maybe there's a way to square them. Or maybe I'm missing parentheses. I don't know. Parentheses can come last. 7 minus 7, that's 0. 7 minus 2 is 5. 10 times 2 is 10, plus 7 is 17. 7 times 2 is 14, plus 7 is 21, plus 2 is 23 now seven times two divided by wait seven times 2 14 divided by 7 no is equal to","```python
+start_state = (2, 2, 7, 7)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*2=4"",
+    resulting_state=(4, 7, 7),
+    comment='""two times two is four""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7+7=14"",
+    resulting_state=(2, 2, 14),
+    comment='""seven plus seven is 14""',
+)
+
+# Then the participant uses the 14 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2+7=9"",
+    resulting_state=(2, 9, 7),
+    comment='""7 plus 2, which is 9""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9*7=63"",
+    resulting_state=(2, 63),
+    comment='""9 times 7 is 63""',
+)
+
+# Then the participant goes back to using numbers in the start state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7*2=14"",
+    resulting_state=(2, 14, 7),
+    comment='""seven times two is 14""',
+)
+
+# Then the participant uses the 14 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""14+9=23"",
+    resulting_state=(23,),
+    comment='""14 plus nine um why am i being slow right now? ... 23""',
+)
+
+# Then the participant goes back to using numbers in the start state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2+2=4"",
+    resulting_state=(4, 7, 7),
+    comment='""2 plus 2, which is 4""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*7=28"",
+    resulting_state=(28, 7),
+    comment='""4 times 7, 28""',
+)
+
+# Then the participant tries to use the 28 they just computed
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7-7=0"",
+    resulting_state=(2, 2, 0),
+    comment='""7 minus 7, that\'s 0""',
+)
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7-2=5"",
+    resulting_state=(2, 2, 5, 7),
+    comment='""7 minus 2 is 5""',
+)
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7*2=14"",
+    resulting_state=(2, 14, 7),
+    comment='""seven times 2 is 14""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""14+7=21"",
+    resulting_state=(2, 21),
+    comment='""14 plus 7 is 21""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""21+2=23"",
+    resulting_state=(23,),
+    comment='""21 plus 2 is 23 now""',
+)
+
+```","```python
+start_state = (2, 2, 7, 7)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*2=4"",
+    resulting_state=(4, 7, 7),
+    comment='""two times two is four""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7+7=14"",
+    resulting_state=(2, 2, 14),
+    comment='""seven plus seven is 14""',
+)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2+7=9"",
+    resulting_state=(2, 9, 7),
+    comment='""7 plus 2, which is 9""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""9*7=63"",
+    resulting_state=(2, 63),
+    comment='""9 times 7 is 63""',
+)
+
+# Then the participant goes back to using numbers in the start state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7*2=14"",
+    resulting_state=(2, 14, 7),
+    comment='""seven times two is 14""',
+)
+
+# Then the participant uses the 14 they just computed, and does 7+2 to get 9
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""14+(7+2)=23"",
+    resulting_state=(23,),
+    comment='""14 plus nine um why am i being slow right now? ... 23""',
+)
+
+# Then the participant goes back to using numbers in the start state
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2+2=4"",
+    resulting_state=(4, 7, 7),
+    comment='""2 plus 2, which is 4""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""4*7=28"",
+    resulting_state=(28, 7),
+    comment='""4 times 7, 28""',
+)
+
+# Then the participant tries to use the 28 they just computed
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7-7=0"",
+    resulting_state=(2, 2, 0),
+    comment='""7 minus 7, that\'s 0""',
+)
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7-2=5"",
+    resulting_state=(2, 5, 7),
+    comment='""7 minus 2 is 5""',
+)
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""7*2=14"",
+    resulting_state=(2, 14, 7),
+    comment='""seven times 2 is 14""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""14+7=21"",
+    resulting_state=(2, 21),
+    comment='""14 plus 7 is 21""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""21+2=23"",
+    resulting_state=(23,),
+    comment='""21 plus 2 is 23 now""',
+)
+```
+","[2,2,7,7]",,180
+" 26 39 oh 11 it's 50 so bracket 13 um 513 plus 11 plus 13. Okay. Okay. Okay. Okay, nope, delete. Minus 13 plus 11 plus 13.","```python
+start_state = (11, 13, 13, 13)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant starts by listing some numbers that aren't operations
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""13-13=0"",
+    resulting_state=(11, 13, 13, 0),
+    comment='""Minus 13""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""0+11+13=24"",
+    resulting_state=(24,),
+    comment='""plus 11 plus 13""',
+)
+
+```","```python
+start_state = (11, 13, 13, 13)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+# The participant starts by listing some numbers that aren't operations
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""13-13=0"",
+    resulting_state=(0, 11, 13),
+    comment='""Minus 13""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""0+11+13=24"",
+    resulting_state=(24,),
+    comment='""plus 11 plus 13""',
+)
+
+```","[11,13,13,13]",(13-13)+11+13,74
+" Alright, 12 divided by 6 is 2 times 8 is 16. So, if we go... So, if we do eight times twelve divided by two. That's sixteen plus six is twenty-four. Eight times twelve divided by 6 is 16 plus 6. How's that now? 12 divided by 6 is 2 times 8 plus 6. Oh, I'm talking, homie. Alright. We have 12 divided by 8, that's 4, times 6, that's 24. So that's 12 divided by 6 plus 8 plus 6. 12. I feel like some of these are designed not to work. Because 12 divided by 6 is 2 times 8 is 16, that's 22 so I was wrong the entire time. So 6 times 6 is 36. 6 times 6 is 36, oops, times 6 is 36 minus","```python
+start_state = (6, 6, 8, 12)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12/6=2"",
+    resulting_state=(2, 6, 8),
+    comment='""12 divided by 6 is 2""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*8=16"",
+    resulting_state=(6, 16),
+    comment='""2 times 8 is 16""',
+)
+
+# Then the participant uses the 16 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+6=22"",
+    resulting_state=(22,),
+    comment='""sixteen plus six is twenty-four""',
+)
+
+# The participant repeats operations they have already tried several times before realizing they had made a calculation error.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""8*12=96"",
+    resulting_state=(6, 6, 96),
+    comment='""eight times twelve""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""96/2=48"",
+    resulting_state=(6, 6, 48),
+    comment='""eight times twelve divided by two""',
+)
+
+# Then the participant uses the 16 they computed earlier
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""96/6=16"",
+    resulting_state=(6, 16),
+    comment='""eight times twelve divided by 6""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+6=22"",
+    resulting_state=(22,),
+    comment='""sixteen plus six""',
+)
+
+# The participant repeats operations they have already tried several times before realizing they had made a calculation error.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12/8=1.5"",
+    resulting_state=(1.5, 6, 6),
+    comment='""12 divided by 8, that\'s 4""',
+)
+
+# The participant made a calculation error, 12/8 is actually 1.5, not 4.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12/8=1.5"",
+    resulting_state=(1.5, 6, 6),
+    comment='""12 divided by 8, that\'s 4""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""1.5*6=9"",
+    resulting_state=(6, 9),
+    comment='""times 6, that\'s 24""',
+)
+
+# The participant made another calculation error, 1.5*6 is actually 9, not 24.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12/6=2"",
+    resulting_state=(2, 6, 8),
+    comment='""12 divided by 6 is 2""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*8=16"",
+    resulting_state=(6, 16),
+    comment='""2 times 8 is 16""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+6=22"",
+    resulting_state=(22,),
+    comment='""sixteen plus six is twenty-four""',
+)
+
+# The participant repeats operations they have already tried several times before realizing they had made a calculation error.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6*6=36"",
+    resulting_state=(8, 12, 36),
+    comment='""So 6 times 6 is 36""',
+)
+
+```","```python
+start_state = (6, 6, 8, 12)
+curr_state = start_state
+graph = GraphBuilder(curr_state)
+
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12/6=2"",
+    resulting_state=(2, 6, 8),
+    comment='""12 divided by 6 is 2""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*8=16"",
+    resulting_state=(6, 16),
+    comment='""2 times 8 is 16""',
+)
+
+# Then the participant uses the 16 they just computed
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+6=22"",
+    resulting_state=(22,),
+    comment='""sixteen plus six is twenty-four""',
+)
+
+# The participant repeats operations they have already tried several times before realizing they had made a calculation error.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""8*12=96"",
+    resulting_state=(6, 6, 96),
+    comment='""eight times twelve""',
+)
+
+# ""Eighteen times twelve divided by two"" probably actually means 8*12/6 because the participant doesn't have a 2 and they say 16 right after
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""96/6=16"",
+    resulting_state=(6, 16),
+    comment='""eight times twelve divided by two. That\'s sixteen""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+6=22"",
+    resulting_state=(22,),
+    comment='""sixteen plus six""',
+)
+
+# The participant repeats operations they have already tried several times before realizing they had made a calculation error.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12/8=1.5"",
+    resulting_state=(1.5, 6, 6),
+    comment='""12 divided by 8, that\'s 4""',
+)
+
+# The participant made a calculation error, 12/8 is actually 1.5, not 4.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12/8=1.5"",
+    resulting_state=(1.5, 6, 6),
+    comment='""12 divided by 8, that\'s 4""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""1.5*6=9"",
+    resulting_state=(6, 9),
+    comment='""times 6, that\'s 24""',
+)
+
+# The participant made another calculation error, 1.5*6 is actually 9, not 24.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""12/6=2"",
+    resulting_state=(2, 6, 8),
+    comment='""12 divided by 6 is 2""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""2*8=16"",
+    resulting_state=(6, 16),
+    comment='""2 times 8 is 16""',
+)
+
+curr_state = graph.move_to_node(new_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""16+6=22"",
+    resulting_state=(22,),
+    comment='""sixteen plus six is twenty-four""',
+)
+
+# The participant repeats operations they have already tried several times before realizing they had made a calculation error.
+
+curr_state = graph.move_to_node(start_state)
+new_state = graph.explore_operation(
+    curr_state,
+    operation=""6*6=36"",
+    resulting_state=(8, 12, 36),
+    comment='""So 6 times 6 is 36""',
+)
+
+```","[6,6,8,12]",(6x6)-,180
