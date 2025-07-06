@@ -52,3 +52,10 @@ these notebooks is `MainAnalyses.ipynb`, which runs most of the analyses we repo
 The `experiment/` directory contains the JsPsych code we used for the experiment, along with Python
 scripts to do tasks that interface with the experiment, like downloading data and counting the 
 number of completions in each condition.
+
+### Running the Zendo analysis
+
+```bash
+pip install pandas numpy scikit-learn matplotlib
+```
+
