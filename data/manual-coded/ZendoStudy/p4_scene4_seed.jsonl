@@ -1,0 +1,147 @@
+[{"Title": "scene4"},
+    {
+      "id": 1,
+      "span": "Okay, let's try a different approach this time because what I've been doing hasn't served me well in the last one.",
+      "open_code": "evaluation",
+      "summary": "Okay, let's try a different approach this time because what I've been"
+    },
+    {
+      "id": 2,
+      "span": "So let's look at the ones that aren't matches, B, D, and F.",
+      "open_code": "otherEmergent_levelplanning",
+      "summary": "So let's look at the ones that aren't matches, B, D, and"
+    },
+    {
+      "id": 3,
+      "span": "Panel B predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Panel B predominantly upright triangles, red, blue, and green.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Panel D predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Panel D predominantly upright triangles, red, blue, and green.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Panel E...predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Panel E...predominantly upright triangles, red, blue, and green.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "That hasn't helped. That hasn't helped.",
+      "open_code": "monitorLowLevel",
+      "summary": "That hasn't helped. That hasn't helped."
+    },
+    {
+      "id": 7,
+      "span": "So, within panel A, there is one triangle that has red on top of a green.",
+      "open_code": "processingLocal",
+      "summary": "So, within panel A, there is one triangle that has red on",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 8,
+      "span": "That's something new. I don't think I've seen that before.",
+      "open_code": "reflectSelf",
+      "summary": "That's something new. I don't think I've seen that before."
+    },
+    {
+      "id": 9,
+      "span": "Panel C, we have a blue on top of green and Panel F we have a red on top of a blue.",
+      "open_code": "processingLocal",
+      "summary": "Panel C, we have a blue on top of green and Panel",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 10,
+      "span": "So, there's some sort of mixing happening there, so that's a potential...of commonalities they have, different colors stacked let's say.",
+      "open_code": "hypoGeneration",
+      "summary": "So, there's some sort of mixing happening there, so that's a potential...of"
+    },
+    {
+      "id": 11,
+      "span": "So that's one option.",
+      "open_code": "decisionConfirm",
+      "summary": "So that's one option."
+    },
+    {
+      "id": 12,
+      "span": "Let's do our usual check for number of triangles.",
+      "open_code": "planningBasicComparison",
+      "lenses":{
+        "planningLevel": "level 2"
+      },
+      "summary": "Let's do our usual check for number of triangles."
+    },
+    {
+      "id": 13,
+      "span": "Panel A has [counting] seven triangles. Panel C has [counting] seven triangles. Panel F has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Panel A has seven triangles. Panel C has seven triangles. Panel F",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "So they do all match.",
+      "open_code": "hypoGeneration",
+      "summary": "So they do all match."
+    },
+    {
+      "id": 15,
+      "span": "Panel B has [counting] six. Panel D has [counting] seven, so that disrupts the rule.",
+      "open_code": "processingLocal",
+      "summary": "Panel B has six. Panel D has seven, so that disrupts the",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 16,
+      "span": "so that disrupts the rule.",
+      "open_code": "decisionReject",
+      "summary": "so that disrupts the rule."
+    },
+    {
+      "id": 17,
+      "span": "So, we've ruled out colors, we've ruled out the number.",
+      "open_code": "ruleExclusion",
+      "summary": "So, we've ruled out colors, we've ruled out the number."
+    },
+    {
+      "id": 18,
+      "span": "Orientation is difficult to kind of, um, to do in this amount of time I have, but I could look at the clockwise versus anti-clockwise. I'll put that on my list.",
+      "open_code": "monitorHighLevel",
+      "summary": "Orientation is difficult to kind of, um, to do in this amount"
+    },
+    {
+      "id": 19,
+      "span": "I'm thinking the most likely rule is: different colored triangles stacked on top of each other.",
+      "open_code": "ruleArticulation",
+      "summary": "I'm thinking the most likely rule is: different colored triangles stacked on"
+    }
+  ]

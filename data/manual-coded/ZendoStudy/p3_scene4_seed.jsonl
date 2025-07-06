@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "Title": "scene4"
+    },
+    {
+      "id": 1,
+      "span": "Panels A, C, and F have rules.",
+      "open_code": "processingGlobal",
+      "summary": "Panels A, C, and F have rules.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 2,
+      "span": "B, D, and E do not have rules.",
+      "open_code": "processingGlobal",
+      "summary": "B, D, and E do not have rules.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Let's see, there are one, two, one, two, three, one, two purple triangles.",
+      "open_code": "processingLocal",
+      "summary": "Let's see, there are one, two, one, two, three, one, two purple",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "There is one triangle of equal size, on top of another triangle of equal size when the rule is applied.",
+      "open_code": "hypoGeneration",
+      "summary": "There is one triangle of equal size, on top of another triangle",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Yeah. (5.0)",
+      "open_code": "decisionConfirm",
+      "summary": "Yeah. (5.0)"
+    },
+    {
+      "id": 6,
+      "span": "They all have seven triangles in them when the rule is applied. (5.0)",
+      "open_code": "hypoAlternative",
+      "summary": "They all have seven triangles in them when the rule is applied."
+    },
+    {
+      "id": 7,
+      "span": "But, there is one triangle of equal size on top of another",
+      "open_code": "ruleConfidence",
+      "summary": "But, there is one triangle of equal size on top of another"
+    },
+    {
+      "id": 8,
+      "span": "... that seems to be the pattern when the rule is applied. (8.0)",
+      "open_code": "decisionConfirm",
+      "summary": "... that seems to be the pattern when the rule is applied."
+    },
+    {
+      "id": 9,
+      "span": "That's all I can think of. (15.0)",
+      "open_code": "reflectSelf",
+      "summary": "That's all I can think of. (15.0)"
+    }
+  ]
+]

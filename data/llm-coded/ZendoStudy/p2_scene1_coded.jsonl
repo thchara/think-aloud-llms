@@ -1,0 +1,195 @@
+[ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "Alright. Uh, let’s see, let’s see.",
+      "open_code": "Orientation",
+      "summary": "orients themselves to the task"
+    },
+    {
+      "id": 2,
+      "span": "Panel A follows the rule so far.",
+      "open_code": "processingLocal",
+      "summary": "Notes star on panel A",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Uh… let’s see, taking a look at each different thing…",
+      "open_code": "planningExplorative",
+      "summary": "Signals further scanning",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Let’s see, panels B, C, and D don’t follow the rule.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies non-starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "What are they missing?",
+      "open_code": "planningBasicComparison",
+      "summary": "Sets star vs non-star comparison",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Okay, so panels B, C, and D do not have a red cone in them.",
+      "open_code": "processingGlobal",
+      "summary": "Observes absence of red cones",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 7,
+      "span": "Panels A, E, and F do, ergo, the star is lit up.",
+      "open_code": "processingGlobal",
+      "summary": "Links red presence to lit star",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "That is my initial guess on what the secret rule is.",
+      "open_code": "hypoGeneration",
+      "summary": "States initial red-cone rule"
+    },
+    {
+      "id": 9,
+      "span": "Um… Taking a look at other factors:",
+      "open_code": "modifyPlan",
+      "summary": "Announces shift to new checks",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Uh Panel A has… most cones are upright, except for the green one.",
+      "open_code": "processingLocal",
+      "summary": "Describes cone orientations in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Panel E uh has a mixture of cones, some upright and some not.",
+      "open_code": "processingLocal",
+      "summary": "Observes mixed orientations in E",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "The red cone doesn’t have to be upright for the rule to be active.",
+      "open_code": "hypoRevision",
+      "summary": "Refines rule: orientation irrelevant"
+    },
+    {
+      "id": 13,
+      "span": "Same principle for F, the red cone is also not inside… oh sorry — in panel F, the red cone is inside something, but that does not invalidate it.",
+      "open_code": "processingLocal",
+      "summary": "Cites F as confirming evidence",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "Um… Okay, let’s see, what else is there?",
+      "open_code": "modifyPlan",
+      "summary": "Prepares to search new feature",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Maybe something to do with the number of cones?",
+      "open_code": "hypoAlternative",
+      "summary": "Considers number-based rule"
+    },
+    {
+      "id": 16,
+      "span": "Panel A has [counting] seven.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 17,
+      "span": "Panel E has [counting] six.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Panel F has [counting] eight.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "Uh.. let’s see, Panels B, C, and D: [counting] B has five… [counting] C has five…. [counting] D has six….",
+      "open_code": "processing",
+      "summary": "Counts cones in non-starred panels",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 20,
+      "span": "Okay, so it’s not a number rule, because panel C has six cones and panel E also has six cones, so disregarding that entirely.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects number-of-cones hypothesis",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 21,
+      "span": "Okay so literally the only thing I’m seeing that would govern this hidden rule would be: Does the panel have red cones or not?",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms red-presence rule stands"
+    },
+    {
+      "id": 22,
+      "span": "If it has red cones, the star lights up.",
+      "open_code": "ruleArticulation",
+      "summary": "States final red-cone rule"
+
+    },
+    {
+      "id": 23,
+      "span": "That is literally the only consistent logic I can think of here.",
+      "open_code": "reflectSelf",
+      "summary": "Reflects on reasoning sufficiency"
+    }
+  ]

@@ -1,0 +1,166 @@
+
+[{"Title": "scene1"},
+    {
+      "id": 1,
+      "span": "Alright. Uh, let's see, let's see.",
+      "open_code": "Orientation",
+      "summary": "Alright. Uh, let's see, let's see."
+    },
+    {
+      "id": 2,
+      "span": "Panel A follows the rule so far.",
+      "open_code": "processingLocal",
+      "summary": "Panel A follows the rule so far.",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Uh, let's see, taking a look at each different thing,",
+      "open_code": "planningExplorative",
+      "lenses":{
+        "planningLevel": "level 1"
+      },
+      "summary": "Uh, let's see, taking a look at each different thing,"
+    },
+    {
+      "id": 4,
+      "span": "Let's see, panels B, C, and D don't follow the rule.",
+      "open_code": "processingGlobal",
+      "summary": "Let's see, panels B, C, and D don't follow the rule.",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "What are they missing?",
+      "open_code": "refectUncertainty",
+      "summary": "What are they missing?"
+    },
+    {
+      "id": 6,
+      "span": "Okay, so panels B, C, and D do not have a red cone in them. Panels A, E, and F do, ergo, the star is lit up.",
+      "open_code": "processingGlobal",
+      "summary": "Okay, so panels B, C, and D do not have a red",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 7,
+      "span": "That is my initial guess on what the secret rule is.",
+      "open_code": "hypoGeneration",
+      "summary": "That is my initial guess on what the secret rule is."
+    },
+    {
+      "id": 8,
+      "span": "Um, Taking a look at other factors:",
+      "open_code": "planningExplorative",
+      "lenses":{
+        "planningLevel":"level 1"
+      },
+      "summary": "Um, Taking a look at other factors:"
+    },
+    {
+      "id": 9,
+      "span": "Uh Panel A has, most cones are upright, except for the green one.",
+      "open_code": "processingLocal",
+      "summary": "Uh Panel A has, most cones are upright, except for the green",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Panel E uh has a mixture of cones, some upright and some not.",
+      "open_code": "processingLocal",
+      "summary": "Panel E uh has a mixture of cones, some upright and some",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 11,
+      "span": "The red cone doesn't have to be upright for the rule to be active.",
+      "open_code": "hypoRevision",
+      "summary": "The red cone doesn't have to be upright for the rule to"
+    },
+    {
+      "id": 12,
+      "span": "Same principle for F, the red cone is also not inside,",
+      "open_code": "processingLocal",
+      "summary": "Same principle for F, the red cone is also not inside,",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 13,
+      "span": "oh sorry... in panel F, the red cone is inside something, but that does not invalidate it.",
+      "open_code": "monitorLowLevel",
+      "summary": "oh sorry... in panel F, the red cone is inside something,"
+    },
+    {
+      "id": 14,
+      "span": "Um, Okay, let's see, what else is there?",
+      "open_code": "planningExplorative",
+      "lenses":{
+        "planningLevel":"level 1"
+      },
+      "summary": "Um, Okay, let's see, what else is there?"
+    },
+    {
+      "id": 15,
+      "span": "Maybe something to do with the number of cones?",
+      "open_code": "hypoAlternative",
+      "summary": "Maybe something to do with the number of cones?"
+    },
+    {
+      "id": 16,
+      "span": "Panel A has [counting] seven. Panel E has [counting] six. Panel F has [counting] eight.",
+      "open_code": "processingLocal",
+      "summary": "Panel A has seven. Panel E has six. Panel F has eight.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 17,
+      "span": "Uh.. let's see, Panels B, C, and D: [counting] B has five, [counting] C has five,. [counting] D has six,.",
+      "open_code": "processingGlobal",
+      "summary": "Uh.. let's see, Panels B, C, and D: B has five, C",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Okay, so it's not a number rule, because panel C has six cones and panel E also has six cones, so disregarding that entirely.",
+      "open_code": "decisionReject",
+      "summary": "Okay, so it's not a number rule, because panel C has six"
+    },
+    {
+      "id": 19,
+      "span": "Okay so literally the only thing I'm seeing that would govern this hidden rule would be: Does the panel have red cones or not?",
+      "open_code": "monitorHighLevel",
+      "summary": "Okay so literally the only thing I'm seeing that would govern this"
+    },
+    {
+      "id": 20,
+      "span": "If it has red cones, the star lights up.",
+      "open_code": "ruleArticulation",
+      "summary": "If it has red cones, the star lights up."
+    },
+    {
+      "id": 21,
+      "span": "That is literally the only consistent logic I can think of here.",
+      "open_code": "monitorHighLevel",
+      "summary": "That is literally the only consistent logic I can think of here."
+    }
+  ]

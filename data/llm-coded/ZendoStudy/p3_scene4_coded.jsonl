@@ -1,0 +1,52 @@
+[ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Panels A, C, and F have rules. B, D, and E do not have rules.",
+      "open_code": "processingGlobal",
+      "summary": "Groups panels by star status",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Let’s see… there are one, two, one, two, three, one, two purple triangles.",
+      "open_code": "processingGlobal",
+      "summary": "Counts purple triangles across panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "There is one triangle of equal size… on top of another triangle of equal size when the rule is applied.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates equal-size stacking hypothesis"
+    },
+    {
+      "id": 4,
+      "span": "Yeah.",
+      "open_code": "decisionConfirm",
+      "summary": "Brief confirms idea"
+    },
+    {
+      "id": 5,
+      "span": "They all have seven triangles in them when the rule is applied.",
+      "open_code": "hypoAlternative",
+      "summary": "Considers seven-triangle count rule"
+    },
+    {
+      "id": 6,
+      "span": "But… there is one triangle of equal size on top of another — that seems to be the pattern when the rule is applied.",
+      "open_code": "ruleArticulation",
+      "summary": "States equal-size stacking rule"
+    },
+    {
+      "id": 7,
+      "span": "That’s all I can think of.",
+      "open_code": "reflectSelf",
+      "summary": "No further ideas available"
+    }
+  ]

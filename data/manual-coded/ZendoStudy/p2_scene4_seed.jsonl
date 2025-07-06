@@ -1,0 +1,213 @@
+[{"Title": "scene4"},
+    {
+      "id": 1,
+      "span": "Alright, let's see.",
+      "open_code": "orientation",
+      "summary": "Alright, let's see."
+    },
+    {
+      "id": 2,
+      "span": "Panels A and C... uh, let's look at each one.",
+      "open_code": "planningExplorative",
+      "lenses": {
+        "planningLevel": "level 1"
+      },
+      "summary": "Panels A and C... uh, let's look at each one."
+    },
+    {
+      "id": 3,
+      "span": "What do they have in similarity?",
+      "open_code": "planningBasicComparison",
+      "lenses": {
+        "planningLevel": "level 2"
+      },
+      "summary": "What do they have in similarity?"
+    },
+    {
+      "id": 4,
+      "span": "Every panel here has all the colors.",
+      "open_code": "processingGlobal",
+      "summary": "Every panel here has all the colors.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "They're not all standing upright, so standing upright has nothing to do with it.",
+      "open_code": "processingGlobal",
+      "summary": "They're not all standing upright, so standing upright has nothing to do",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Is it the ratio of colors?",
+      "open_code": "hypoGeneration",
+      "summary": "Is it the ratio of colors?"
+    },
+    {
+      "id": 7,
+      "span": "Three-two-two..., two-three-two..., two-three-two, two-three-one... three-one-one?",
+      "open_code": "processingLocal",
+      "summary": "Three-two-two..., two-three-two..., two-three-two, two-three-one... three-one-one?",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Might be the, having a three-to-one pattern.",
+      "open_code": "hypoRevision",
+      "summary": "Might be the, having a three-to-one pattern."
+    },
+    {
+      "id": 9,
+      "span": "Uh, quite possibly that.",
+      "open_code": "decisionConfirm",
+      "summary": "Uh, quite possibly that."
+    },
+    {
+      "id": 10,
+      "span": "Let's see... do the others?",
+      "open_code": "Cross-Check",
+      "summary": "Let's see... do the others?"
+    },
+    {
+      "id": 11,
+      "span": "No, B invalidates that theory.",
+      "open_code": "decisionReject",
+      "summary": "No, B invalidates that theory.",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "Is it that they have hats?",
+      "open_code": "hypoGeneration",
+      "summary": "Is it that they have hats?"
+    },
+    {
+      "id": 13,
+      "span": "No, that gets invalidated as well.",
+      "open_code": "decisionReject",
+      "summary": "No, that gets invalidated as well."
+    },
+    {
+      "id": 14,
+      "span": "Then, is each color... red is not touching?",
+      "open_code": "hypoGeneration",
+      "summary": "Then, is each color... red is not touching?"
+    },
+    {
+      "id": 15,
+      "span": "No, red is touching something else.",
+      "open_code": "decisionReject",
+      "summary": "No, red is touching something else.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 16,
+      "span": "Blue is touching something else.",
+      "open_code": "processingGlobal",
+      "summary": "Blue is touching something else.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 17,
+      "span": "Green is touching something else.",
+      "open_code": "processingGlobal",
+      "summary": "Green is touching something else.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Those rules are invalidated.",
+      "open_code": "ruleExclusion",
+      "summary": "Those rules are invalidated."
+    },
+    {
+      "id": 19,
+      "span": "Is it the rule that most of them are standing upright?",
+      "open_code": "hypoGeneration",
+      "summary": "Is it the rule that most of them are standing upright?"
+    },
+    {
+      "id": 20,
+      "span": "No, that's invalidated too.",
+      "open_code": "decisionReject",
+      "summary": "No, that's invalidated too."
+    },
+    {
+      "id": 21,
+      "span": "Invalidated and invalidated. [SIGHS]",
+      "open_code": "ruleExclusion",
+      "summary": "Invalidated and invalidated."
+    },
+    {
+      "id": 22,
+      "span": "What is the pattern here I'm looking for?",
+      "open_code": "reflectSelf",
+      "summary": "What is the pattern here I'm looking for?"
+    },
+    {
+      "id": 23,
+      "span": "Red is the one that has a hat...?",
+      "open_code": "hypoGeneration",
+      "summary": "Red is the one that has a hat...?"
+    },
+    {
+      "id": 24,
+      "span": "No.",
+      "open_code": "decisionReject",
+      "summary": "No."
+    },
+    {
+      "id": 25,
+      "span": "Wearing, alternating hat colors?",
+      "open_code": "hypoGeneration",
+      "summary": "Wearing, alternating hat colors?"
+    },
+    {
+      "id": 26,
+      "span": "Possibly...yeah, that would check out.",
+      "open_code": "decisionConfirm",
+      "summary": "Possibly...yeah, that would check out."
+    },
+    {
+      "id": 27,
+      "span": "There's at least one cone wearing a different color cone.",
+      "open_code": "processingGlobal",
+      "summary": "There's at least one cone wearing a different color cone.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 28,
+      "span": "That's the only thing I'm finding unique so far among the triggered and non-triggered ones. [SIGHS]",
+      "open_code": "monitorHighLevel",
+      "summary": "That's the only thing I'm finding unique so far among the triggered"
+    },
+    {
+      "id": 29,
+      "span": "I can't think of any other rule. Dang it, is there something else I'm missing here? [TYPING]",
+      "open_code": "reflectSelf",
+      "summary": "I can't think of any other rule. Dang it, is there something"
+    }
+  ]

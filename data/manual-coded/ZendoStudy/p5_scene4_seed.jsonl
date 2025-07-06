@@ -1,0 +1,138 @@
+[{"Title": "scene4"},
+    {
+      "id": 1,
+      "span": "Okay. Panel A, B and E.",
+      "open_code": "Orientation",
+      "summary": "Okay. Panel A, B and E."
+    },
+    {
+      "id": 2,
+      "span": "Ah! This is a lot of cones. Crap. [SIGHS]",
+      "open_code": "relfectTask",
+      "summary": "Ah! This is a lot of cones. Crap."
+    },
+    {
+      "id": 3,
+      "span": "Okay, they have two greens, that's one thing that I can see. Panel A, B and E have two greens.",
+      "open_code": "processingGlobal",
+      "summary": "Okay, they have two greens, that's one thing that I can see.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "C has three, F has five, wow, and D has four.",
+      "open_code": "processingGlobal",
+      "summary": "C has three, F has five, wow, and D has four.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "So one thing is: two green cones.",
+      "open_code": "hypoGeneration",
+      "summary": "So one thing is: two green cones."
+    },
+    {
+      "id": 6,
+      "span": "Okay. A has two red cones on its side, so does B, so does C, so does D and so does F.",
+      "open_code": "processingGlobal",
+      "summary": "Okay. A has two red cones on its side, so does B,",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "I don't know if that makes a difference. Mm...",
+      "open_code": "reflectUncertainty",
+      "summary": "I don't know if that makes a difference. Mm..."
+    },
+    {
+      "id": 8,
+      "span": "So D has two on its side, so does A, so does B...",
+      "open_code": "processingLocal",
+      "summary": "So D has two on its side, so does A, so does",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Oh, E only has one red one on its side. So that is not it.",
+      "open_code": "Cross-Check",
+      "summary": "Oh, E only has one red one on its side. So that",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Oh I hate this timer because I had my answer and I've forgotten my answer now. But I said it first. Crap.",
+      "open_code": "monitorLowLevel",
+      "summary": "Oh I hate this timer because I had my answer and I've"
+    },
+    {
+      "id": 11,
+      "span": "Was it the amount of green cones?",
+      "open_code": "reflectUncertainty",
+      "summary": "Was it the amount of green cones?"
+    },
+    {
+      "id": 12,
+      "span": "A has two, B has two, E has two. Okay, so you need two green cones.",
+      "open_code": "processingLocal",
+      "summary": "A has two, B has two, E has two. Okay, so you",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 13,
+      "span": "And the only thing I haven't looked at are the blue cones.",
+      "open_code": "hypoAlternative",
+      "summary": "And the only thing I haven't looked at are the blue cones."
+    },
+    {
+      "id": 14,
+      "span": "So A has one on its side, B has one on its side, E has one on its side.",
+      "open_code": "processingLocal",
+      "summary": "So A has one on its side, B has one on its",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Cool. I will add that to the mix as well.",
+      "open_code": "decisionConfirm",
+      "summary": "Cool. I will add that to the mix as well."
+    },
+    {
+      "id": 16,
+      "span": "You need to have two green cones and one blue cone on its side.",
+      "open_code": "ruleArticulation",
+      "summary": "You need to have two green cones and one blue cone on"
+    },
+    {
+      "id": 17,
+      "span": "Because they didn't say anything about it being just one rule, you just said the hidden rule, but it could be something, something, and something.",
+      "open_code": "monitorHighLevel",
+      "summary": "Because they didn't say anything about it being just one rule, you"
+    },
+    {
+      "id": 18,
+      "span": "[THINKING] because... even with B, it's not really on its side? (7.0) So I might just say... one red cone on its side. Yeah.",
+      "open_code": "monitorHighLevel",
+      "summary": "because... even with B, it's not really on its side? (7.0) So"
+    }
+  ]

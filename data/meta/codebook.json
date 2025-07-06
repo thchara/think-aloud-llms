@@ -1,0 +1,95 @@
+{"themes": [
+    {
+    "theme": "Task Orientation",
+    "DAT_code": "ORI",
+    "member_codes": [ "orientation", "readingInstructions", "taskOrientation", "otherEmergent_taskStart" ],
+    "representative_ids": [
+    { "participant_id": "p10_coded", "step_id": 1 },
+    { "participant_id": "p23_coded", "step_id": 1 }
+    ],
+    "description": "Engages with instructions and initial task framing."
+    },
+    {
+    "theme": "Planning Strategy",
+    "DAT_code": "PLAN",
+    "member_codes": [ "planningStrategic", "planningExplorative", "planningBasicComparison", "planningUnorganised", "adherePlan", "modifyPlan" ],
+    "representative_ids": [
+    { "participant_id": "p12_coded", "step_id": 12 },
+    { "participant_id": "p26_coded", "step_id": 18 }
+    ],
+    "description": "Declares or adjusts a systematic approach to solving the puzzle."
+    },
+    {
+    "theme": "Perceptual Processing",
+    "DAT_code": "PROC",
+    "member_codes": [ "processingGlobal", "processingLocal", "processing" ],
+    "representative_ids": [
+    { "participant_id": "p1_coded", "step_id": 10 },
+    { "participant_id": "p23_coded", "step_id": 5 }
+    ],
+    "description": "Observes panels and features, scanning either globally or locally."
+    },
+    {
+    "theme": "Hypothesis Development",
+    "DAT_code": "HYPO",
+    "member_codes": [ "hypoGeneration", "hypoRevision", "hypoAlternative" ],
+    "representative_ids": [
+    { "participant_id": "p14_coded", "step_id": 22 },
+    { "participant_id": "p28_coded", "step_id": 30 }
+    ],
+    "description": "Generates, revises, or branches candidate rules."
+    },
+    {
+    "theme": "Evidence Evaluation",
+    "DAT_code": "EVAL",
+    "member_codes": [ "ruleExclusion", "counterExampleSearch", "ruleGuess", "ruleConfidence", "supportEvidence", "re-confirmObservations", "Cross-Check", "Inference" ],
+    "representative_ids": [
+    { "participant_id": "p17_coded", "step_id": 40 },
+    { "participant_id": "p29_coded", "step_id": 25 }
+    ],
+    "description": "Tests ideas, seeks counter-examples, and weighs supporting evidence."
+    },
+    {
+    "theme": "Decision Points",
+    "DAT_code": "DEC",
+    "member_codes": [ "decisionConfirm", "decisionReject", "ruleImpasse", "submitAnswer" ],
+    "representative_ids": [
+    { "participant_id": "p11_coded", "step_id": 50 },
+    { "participant_id": "p24_coded", "step_id": 60 }
+    ],
+    "description": "Judges rule viability or concludes an answer submission."
+    },
+    {
+    "theme": "Metacognitive Monitoring",
+    "DAT_code": "META",
+    "member_codes": [ "reflectUncertainty", "reflectSelf", "reflectTask", "reflectCertainty", "monitorHighLevel", "monitorLowLevel", "monitorProcess" ],
+    "representative_ids": [
+    { "participant_id": "p16_coded", "step_id": 35 },
+    { "participant_id": "p31_coded", "step_id": 42 }
+    ],
+    "description": "Reflects on uncertainty, performance, or reasoning process."
+    },
+    {
+    "theme": "Memory Handling",
+    "DAT_code": "MEM",
+    "member_codes": [ "memoryLoss", "memoryRegain", "memoryFalseRegain" ],
+    "representative_ids": [
+    { "participant_id": "p18_coded", "step_id": 55 },
+    { "participant_id": "p34_coded", "step_id": 66 }
+    ],
+    "description": "Mentions forgetting, recalling, or mis-recalling information."
+    },
+    {
+    "theme": "Rule Expression",
+    "DAT_code": "RUL",
+    "member_codes": [ "ruleArticulation", "ruleRevisit", "ruleInference", "ruleInsight", "ruleJustification" ],
+    "representative_ids": [
+    { "participant_id": "p19_coded", "step_id": 75 },
+    { "participant_id": "p30_coded", "step_id": 80 }
+    ],
+    "description": "States, revisits, or justifies the final rule conclusion."
+    }
+    ],
+    "orphan_codes": [],
+    "DAT_code_list": [ "BGN","ORI", "PLAN", "PROC", "HYPO", "EVAL", "DEC", "META", "MEM","RUL", "FIN" ]
+    }

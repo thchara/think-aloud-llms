@@ -1,0 +1,157 @@
+[ {"Title":"scene4"},
+{
+  "id": 1,
+  "span": "Alright, let’s see.",
+  "open_code": "Orientation",
+  "summary": "Begins exploring puzzle"
+},
+{
+  "id": 2,
+  "span": "Panels A and C... uh, let’s look at each one.",
+  "open_code": "planningBasicComparison",
+  "summary": "Sets intent to inspect panels",
+  "lenses": {
+    "planningLevel": "level 1"
+  }
+},
+{
+  "id": 3,
+  "span": "What do they have in similarity?",
+  "open_code": "planningBasicComparison",
+  "summary": "Poses similarity question",
+  "lenses": {
+    "planningLevel": "level 2"
+  }
+},
+{
+  "id": 4,
+  "span": "Every panel here has all the colors.",
+  "open_code": "processingGlobal",
+  "summary": "Observes all panels contain all colors",
+  "lenses": {
+    "processingStyle": "globalScan",
+    "representationGrain": "gist"
+  }
+},
+{
+  "id": 5,
+  "span": "They’re not all standing upright, so standing upright has nothing to do with it.",
+  "open_code": "ruleExclusion",
+  "summary": "Eliminates all-upright hypothesis",
+  "lenses": {
+    "processingStyle": "globalScan"
+        }
+},
+{
+  "id": 6,
+  "span": "Is it the ratio of colors?",
+  "open_code": "hypoGeneration",
+  "summary": "Considers color-ratio rule"
+},
+{
+  "id": 7,
+  "span": "Three-two-two..., two-three-two..., two-three-two, two-three-one... three-one-one?",
+  "open_code": "processing",
+  "summary": "Enumerates color ratios",
+  "lenses": {
+    "processingStyle": "mixed",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 8,
+  "span": "Might be the, having a three-to-one pattern. Uh… quite possibly that.",
+  "open_code": "hypoRevision",
+  "summary": "Tentatively proposes 3-to-1 pattern rule"
+},
+{
+  "id": 9,
+  "span": "Let’s see... do the others? No, B invalidates that theory.",
+  "open_code": "decisionReject",
+  "summary": "Rejects 3-to-1 rule using panel B"
+},
+{
+  "id": 10,
+  "span": "Is it that they have hats?",
+  "open_code": "hypoGeneration",
+  "summary": "Considers hat-presence rule"
+},
+{
+  "id": 11,
+  "span": "No, that gets invalidated as well.",
+  "open_code": "decisionReject",
+  "summary": "Rejects hat rule"
+},
+{
+  "id": 12,
+  "span": "Then, is each color... red is not touching?",
+  "open_code": "hypoGeneration",
+  "summary": "Tests red-not-touching hypothesis"
+},
+{
+  "id": 13,
+  "span": "No, red is touching something else. Blue is touching something else. Green is touching something else. Those rules are invalidated.",
+  "open_code": "decisionReject",
+  "summary": "Dismisses non-touching color rules"
+},
+{
+  "id": 14,
+  "span": "Is it the rule that most of them are standing upright?",
+  "open_code": "hypoGeneration",
+  "summary": "Considers majority-upright rule"
+},
+{
+  "id": 15,
+  "span": "No, that’s invalidated too.",
+  "open_code": "decisionReject",
+  "summary": "Rejects majority-upright rule"
+},
+{
+  "id": 16,
+  "span": "Invalidated and invalidated. [SIGHS] What is the pattern here I’m looking for?",
+  "open_code": "reflectUncertainty",
+  "summary": "Frustration over repeated rejections"
+},
+{
+  "id": 17,
+  "span": "Red is the one that has a hat...?",
+  "open_code": "hypoGeneration",
+  "summary": "Tests red-with-hat idea"
+},
+{
+  "id": 18,
+  "span": "No.",
+  "open_code": "decisionReject",
+  "summary": "Rejects red-hat rule"
+},
+{
+  "id": 19,
+  "span": "Wearing, alternating hat colors?",
+  "open_code": "hypoGeneration",
+  "summary": "Considers alternating-hat-color rule"
+},
+{
+  "id": 20,
+  "span": "Possibly...yeah, that would check out.",
+  "open_code": "decisionConfirm",
+  "summary": "Tentatively endorses hat-color idea"
+},
+{
+  "id": 21,
+  "span": "There’s at least one cone wearing a different color cone.",
+  "open_code": "ruleArticulation",
+  "summary": "States different-color-hat rule"
+},
+{
+  "id": 22,
+  "span": "That’s the only thing I’m finding unique so far among the triggered and non-triggered ones.",
+  "open_code": "monitorHighLevel",
+  "summary": "Evaluates uniqueness of rule"
+},
+{
+  "id": 23,
+  "span": "[SIGHS] I can’t think of any other rule. Dang it, is there something else I’m missing here?",
+  "open_code": "reflectUncertainty",
+  "summary": "Admits ongoing doubt"
+}
+]

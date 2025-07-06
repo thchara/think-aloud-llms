@@ -1,0 +1,185 @@
+[ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Okay, let’s try a different approach this time because what I’ve been doing hasn’t served me well in the last one.",
+      "open_code": "modifyPlan",
+      "summary": "Announces change of strategy"
+    },
+    {
+      "id": 2,
+      "span": "So let’s look at the ones that aren’t matches, B, D, and F.",
+      "open_code": "planningBasicComparison",
+      "summary": "Plans to inspect non-starred panels",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Panel B predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Describes features of panel B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Panel D predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Notes upright mix in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Panel E...predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Observes upright mix in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 6,
+      "span": "That hasn’t helped. That hasn’t helped.",
+      "open_code": "monitorLowLevel",
+      "summary": "Notes current tactic unhelpful"
+    },
+    {
+      "id": 7,
+      "span": "So, within panel A, there is one triangle that has red on top of a green.",
+      "open_code": "processingLocal",
+      "summary": "Spots red-over-green stack in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "That’s something new. I don’t think I’ve seen that before.",
+      "open_code": "monitorHighLevel",
+      "summary": "Flags novelty of observation"
+    },
+    {
+      "id": 9,
+      "span": "Panel , we have a blue on top of green and Panel F we have a red on top of a blue.",
+      "open_code": "processingGlobal",
+      "summary": "Notes other stacked color pairs",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 10,
+      "span": "So, there’s some sort of mixing happening there, so that’s a potential...of commonalities they have, different colors stacked let’s say.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates stacked-colors hypothesis"
+    },
+    {
+      "id": 11,
+      "span": "So that’s one option.",
+      "open_code": "decisionConfirm",
+      "summary": "Marks hypothesis as candidate"
+    },
+    {
+      "id": 12,
+      "span": "Let’s do our usual check for number of triangles.",
+      "open_code": "modifyPlan",
+      "summary": "Switches to counting strategy",
+      "lenses": {
+        "planningLevel": "level 1"
+            }
+    },
+    {
+      "id": 13,
+      "span": "Panel A has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "Panel C has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Panel F has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in F",
+      "lenses": {
+        "processingStyle": "localDetail",
+        "perspectiveDepth": "0step",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So they do all match.",
+      "open_code": "Inference",
+      "summary": "Summarises equal counts in A,C,F"
+    },
+    {
+      "id": 17,
+      "span": "Panel B has [counting] six.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Panel D has [counting] seven, so that disrupts the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects number-seven rule",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "So, we’ve ruled out colors, we’ve ruled out the number.",
+      "open_code": "monitorHighLevel",
+      "summary": "Reviews eliminated hypotheses"
+    },
+    {
+      "id": 20,
+      "span": "Orientation is difficult to kind of um, to do in this amount of time I have, but I could look at the clockwise versus anti-clockwise. I’ll put that on my list.",
+      "open_code": "planningStrategic",
+      "summary": "Plans future orientation check",
+      "lenses": {
+        "planningLevel": "level 3"
+            }
+    },
+    {
+      "id": 21,
+      "span": "I’m thinking the most likely rule is: different colored triangles stacked on top of each other. So the most confident one would be [TYPING] different colored triangles stacked on top of each other.",
+      "open_code": "ruleArticulation",
+      "summary": "States stacked-color rule verbally"
+    },
+    {
+      "id": 22,
+      "span": "And then number two might be, again be related to orientation of triangles, for example, the number of clockwise vs. anti-clockwise triangles.",
+      "open_code": "hypoAlternative",
+      "summary": "Mentions secondary orientation hypothesis"
+    }
+  ]

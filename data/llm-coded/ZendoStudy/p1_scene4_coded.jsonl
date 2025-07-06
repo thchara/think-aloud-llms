@@ -1,0 +1,132 @@
+[ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Alight, so option A, the sun is up [the star is lit up], and has some upright triangles, and then the blue and green ones are slanted.",
+      "open_code": "processingLocal",
+      "summary": "Describes star and orientations in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Option B has a slanted triangle and everything else is upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes mixed orientation in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Option C has slanted red triangles and a slanted green triangle, and the others are upright.",
+      "open_code": "processingLocal",
+      "summary": "Observes slanted red and green in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Option D has a bunch of triangles that are slanted and some that are upright.",
+      "open_code": "processingLocal",
+      "summary": "Reports mixed orientations in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Option E has an upside-down one and then three triangles that are upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes upside-down plus upright in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "And then option F has a lot of different types of triangles in different positions.",
+      "open_code": "processingLocal",
+      "summary": "Describes varied orientations in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 7,
+      "span": "The colors are pretty different, seems like… um… (3.0).",
+      "open_code": "processingGlobal",
+      "summary": "Remarks on color differences overall",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So I guess… (4.0) yeah, I don’t really see any clear similarities at first glance.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses no clear pattern yet"
+    },
+    {
+      "id": 9,
+      "span": "I was looking at the red triangles and how they were slanted — like in C and F — but in A they’re upright.",
+      "open_code": "counterExampleSearch",
+      "summary": "Finds red-slant idea contradicted by A",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 10,
+      "span": "In option F the triangle is upright, and in option A as well, but in option C it’s slanted.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects red-orientation rule using evidence",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Option F has an upside-down one, but the other ones don’t.",
+      "open_code": "processingGlobal",
+      "summary": "Notes unique upside-down triangle in F",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "And then Option A, option C, and option F have triangles that are stacked on each other, but they’re different colors.",
+      "open_code": "processingGlobal",
+      "summary": "Observes stacking across A, C, F",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 13,
+      "span": "So I guess that could potentially be the hidden rule — is that there have to be triangles that stacked on top of each other in all of them because nothing else really sticks out too much besides that.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates stacked-triangle rule hypothesis"
+    },
+    {
+      "id": 14,
+      "span": "So that would be my guess: that options A, option C, and option F have triangles that are stacked on each other.",
+      "open_code": "ruleArticulation",
+      "summary": "States stacked-triangle rule verbally"
+    },
+    {
+      "id": 15,
+      "span": "Yeah, I don’t see any other similarities besides that.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms no other viable rule"
+    }
+  ]

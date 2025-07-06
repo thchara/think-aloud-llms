@@ -1,0 +1,94 @@
+[ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "Let’s see. (5.0)",
+      "open_code": "planningExplorative",
+      "summary": "Initiates visual scan",
+      "lenses":{
+        "planningLevel":"level 1"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Panel A has different color triangles.",
+      "open_code": "processingLocal",
+      "summary": "Notes varied colors in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 3,
+      "span": "B has some… some falling down.",
+      "open_code": "processingLocal",
+      "summary": "Observes fallen triangles in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "C has two purple ones.",
+      "open_code": "processingLocal",
+      "summary": "Counts purple triangles in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "A follows a special rule. B does not. C there’s no special rule. D has no special rule. E and F follow special rules.",
+      "open_code": "processingGlobal",
+      "summary": "Groups panels by star status",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Um…. D has a little purple [blue] one on top of a yellow one— the purple one.",
+      "open_code": "processingLocal",
+      "summary": "Notes stacked purple on yellow in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "[SIGHS] What?",
+      "open_code": "reflectUncertainty",
+      "summary": "Verbalizes confusion"
+    },
+    {
+      "id": 8,
+      "span": "In panel A, all the triangles are pointing up or down.",
+      "open_code": "processingLocal",
+      "summary": "Observes orientation uniformity in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 9,
+      "span": "So A, E, and F follow a certain rule. B, C, and D do not follow the rule.",
+      "open_code": "Orientation",
+      "summary": "Restates rule-following sets",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 10,
+      "span": "There are red, green, and purple [blue] triangles in each.",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests three-color presence rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    }
+  ]

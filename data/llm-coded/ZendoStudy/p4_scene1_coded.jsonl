@@ -1,0 +1,166 @@
+[ {"Title":"scene1"},
+{
+  "id": 1,
+  "span": "[READING] Okay, think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+  "open_code": "Orientation",
+  "summary": "Reads task instructions"
+},
+{
+  "id": 2,
+  "span": "[THINKING] Okay, so A, E, and F follow a set rule; B, C, and D don't.",
+  "open_code": "processingGlobal",
+  "summary": "Identifies star vs non-star sets",
+  "lenses": {
+    "processingStyle": "globalScan"
+  }
+},
+{
+  "id": 3,
+  "span": "Panel A has… one, two, three, four, five, six, seven triangles.",
+  "open_code": "processingLocal",
+  "summary": "Counts triangles in panel A",
+  "lenses": {
+    "processingStyle": "LocalScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 4,
+  "span": "Panel E has [counting] six triangles, I think.",
+  "open_code": "processingLocal",
+  "summary": "Counts triangles in panel E",
+  "lenses": {
+    "processingStyle": "LocalScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 5,
+  "span": "Panel F has [counting] eight triangles.",
+  "open_code": "processingLocal",
+  "summary": "Counts triangles in panel F",
+  "lenses": {
+    "processingStyle": "LocalScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 6,
+  "span": "So that they're different in number.",
+  "open_code": "Inference",
+  "summary": "Notes numbers differ across starred"
+
+},
+{
+  "id": 7,
+  "span": "Panel A has red, blue, and green.",
+  "open_code": "processingLocal",
+  "summary": "Lists colors in panel A",
+  "lenses": {
+    "processingStyle": "LocalScan"
+  }
+},
+{
+  "id": 8,
+  "span": "Panels E and F also have red, blue, and green, so that’s consistent.",
+  "open_code": "processingGlobal",
+  "summary": "Notes same three colors in E & F",
+  "lenses": {
+    "processingStyle": "globalScan"
+        }
+},
+{
+  "id": 9,
+  "span": "Panels B, C, and D have blue and green, but they don’t have red.",
+  "open_code": "processingGlobal",
+  "summary": "Observes red absent in non-starred",
+  "lenses": {
+    "processingStyle": "globalScan"
+  }
+},
+{
+  "id": 10,
+  "span": "So a potential rule could be the presence colors, the presence of all three colors.",
+  "open_code": "hypoGeneration",
+  "summary": "Generates three-color presence rule"
+},
+{
+  "id": 11,
+  "span": "Um what else could there be?",
+  "open_code": "planningExplorative",
+  "summary": "Questions sufficiency of idea",
+  "lenses": {
+    "planningLevel": "level 1"
+  }
+},
+{
+  "id": 12,
+  "span": "It's not the number of triangles.",
+  "open_code": "ruleExclusion",
+  "summary": "Dismisses count-based rule"
+},
+{
+  "id": 13,
+  "span": "It could be the number of upright triangles, that's an alternative.",
+  "open_code": "hypoAlternative",
+  "summary": "Suggests upright-count rule"
+},
+{
+  "id": 14,
+  "span": "Panel A has [counting] six upright triangles.",
+  "open_code": "processingLocal",
+  "summary": "Counts upright triangles in A",
+  "lenses": {
+    "processingStyle": "LocalScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 15,
+  "span": "Panel E only has two.",
+  "open_code": "processingLocal",
+  "summary": "Counts upright triangles in E",
+  "lenses": {
+    "processingStyle": "LocalScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 16,
+  "span": "Panel F only has four, so that's inconsistent.",
+  "open_code": "decisionReject",
+  "summary": "Rejects upright-count rule",
+  "lenses": {
+    "processingStyle": "LocalScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 17,
+  "span": "All of the panels have triangles along the ground, so that doesn't seem to be the case.",
+  "open_code": "ruleExclusion",
+  "summary": "Eliminates ground-triangle idea",
+  "lenses": {
+    "processingStyle": "globalScan",
+    "representationGrain": "gist"
+  }
+},
+{
+  "id": 18,
+  "span": "I think the best guess I have at the moment seems to be that panels A, E, and F contain red, blue, and green, and that seems to be the consistent thing. I think I’ll have to go with that.",
+  "open_code": "decisionConfirm",
+  "summary": "Selects three-color rule as best"
+},
+{
+  "id": 19,
+  "span": "I can’t see anything else, unless I start getting into sizes or area.",
+  "open_code": "monitorHighLevel",
+  "summary": "Assesses remaining search space"
+},
+{
+  "id": 20,
+  "span": "So my number one and only guess is that [TYPING] All of these panels: A, E, and F, contain red, blue, and green triangles.",
+  "open_code": "ruleArticulation",
+  "summary": "Formally states three-color rule"
+}
+]

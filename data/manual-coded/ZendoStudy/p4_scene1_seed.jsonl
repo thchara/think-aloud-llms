@@ -1,0 +1,122 @@
+[{"Title": "scene1"},
+    {
+      "id": 1,
+      "span": "Okay, so A, E, and F follow a set rule; B, C, and D don't.",
+      "open_code": "processingGlobal",
+      "summary": "Okay, so A, E, and F follow a set rule; B, C,",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Panel A has... one, two, three, four, five, six, seven triangles. Panel E has [counting] six triangles, I think. Panel F has [counting] eight triangles.",
+      "open_code": "processingLocal",
+      "summary": "Panel A has... one, two, three, four, five, six, seven triangles. Panel",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "So that they're different in number.",
+      "open_code": "Inference",
+      "summary": "So that they're different in number."
+    },
+    {
+      "id": 4,
+      "span": "Panel A has red, blue, and green. Panels E and F also have red, blue, and green, so that's consistent.",
+      "open_code": "processingGlobal",
+      "summary": "Panel A has red, blue, and green. Panels E and F also",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Panels B, C, and D have blue and green, but they don't have red.",
+      "open_code": "processingGlobal",
+      "summary": "Panels B, C, and D have blue and green, but they don't",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 6,
+      "span": "So a potential rule could be the presence colors, the presence of all three colors.",
+      "open_code": "hypoGeneration",
+      "summary": "So a potential rule could be the presence colors, the presence of"
+    },
+    {
+      "id": 7,
+      "span": "Um what else could that be?",
+      "open_code": "planningExplorative",
+      "summary": "Um what else could that be?",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 8,
+      "span": "It's not the number of triangles.",
+      "open_code": "ruleExclusion",
+      "summary": "It's not the number of triangles."
+    },
+    {
+      "id": 9,
+      "span": "It could be the number of upright triangles, that's an alternative.",
+      "open_code": "hypoGeneration",
+      "summary": "It could be the number of upright triangles, that's an alternative."
+    },
+    {
+      "id": 10,
+      "span": "Panel A has [counting] six upright triangles. Panel E only has two. Panel F only has four,",
+      "open_code": "processingLocal",
+      "summary": "Panel A has six upright triangles. Panel E only has two. Panel",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 11,
+      "span": "so that's inconsistent.",
+      "open_code": "decisionReject",
+      "summary": "so that's inconsistent."
+    },
+    {
+      "id": 12,
+      "span": "All of the panels have triangles along the ground, so that doesn't seem to be the case.",
+      "open_code": "processingGlobal",
+      "summary": "All of the panels have triangles along the ground, so that doesn't",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 13,
+      "span": "I think the best guess I have at the moment seems to be that panels A, E, and F contain red, blue, and green, and that seems to be the consistent thing.",
+      "open_code": "monitorHighLevel",
+      "summary": "I think the best guess I have at the moment seems to"
+    },
+    {
+      "id": 14,
+      "span": "I think I'll have to go with that.",
+      "open_code": "decisionConfirm",
+      "summary": "I think I'll have to go with that."
+    },
+    {
+      "id": 15,
+      "span": "I can't see anything else, unless I start getting into sizes or area.",
+      "open_code": "monitorHighLevel",
+      "summary": "I can't see anything else, unless I start getting into sizes or"
+    },
+    {
+      "id": 16,
+      "span": "So my number one and only guess is that all of these panels: A, E, and F, contain red, blue, and green triangles.",
+      "open_code": "ruleArticulation",
+      "summary": "So my number one and only guess is that all of these"
+    }
+  ]

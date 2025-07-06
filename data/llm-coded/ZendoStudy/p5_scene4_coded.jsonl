@@ -1,0 +1,134 @@
+[ {"Title":"scene4"},
+{
+  "id": 1,
+  "span": "Okay, so panel A, C, and F.",
+  "open_code": "processingGlobal",
+  "summary": "Identifies starred panels A,C,F",
+  "lenses": {
+    "processingStyle": "globalScan"
+  }
+},
+{
+  "id": 2,
+  "span": "What do they have in common?",
+  "open_code": "planningBasicComparison",
+  "summary": "Poses similarity question",
+  "lenses": {
+    "planningLevel": "level 2"
+  }
+},
+{
+  "id": 3,
+  "span": "Um, A has two red cones.",
+  "open_code": "processingLocal",
+  "summary": "Notes two red cones in A",
+  "lenses": {
+    "processingStyle": "localScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 4,
+  "span": "C has two red cones.",
+  "open_code": "processingLocal",
+  "summary": "Observes two red cones in C",
+  "lenses": {
+    "processingStyle": "localScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 5,
+  "span": "F has three red cones.",
+  "open_code": "processingLocal",
+  "summary": "Counts three red cones in F",
+  "lenses": {
+    "processingStyle": "localScan",
+    "representationGrain": "verbatim"
+  }
+},
+{
+  "id": 6,
+  "span": "They all have one medium-sized red cone...",
+  "open_code": "processingGlobal",
+  "summary": "Finds common medium red cone",
+  "lenses": {
+    "processingStyle": "globalScan"
+  }
+},
+{
+  "id": 7,
+  "span": "and it's stacked on top of another.",
+  "open_code": "processingGlobal",
+  "summary": "Notes stacking of medium red cones",
+  "lenses": {
+    "processingStyle": "globalScan"
+  }
+},
+{
+  "id": 8,
+  "span": "Oh, but A has a… okay, yeah.",
+  "open_code": "reflectUncertainty",
+  "summary": "Signals emerging doubt"
+},
+{
+  "id": 9,
+  "span": "This time the rule is: you need a same-size cone stacked on top of each other.",
+  "open_code": "hypoGeneration",
+  "summary": "States same-size stacking rule"
+},
+{
+  "id": 10,
+  "span": "Because even though B has a green on green that's stacked on top of each other, they're not the same size — clearly the one on top is larger.",
+  "open_code": "ruleJustification",
+  "summary": "Explains why B fails rule",
+  "lenses": {
+    "processingStyle": "localScan"
+  }
+},
+{
+  "id": 11,
+  "span": "Same with E.",
+  "open_code": "processingLocal",
+  "summary": "Adds E as confirming example",
+  "lenses": {
+    "processingStyle": "localScan"
+  }
+},
+{
+  "id": 12,
+  "span": "You have two cones stacked on top of each other— oh wait, oh no, that's wrong, because surely B would be flashing as well.",
+  "open_code": "reflectUncertainty",
+  "summary": "Reconsiders, notes counter-example"
+},
+{
+  "id": 13,
+  "span": "I can't tell if it's the same— no, it's not the same size.",
+  "open_code": "monitorLowLevel",
+  "summary": "Admits size ambiguity then rejects"
+},
+{
+  "id": 14,
+  "span": "Yeah, it's definitely not the same size, because if it was the same size, the bottom of both cones would not be touching the ground.",
+  "open_code": "monitorHighLevel",
+  "summary": "Justifies size difference observation"
+},
+{
+  "id": 15,
+  "span": "The rule is: you need two cones of the same size, of equal size, to be on top of each other for the light to go on.",
+  "open_code": "ruleArticulation",
+  "summary": "Restates refined same-size rule"
+},
+{
+  "id": 16,
+  "span": "Because even though B and E have cones stacked on top of each other, they are not the same size.",
+  "open_code": "ruleJustification",
+  "summary": "Provides supporting counterexamples"
+},
+{
+  "id": 17,
+  "span": "I thought panel B had the same size, the two green ones, but it's not.",
+  "open_code": "monitorHighLevel",
+  "summary": "Self-corrects earlier assumption"
+}
+]

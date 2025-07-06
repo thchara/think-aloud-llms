@@ -1,0 +1,144 @@
+[{"Title": "scene1"},
+    {
+      "id": 1,
+      "span": "[THINKING] So, okay, let's take a look.",
+      "open_code": "orientation",
+      "summary": "So, okay, let's take a look.",
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "So I see option A has most triangles upright; there's one green one that's down-right. And the sun [star] is lit up.",
+      "open_code": "processingLocal",
+      "summary": "So I see option A has most triangles upright; there's one green",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "In options B and C, it's not lit up. And some of the triangles are sideways, one is upright.",
+      "open_code": "processingLocal",
+      "summary": "In options B and C, it's not lit up. And some of",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "In option C, all of them are upright except two blue ones that are horizontal, and this one's not lit up.",
+      "open_code": "processingLocal",
+      "summary": "In option C, all of them are upright except two blue ones",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Option D looks like all of them are upright except this little blue one.",
+      "open_code": "processingLocal",
+      "summary": "Option D looks like all of them are upright except this little",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Option E is also lit up. Um so I see two triangles upright, and then a bunch on their side and facing down.",
+      "open_code": "processingLocal",
+      "summary": "Option E is also lit up. Um so I see two triangles",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "And then Option F as well, has a bunch of them facing sideways and down.",
+      "open_code": "processingLocal",
+      "summary": "And then Option F as well, has a bunch of them facing",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "So nothing really sticks out to me too much based on what I just, what I just saw.",
+      "open_code": "reflectUncertainty",
+      "summary": "So nothing really sticks out to me too much based on what",
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "I think maybe there are more unstable triangles in the options with the sun [star lit up].",
+      "open_code": "hypoGeneration",
+      "summary": "I think maybe there are more unstable triangles in the options with",
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "But option F has a bunch on its side, while option A has none,",
+      "open_code": "processingGlobal",
+      "summary": "But option F has a bunch on its side, while option A",
+      "lenses": {
+        "processingStyle": "globalScan"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "so I don't think there's a correlation there.",
+      "open_code": "decisionReject",
+      "summary": "so I don't think there's a correlation there.",
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "I think one of the rules maybe is, there's always a blue triangle over a green triangle,",
+      "open_code": "hypoGeneration",
+      "summary": "I think one of the rules maybe is, there's always a blue",
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "which seems to occur in option A, option E, and option F.",
+      "open_code": "processingGlobal",
+      "summary": "which seems to occur in option A, option E, and option F.",
+      "lenses": {
+        "processingStyle": "globalScan"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "So that's the one thing that sticks out to me as um what the hidden rule might be.",
+      "open_code": "monitorHighLevel",
+      "summary": "So that's the one thing that sticks out to me as um",
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "[TYPING] So, the hidden rule, I think, is there's always a blue triangle located at the top of the green.",
+      "open_code": "ruleArticulation",
+      "summary": "So, the hidden rule, I think, is there's always a blue triangle",
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So that's what, that's what I noticed the most.",
+      "open_code": "decisionConfirm",
+      "summary": "So that's what, that's what I noticed the most.",
+      "check": "OK"
+    }
+  ]

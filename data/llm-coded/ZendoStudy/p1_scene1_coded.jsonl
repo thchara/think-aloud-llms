@@ -1,0 +1,137 @@
+[ {"Title":"scene1"},
+      {
+        "id": 1,
+        "span": "[READING] Alright, think aloud as you try to infer the hidden rule. You'll be able to write your guess once the timer finishes.",
+        "open_code": "Orientation",
+        "summary": "Reads experiment instructions aloud"
+      },
+      {
+        "id": 2,
+        "span": "[THINKING] So, okay, let's take a look.",
+        "open_code": "planningExplorative",
+        "summary": "Announces start of open exploration",
+        "lenses": {
+          "planningLevel": "level 1"
+        }
+      },
+      {
+        "id": 3,
+        "span": "So I see option A has most triangles upright; there's one green one that's down-right. And the sun [star] is lit up.",
+        "open_code": "processingLocal",
+        "summary": "Describes orientation and star in A",
+        "lenses": {
+          "processingStyle": "LocalScan",
+          "representationGrain": "verbatim"
+        }
+      },
+      {
+        "id": 4,
+        "span": "In options B and C, it's not lit up.",
+        "open_code": "processingGlobal",
+        "summary": "Notes star absent in B and C",
+        "lenses": {
+          "processingStyle": "globalScan"
+        }
+      },
+      {
+        "id": 5,
+        "span": "And some of the triangles are sideways, one is upright.",
+        "open_code": "processingLocal",
+        "summary": "Observes mixed orientations (likely B,C)",
+        "lenses": {
+          "processingStyle": "LocalScan",
+          "representationGrain": "gist"
+        }
+          },
+      {
+        "id": 6,
+        "span": "In option C, all of them are upright except two blue ones that are horizontal, and this one's not lit up.",
+        "open_code": "processingLocal",
+        "summary": "Details upright vs horizontal in C",
+        "lenses": {
+          "processingStyle": "LocalScan",
+          "representationGrain": "verbatim"
+        }
+      },
+      {
+        "id": 7,
+        "span": "Option D looks like all of them are upright except this little blue one.",
+        "open_code": "processingLocal",
+        "summary": "Notes single tilted blue in D",
+        "lenses": {
+          "processingStyle": "localDetail",
+          "representationGrain": "gist"
+        }
+      },
+      {
+        "id": 8,
+        "span": "Option E is also lit up.",
+        "open_code": "processingLocal",
+        "summary": "Observes star presence in E",
+        "lenses": {
+          "processingStyle": "localDetail"
+        }
+      },
+      {
+        "id": 9,
+        "span": "Um so I see two triangles upright, and then a bunch on their side and facing down.",
+        "open_code": "processingLocal",
+        "summary": "Describes upright and sideways in E",
+        "lenses": {
+          "processingStyle": "LocalScan",
+          "representationGrain": "verbatim"
+        }
+      },
+      {
+        "id": 10,
+        "span": "And then Option F as well, has a bunch of them facing sideways and down.",
+        "open_code": "processingLocal",
+        "summary": "Notes many sideways/down triangles in F",
+        "lenses": {
+          "processingStyle": "localDetail",
+          "representationGrain": "gist"
+        }
+      },
+      {
+        "id": 11,
+        "span": "So nothing really sticks out to me too much based on what I just, what I just saw.",
+        "open_code": "reflectUncertainty",
+        "summary": "Expresses lack of clear pattern"
+          },
+      {
+        "id": 12,
+        "span": "I think maybe there are more unstable triangles in the options with the sun [star lit up].",
+        "open_code": "hypoGeneration",
+        "summary": "Generates unstable-triangle hypothesis"
+      },
+      {
+        "id": 13,
+        "span": "But option F has a bunch on its side, while option A has none, so I don't think there's a correlation there.",
+        "open_code": "decisionReject",
+        "summary": "Rejects unstable-triangle hypothesis"
+      },
+      {
+        "id": 14,
+        "span": "I think one of the rules maybe is, there's always a blue triangle over a green triangle, which seems to occur in option A, option E, and option F.",
+        "open_code": "hypoGeneration",
+        "summary": "Proposes blue-over-green rule"
+      },
+      {
+        "id": 15,
+        "span": "So that's the one thing that sticks out to me as um what the hidden rule might be.",
+        "open_code": "decisionConfirm",
+        "summary": "Indicates rule seems plausible"
+          },
+      {
+        "id": 16,
+        "span": "[TYPING] So, the hidden rule, I think, is there's always a blue triangle located at the top of the green.",
+        "open_code": "ruleArticulation",
+        "summary": "Formally states blue-over-green rule"
+      },
+      {
+        "id": 17,
+        "span": "So that’s what, that's what I noticed the most.",
+        "open_code": "reflectSelf",
+        "summary": "Reflects on main observation"
+      }
+    ]

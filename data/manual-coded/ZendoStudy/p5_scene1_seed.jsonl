@@ -1,0 +1,59 @@
+[{"Title": "scene1"},
+    {
+      "id": 1,
+      "span": "Okay, so A, E and F are highlighted.",
+      "open_code": "processingGlobal",
+      "summary": "Okay, so A, E and F are highlighted.",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "And what do they have in common?",
+      "open_code": "planningExplorative",
+      "summary": "And what do they have in common?",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Um, they all have a red cone involved.",
+      "open_code": "hypoGeneration",
+      "summary": "Um, they all have a red cone involved."
+    },
+    {
+      "id": 4,
+      "span": "And B, C, D do not, which is why they're not, um, lit up.",
+      "open_code": "processingGlobal",
+      "summary": "And B, C, D do not, which is why they're not, um,",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "[READING] Okay, think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes. Oh. [READING] Remember to refer to each panel by its labels as you're reading through the task.",
+      "open_code": "Orientation",
+      "summary": "Okay, think aloud as you try to infer the hidden rule. You"
+    },
+    {
+      "id": 6,
+      "span": "[THINKING] Well, I've done that. (3.0) I guess I'll just wait.",
+      "open_code": "monitorHighLevel",
+      "summary": "Well, I've done that. (3.0) I guess I'll just wait."
+    },
+    {
+      "id": 7,
+      "span": "I don't think there's any other rule to it other than...",
+      "open_code": "ruleConfidence",
+      "summary": "I don't think there's any other rule to it other than..."
+    },
+    {
+      "id": 8,
+      "span": "A, E, and F have red cones, hence why it's lit up.",
+      "open_code": "ruleArticulation",
+      "summary": "A, E, and F have red cones, hence why it's lit up."
+    }
+  ]

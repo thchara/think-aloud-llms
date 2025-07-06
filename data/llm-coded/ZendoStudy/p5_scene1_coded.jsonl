@@ -1,0 +1,62 @@
+[ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "Okay, so A, E and F are highlighted.",
+      "open_code": "processingGlobal",
+      "summary": "Notes starred panels A,E,F",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "And what do they have in common?",
+      "open_code": "planningBasicComparison",
+      "summary": "Poses similarity question",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Um… they all have a red cone involved.",
+      "open_code": "hypoGeneration",
+      "summary": "Infers red-cone commonality rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "And B, C, D do not, which is why they're not, um, lit up.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms rule with counterexamples",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "[READING] Okay, think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes. Oh. [READING] Remember to refer to each panel by its labels as you're reading through the task.",
+      "open_code": "Orientation",
+      "summary": "Reads task prompt aloud"
+    },
+    {
+      "id": 6,
+      "span": "[THINKING] Well, I’ve done that.",
+      "open_code": "monitorHighLevel",
+      "summary": "Checks compliance with instructions"
+    },
+    {
+      "id": 7,
+      "span": "I guess I’ll just wait.",
+      "open_code": "reflectSelf",
+      "summary": "Decides to wait now"
+    },
+    {
+      "id": 8,
+      "span": "I don’t think there’s any other rule to it other than... A, E, and F have red cones, hence why it’s lit up.",
+      "open_code": "ruleArticulation",
+      "summary": "States final red-cone rule verbally"
+    }
+  ]
