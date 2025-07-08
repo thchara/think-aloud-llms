@@ -2,6 +2,20 @@ from black import format_str, Mode
 from pyprojroot import here
 from src.preproc.auto_checker import check_graph, get_problems_str
 from src.preproc.utils import run_code
+import pathlib
+
+
+# Load open-coding prompts from disk
+def get_open_coding_prompt() -> str:
+    """Load the open-coding prompt (with few-shot examples) from disk."""
+    path = (
+        pathlib.Path(__file__).parent.parent.parent
+        / "data"
+        / "meta"
+        / "prompts"
+        / "zendo_open_tag_prompt.txt"
+    )
+    return path.read_text(encoding="utf-8")
 
 
 # Read the GraphBuilder class code from reasoning_graph.py

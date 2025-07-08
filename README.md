@@ -50,5 +50,24 @@ these notebooks is `MainAnalyses.ipynb`, which runs most of the analyses we repo
 # Experiment
 
 The `experiment/` directory contains the JsPsych code we used for the experiment, along with Python
-scripts to do tasks that interface with the experiment, like downloading data and counting the 
+scripts to do tasks that interface with the experiment, like downloading data and counting the
 number of completions in each condition.
+
+## Running the Zendo coder
+
+a. **Bulk open-coding** (Anthropic/OpenAI)
+```bash
+python src/preproc/code_with_lm_batched.py \
+   --in_dir path/to/raw_outputs \
+   --out_dir data/ZendoStudy/LLMs/bufferX \
+   # installs src/preproc/prompts.py and uses zendo_open_tag_prompt.txt
+```
+
+b. Cluster to DAT
+
+```bash
+python scripts/cluster_to_dat.py \
+   --in_dir data/ZendoStudy/LLMs/bufferX/open-codes \
+   --out_dir data/ZendoStudy/LLMs/bufferX/DAT \
+   --codebook data/meta/codebook.json
+```
