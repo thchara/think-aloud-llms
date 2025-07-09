@@ -1,0 +1,256 @@
+participant_id,scene,guess,Accuracy
+p1: 5c7cf8b58ca9000001b52f6e,scene1,"""There is always blue triangle located on top of a green triangle.""",0
+p1: 5c7cf8b58ca9000001b52f6e,scene2,"""In option A, B, and E, there has to be a green triangle that is upright and also one big and one small one.""",0
+p1: 5c7cf8b58ca9000001b52f6e,scene3,"""Option A, C, and F all feature blue triangles that are slanted on their sides.""",1
+p1: 5c7cf8b58ca9000001b52f6e,scene4,"""Option A , C , and F all have triangles that stack on another triangle.""",1
+p1: 5c7cf8b58ca9000001b52f6e,scene5,"""In option A , B, and E, they all have a red triangle that is upright and a slanted one.. They do also have a blue triangle slanted to the right.""",0
+p2: 5f4a7a00dc1bde60ab8f7ac5,scene1,"""If there is a red cone in the panel, the star will light up.""",1
+p2: 5f4a7a00dc1bde60ab8f7ac5,scene2,"""I cannot figure out the hidden rule at for this one. I don't even have a solid guess.""",0
+p2: 5f4a7a00dc1bde60ab8f7ac5,scene3,"""I cannot figure out the hidden rule for this set of panels.""",0
+p2: 5f4a7a00dc1bde60ab8f7ac5,scene4,"There is at least one cone wearing a different colored cone as a ""hat"".'",1
+p2: 5f4a7a00dc1bde60ab8f7ac5,scene5,"""I cannot identify the rule at all in this set of panels.""",0
+p3: 60fd6618f9a377f54dcdf318,scene1,"""The hidden rule it that the purple triangles are on top of the green triangles when the rule is applied""",0
+p3: 60fd6618f9a377f54dcdf318,scene2,"""There are 3 little triangles when the rule is applied to the panel""",0
+p3: 60fd6618f9a377f54dcdf318,scene3,"""There are 2 purple triangles on their side when the rule is applied.""",1
+p3: 60fd6618f9a377f54dcdf318,scene4,"""There is one triangle of equal size on top of another triangle.
+\n There are 7 triangles in each box when the rule is applied""",0
+p3: 60fd6618f9a377f54dcdf318,scene5,"""All of the small ones are pointing to the right""",0
+p4: 62fd14d7b1e0729dc8aadb79,scene1,"1) All of these panels (A, E and F) contain red, blue and green triangles""",1
+p4: 62fd14d7b1e0729dc8aadb79,scene2,"1) Inner area of triangles
+\n 2) Number of ""large"" triangles (based on height)'",0
+p4: 62fd14d7b1e0729dc8aadb79,scene3,"""1) Orientation of triangles (e.g. number of triangles pointing left)
+\n 2) Number of sides touching the ground""",0
+p4: 62fd14d7b1e0729dc8aadb79,scene4,"""1) Different coloured triangles stacked on top of each other
+\n 2) Orientation of triangles (e.g. number of anti/clockwise)""",1
+p4: 62fd14d7b1e0729dc8aadb79,scene5,"""1) Number of sides overlaid on each other (i.e. triangles laid side-to-side)""",0
+p5: 65c8d70512b2fc050e53d0d1,scene1,"""You must have a red cone for the light to shine like A,E and F.""",1
+p5: 65c8d70512b2fc050e53d0d1,scene2,"""You need at least 1 small blue cone and 1 small green cone.""",1
+p5: 65c8d70512b2fc050e53d0d1,scene3,"""You need 2 blue cones on it's side.""",1
+p5: 65c8d70512b2fc050e53d0d1,scene4,"""You need 2 cones of the same size stacked on top of each other""",1
+p5: 65c8d70512b2fc050e53d0d1,scene5,"""You need 2 green cones and 1 red cone of it;s side""",1
+p6: 65cb708afe5755feaeec417f,scene1,"""It has to have a red triangle
+\nIt has to have a triangle that is upside down""",1
+p6: 65cb708afe5755feaeec417f,scene2,"""Have a small and medium sized green triangle.""",0
+p6: 65cb708afe5755feaeec417f,scene3,"""It has to have a blue, red , blue triangle sandwhich. 
+\n It has to have a green triangle to the farthest right.""",0
+p6: 65cb708afe5755feaeec417f,scene4,"""It has to have a triangle on top of another triangle
+\n It has to have at least two red triangles
+\n It has to have two triangles that are stacked sideways on top of each other""",1
+p6: 65cb708afe5755feaeec417f,scene5,"""It has to have two green triangles only.""",1
+p7: 6648becccd1bf5a6e253577b,scene1,"""The panels with the red cones have yellow stars.""",1
+p7: 6648becccd1bf5a6e253577b,scene2,"""The rules is... there needs to be adequate space between the largest cone and the smallest cone. (I'm not very confident about this).""",0
+p7: 6648becccd1bf5a6e253577b,scene3,"""The hidden rule is that the two blue cones must be tilted over (position or angle doesn't matter).""",1
+p7: 6648becccd1bf5a6e253577b,scene4,"""I couldn't really figure out the pattern, but I'll guess. Maybe the pattern is that the panel needs at least green two cones (and no more than green two cones) pointed in an upwards direction.""",0
+p7: 6648becccd1bf5a6e253577b,scene5,"""The rule is that the panels with the yellow stars need two cones (no more, no less).""",1
+p8: 6658b1491e88ec15902d5301,scene1,"""Panel A, E, and F all have blue and red triangles next to each other and the others don't.""",0
+p8: 6658b1491e88ec15902d5301,scene2,"""Panel A, B, and E all have green triangles at the front and end of the sequence.""",0
+p8: 6658b1491e88ec15902d5301,scene3,"""Panels A, C, and F all have two blue horizontal triangles and the others do not.""",0
+p8: 6658b1491e88ec15902d5301,scene4,"""Panels A, C, and F all have triangles where there are two colours; one on top of the other. From Panels A to C to F these all change colours but still remain as a duo and the other panels do not feature this.""",1
+p8: 6658b1491e88ec15902d5301,scene5,"""In Panels A, B and E, there is a blue triangle in the fifth position.""",0
+p9: 6776bd45548f97b8129afed9,scene1,"""The star lights up when there is a red triangle in the box. A, E and F all have at least one triangle positioned in any way and star that lights up."" }",1
+p9: 6776bd45548f97b8129afed9,scene2,"""The panels A, b and E have the stars that light up and each have a small green and small blue triangle. I think this is the hidden rule. The others don't have this""",1
+p9: 6776bd45548f97b8129afed9,scene3,"""The hidden rule is that A,C and f starts are lighted up when there are two blue triangles sitting on it side.""",1
+p9: 6776bd45548f97b8129afed9,scene4,"""Hidden rule is that A, C and F all have tow triangles on their side when the star has a light in it""",0
+p9: 6776bd45548f97b8129afed9,scene5,"""Hidden rule is that A, B and E have stars lit up when when there are most of the triangles sitting on the side""",0
+p10: 66796f4a142b2ff0813dd3d0,scene1,"""The hidden rule is that the star lights up when there is a red triangle in the image.""",1
+p10: 66796f4a142b2ff0813dd3d0,scene2,"""Two green cones standing up flush to the ground makes the star light up""",0
+p10: 66796f4a142b2ff0813dd3d0,scene3,"""Two blue cones on their side means that the star lights up.""",1
+p10: 66796f4a142b2ff0813dd3d0,scene4,"""Having a standing up green and standing up red
+\n At least two blues
+\n Two reds+ 
+\n 7 instead of 6 shapes.""",0
+p10: 66796f4a142b2ff0813dd3d0,scene5,"""Having exactly two green cones means the star turns on.""",1
+p11: 66798dfc733ea9d461780dc6,scene1,"""Must have blue triangle on top of green on either left or right side (not the middle)
+\nMust have 3 green triangles""",0
+p11: 66798dfc733ea9d461780dc6,scene2,"""Must have 5 triangles""",0
+p11: 66798dfc733ea9d461780dc6,scene3,"""Must have 2 blue triangles on their side
+\n Must have 5 triangles present
+\n Must have all 3 colors present""",1
+p11: 66798dfc733ea9d461780dc6,scene4,"""Must use all 3 colors
+\n Must have 1 triangle on top of another triangle
+\n Must have at least 2 green triangles""",0
+p11: 66798dfc733ea9d461780dc6,scene5,"""Must have red and blue triangles at an angle up against each other
+\n Must have at least 3 red triangles""",0
+p12: 68256ec539a8a1d5d7b8c3c9,scene1,"""Panel A,E,F have at least, one red cone""",1
+p12: 68256ec539a8a1d5d7b8c3c9,scene2,"""I'll say...i'm not sure""",0
+p12: 68256ec539a8a1d5d7b8c3c9,scene3,"""On Panels A C and F, the blue cones are fallen downwards""",1
+p12: 68256ec539a8a1d5d7b8c3c9,scene4,"""Alternating colour in the panels. I.e A has 1 more green than reds and blues. Panel C has 1 more blue than greens and red and Panel F has 1 more red than blues and greens""",0
+p12: 68256ec539a8a1d5d7b8c3c9,scene5,"""Panels A, B and E each have 2 green cones""",1
+p13: 6100906e671b8294f9ea93d8,scene1,"""- They all ( A, E, F) have atleast one red cone""",1
+p13: 6100906e671b8294f9ea93d8,scene2,"""I can't see any similarities between the three.""",0
+p13: 6100906e671b8294f9ea93d8,scene3,"""- They all have a blue lying down, they all finish with a green""",1
+p13: 6100906e671b8294f9ea93d8,scene4,"""- A, C and F all have a cone with a different coloured cone on top""",1
+p13: 6100906e671b8294f9ea93d8,scene5,"""- A, B, E have two green cones
+\n - A, B, E also all have one medium red cone upright""",1
+p14: 67168065986a302253d0342b,scene1,"""I cannot spot any correlation or rhyme to this. I must be missing something quite clear.""",0
+p14: 67168065986a302253d0342b,scene2,"""I cant see the hidden rule at all. I wish I could flag up the instructions again. I'm just not spotting anything.""",0
+p14: 67168065986a302253d0342b,scene3,"""Maybe its to do with the amount of coloured cones in the squares. I cant see a rule indicating why the stair in the corner is lit up.""",0
+p14: 67168065986a302253d0342b,scene4,"""My guess is the amount of cones corresponded with the lit up star, or the cones overlap, but this falls apart because D dosent have any overlapping cones and has 7 in them, just as F, A and C have 7 cones some overlapping resulting in a lit stair.""",0
+p14: 67168065986a302253d0342b,scene5,"""My guess is square A, B and E with the lit square all contain 2 green cones. Square C, D and F all contain two blue cones. This is the rule.""",1
+p15: 5ac228c50527ba0001c1f6bb,scene1,"""The rule is when a red cone appears, the puzzle gets a yellow star. I am very confident with this answer and don't feel the need to give another one.""",1
+p15: 5ac228c50527ba0001c1f6bb,scene2,"""This test is hard. I think the rule could be when a puzzle has the majority of its cones facing upwards then it gets a yellow star. However, I am not at all confident in this rule.""",0
+p15: 5ac228c50527ba0001c1f6bb,scene3,"""Again, this was a hard task and I am not sure. I think the rule is that when a puzzle has two purple cones it gets a star, but I am not too confident in this rule.""",0
+p15: 5ac228c50527ba0001c1f6bb,scene4,"""The rule is the puzzle gets a yellow star when it has two cones stacked on top of one another than are different in colour.""",1
+p15: 5ac228c50527ba0001c1f6bb,scene5,"""The hidden rule is the puzzle gets a yellow star when it has two green cones.""",1
+p16: 5adef850eb60400001539109,scene1,"""Red cone present
+\n More than 5 cones""",1
+p16: 5adef850eb60400001539109,scene2,"""Two or more green triangles upright""",0
+p16: 5adef850eb60400001539109,scene3,"""Two blue triangles laying on their side""",1
+p16: 5adef850eb60400001539109,scene4,"""Two different colored upright cones stacked on each other""",1
+p16: 5adef850eb60400001539109,scene5,"""Upright red cone with nothing stacked on it""",0
+p17: 55d51a6b8ce09000127d4821,scene1,"""The hidden rule is that they have red triangles.""",1
+p17: 55d51a6b8ce09000127d4821,scene2,"""The hidden rule could be that more of the triangles are located towards the left hand side overall. I am so unsure!""",0
+p17: 55d51a6b8ce09000127d4821,scene3,"""They have two blue triangles tilted to their side, whereas the others do not.""",1
+p17: 55d51a6b8ce09000127d4821,scene4,"""They are the only panels with tiles on top of each other that have different colours.""",1
+p17: 55d51a6b8ce09000127d4821,scene5,"""I couldn't even come up with a guess here, nothing came to mind""",0
+p18: 62aa591a476ebabe28612a92,scene1,"""Must have all 3 colour triangles in the same Panel.""",1
+p18: 62aa591a476ebabe28612a92,scene2,"""Have 2 green triangles standing up right.""",0
+p18: 62aa591a476ebabe28612a92,scene3,"""Must have 2 blue triangles on their sides.""",1
+p18: 62aa591a476ebabe28612a92,scene4,"""Must have a triangle stacked on another, but must differ in colour.""",1
+p18: 62aa591a476ebabe28612a92,scene5,"""2 green triangles per panel.""",1
+p19: 62d6d77df59450e545fb22f6,scene1,"""Number of cones tilted 
+\n some having more cones then others
+\n colour combination 
+\n Red cones not in all panels""",1
+p19: 62d6d77df59450e545fb22f6,scene2,"""More tilted cones then others \nsomething about the colour combinations
+\n More of the same colours in come compared to others 
+\n More bigger cones in come compared to others""",0
+p19: 62d6d77df59450e545fb22f6,scene3,"""Something to do with colour combinations
+\n green cones being not on top of each other 
+\n cones not being more tilted 
+\n more mix of larger cones in each panel""",0
+p19: 62d6d77df59450e545fb22f6,scene4,"""something to do with cones on top of cones 
+\n colour combinations
+\n cones being more balanced between all colours big or small""",1
+p19: 62d6d77df59450e545fb22f6,scene5,"""Something to do with colour combination
+\n more larger cones in some then the others\nand more small cones on some then others
+\n the amount of cones compared to some of the panels 
+\n more being tilted then others""",0
+p20: 62d43cee3d60ac98c1dcacc8,scene1,"""Any panel which has a red funnel in it will also have a yellow star in it""",1
+p20: 62d43cee3d60ac98c1dcacc8,scene2,"""A panel will have a yellow star if a panel has at least one small green funnel and one small blue funnel in it""",1
+p20: 62d43cee3d60ac98c1dcacc8,scene3,"""I think the hidden rule is that a panel will have a yellow star in it if there is at least 2 blue funnels in it which are facing in either the left or right direction""",1
+p20: 62d43cee3d60ac98c1dcacc8,scene4,"""I think the hidden rule is that a panel will have a yellow star in it if there are at least two of the smallest sized funnels in it""",0
+p20: 62d43cee3d60ac98c1dcacc8,scene5,"""I think the hidden rule is that there must be two downward facing funnels in a panel for a panel to contain a yellow star in it""",0
+p21: 62e154b0682e270b4acdf5ee,scene1,"""The hidden rule is that there has to be three colours schemes associated.""",1
+p21: 62e154b0682e270b4acdf5ee,scene2,"I believe the hidden rule associated with this task is that ""there has to contain two or more green cones and they have to be upright (not mis-aligned).'",0
+p21: 62e154b0682e270b4acdf5ee,scene3,"I believe the hidden rule in this scenario is ""two blue cones have to be present and they have to be mis-aligned"" (not upright).'",1
+p21: 62e154b0682e270b4acdf5ee,scene4,"I believe the hidden rule is ""One cone has to be on top of another, and it has have a different colour scheme""'",1
+p21: 62e154b0682e270b4acdf5ee,scene5,"The hidden rule that ""No more than 2 green cones can be present in an image""'",1
+p22: 566c9284d408ea000519c6d7,scene1,"""Whether or not there are red cones
+\n The big blue cone is not in the center
+\n A fewer number of green cones""",1
+p22: 566c9284d408ea000519c6d7,scene2,"""The balance of shapes inside each area is more on the left side, not the middle or right""",0
+p22: 566c9284d408ea000519c6d7,scene3,"""There are two blue cones on their sides on the floor.""",1
+p22: 566c9284d408ea000519c6d7,scene4,"""There is a big red and green cone in them.""",0
+p22: 566c9284d408ea000519c6d7,scene5,"""They all have two green cones
+\n They all have a red medium cone facing upwards""",1
+p23: 664cf2037353bb98801436b5,scene1,"""Must have all colours.""",1
+p23: 664cf2037353bb98801436b5,scene2,"""Green positioned right,
+\n One of each size triangle.""",0
+p23: 664cf2037353bb98801436b5,scene3,"""2 blue triangle on their sides.""",1
+p23: 664cf2037353bb98801436b5,scene4,"""Opposite colour triangle of the same size on top of each other.""",1
+p23: 664cf2037353bb98801436b5,scene5,"""Furthest left triangle standing up is red.""",0
+p24: 6658cf093c3b7a255aeae9eb,scene1,"""the rule is panels with red triangles have a yellow star""",1
+p24: 6658cf093c3b7a255aeae9eb,scene2,"""i think maybe that no triangles can overlap with eachother/have triangles one inside of another""",0
+p24: 6658cf093c3b7a255aeae9eb,scene3,"""maybe that each panel must have 2 triangles titled, each having a point/top facing right and one facing left""",0
+p24: 6658cf093c3b7a255aeae9eb,scene4,"""the rule is it must have 2 different coloured triangles stacked on top of eachother like in a there is a red on top of a green and they must be different colours""",1
+p24: 6658cf093c3b7a255aeae9eb,scene5,"""the rule is the panel must have 2 green triangles""",1
+p25: 6712dc9aa03ad1da92e70829,scene1,"""3 green cone in the box regardless if the cones are tilted or not""",0
+p25: 6712dc9aa03ad1da92e70829,scene2,"a b, e panel has yellow star which has 2 upright green cones""",0
+p25: 6712dc9aa03ad1da92e70829,scene3,"""all the yellow star has a pattern of tilted blue cones for a,c,f""",1
+p25: 6712dc9aa03ad1da92e70829,scene4,"""so , the pattern is A has 3 greens, c has 3 blues , f has 3 reds regardless if they are tilted or not""",0
+p25: 6712dc9aa03ad1da92e70829,scene5,"""2 tilted red cones in all 3. yellow stars boxes > A, B, E""",0
+p26: 6718da927f1110131780367d,scene1,"""The hidden rule is that it must contain a red cone/triangle.""",1
+p26: 6718da927f1110131780367d,scene2,"""The hidden rule is a larger green triangle needs to be standing upright without any tilting.""",0
+p26: 6718da927f1110131780367d,scene3,"""The hidden rule is having two blue triangles/cones on their side, rather than upright or upside down/angled.""",1
+p26: 6718da927f1110131780367d,scene4,"""The hidden rule is there needs to be two triangles/cones that are on their side, one laying on top of the other, but they cannot be both blue.""",0
+p26: 6718da927f1110131780367d,scene5,"""The hidden rule is the panel must contain two green triangles/cones.""",1
+p27: 6727ea3905ae5d0d2cb5180c,scene1,"""There needs to be red triangles
+\n There needs to be at least 5 triangles""",1
+p27: 6727ea3905ae5d0d2cb5180c,scene2,"""They must have small purple triangles""",1
+p27: 6727ea3905ae5d0d2cb5180c,scene3,"""At least one purple triangle on its side""",1
+p27: 6727ea3905ae5d0d2cb5180c,scene4,"""They must have all 3 colours""",0
+p27: 6727ea3905ae5d0d2cb5180c,scene5,"""They must all have single red triangles that stand upright""",0
+p28: 68256ac2cdeacf4bb3e76b17,scene1,"""Panels with red cones present have the star""",1
+p28: 68256ac2cdeacf4bb3e76b17,scene2,"""The presence of small blue cone  and tilting have no effect""",1
+p28: 68256ac2cdeacf4bb3e76b17,scene3,"""The two tilted blue cones present there is a star""",1
+p28: 68256ac2cdeacf4bb3e76b17,scene4,"""The rule defines two green cones the large and medium sized sized green cone to be present""",0
+p28: 68256ac2cdeacf4bb3e76b17,scene5,"""The rule defines two green cone to be present for a star""",1
+p29: 663140c398e19ff9b77d4663,scene1,"""The highlighted stars all have red. If not highlighted then its there could be other ones but not red.""",1
+p29: 663140c398e19ff9b77d4663,scene2,"""I think the pattern seems really random here and I dont see a pattern of any sort.""",0
+p29: 663140c398e19ff9b77d4663,scene3,"""My only guess is that the highlighted stars have blue shapes that are all at an angle not facing downwards""",1
+p29: 663140c398e19ff9b77d4663,scene4,"""All highlighted stars have 7 shapes exactly""",0
+p29: 663140c398e19ff9b77d4663,scene5,"""A/B/E have exactly 2 green shapes
+\n C/D/F have exactly 2 blue shapes""",1
+p30: 666208dc57b332c5dbcaac25,scene1,"""My main guess is that if the panel includes a red triangle then the star will light up""",1
+p30: 666208dc57b332c5dbcaac25,scene2,"""my only guess is that when triangles overlap then the star will not light up""",0
+p30: 666208dc57b332c5dbcaac25,scene3,"""My guess for this puzzle is that colours cannot repeat next to each other and have to have a different colour between""",0
+p30: 666208dc57b332c5dbcaac25,scene4,"""my first guess is that triangles laying horizontal that lay on top of each other lights up a star, and my second guess is that if triangles of different colours stand overlap then that can also light up a star""",1
+p30: 666208dc57b332c5dbcaac25,scene5,"""My main guess is that if a panel includes 2 green triangles then the star is lit""",1
+p31: 6699392f3b5d44ffc688ea2e,scene1,"""Must have all colours.""",1
+p31: 6699392f3b5d44ffc688ea2e,scene2,"""Green positioned right,
+\n One of each size triangle.""",0
+p31: 6699392f3b5d44ffc688ea2e,scene3,"""2 blue triangle on their sides.""",1
+p31: 6699392f3b5d44ffc688ea2e,scene4,"""Opposite colour triangle of the same size on top of each other.""",1
+p31: 6699392f3b5d44ffc688ea2e,scene5,"""Furthest left triangle standing up is red.""",0
+p32: 6778196b35c3f4ee20388a60,scene1,"""All 3 colours in each panel.
+\n 3 green triangles per panel.""",1
+p32: 6778196b35c3f4ee20388a60,scene2,"""Must have at least 2 green standing triangles.""",0
+p32: 6778196b35c3f4ee20388a60,scene3,"""2 blue triangles on their sides.""",1
+p32: 6778196b35c3f4ee20388a60,scene4,"""2 Triangles must be on top of each other, but they must differ in colour.""",1
+p32: 6778196b35c3f4ee20388a60,scene5,"""The panel must have exactly 2 green triangles.""",1
+p33: 65c118f1cd19001157ace3a0,scene1,"""one cone upside down""",0
+p33: 65c118f1cd19001157ace3a0,scene2,"""at least 1 blue cone between 2 green cones""",1
+p33: 65c118f1cd19001157ace3a0,scene3,"""2 tilted blue cones in each panel""",1
+p33: 65c118f1cd19001157ace3a0,scene4,"""same number of cones in active panels""",0
+p33: 65c118f1cd19001157ace3a0,scene5,"""first cone is pink""",0
+p34: 682e2f3f38b4d818cd136b66,scene1,"""The star lights when there is a red con in the panel.
+\n I did not come up with any other guesses""",1
+p34: 682e2f3f38b4d818cd136b66,scene2,"""Where the green cones are lying flat on the brown platform and are facing up that is where the star is lit""",0
+p34: 682e2f3f38b4d818cd136b66,scene3,"""Where there are two blue cones facing up at an angle""",1
+p34: 682e2f3f38b4d818cd136b66,scene4,"""Where there are five cones facing down the star lights""",0
+p34: 682e2f3f38b4d818cd136b66,scene5,"""The star is lit in panels where there are two green cones""",1
+p35: 682d373be42ded4af524421f,scene1,"""The hidden rule is that the sections have red cones in them while the rest do not have them.""",1
+p35: 682d373be42ded4af524421f,scene2,"""The hidden rule might be the cones are closer to each other.""",0
+p35: 682d373be42ded4af524421f,scene3,"""The hidden rule is that the blue cones are lying down instead of standing.""",1
+p35: 682d373be42ded4af524421f,scene4,"""The panels has at least one cone on top of each other
+\n the panels has two cones tilted on the ground.""",1
+p35: 682d373be42ded4af524421f,scene5,"""the green cones are at most two in each panel.""",1
+p36: 670e5e609d33ddb280fab011,scene1,"""Have all three color of triangles""",1
+p36: 670e5e609d33ddb280fab011,scene2,"""Must have small blue triangle""",1
+p36: 670e5e609d33ddb280fab011,scene3,"""two blue on their side""",1
+p36: 670e5e609d33ddb280fab011,scene4,"""rule of 7 triangles""",0
+p36: 670e5e609d33ddb280fab011,scene5,"""rule of 2 green triangles""",1
+p37: 66826e9e2c8e4bfd530e5584,scene1,"""If the yellow star is filled in there is not a red triangle.""",1
+p37: 66826e9e2c8e4bfd530e5584,scene2,"""There is 5 triangles in every single one.""",0
+p37: 66826e9e2c8e4bfd530e5584,scene3,"""To rotate the triangles.""",0
+p37: 66826e9e2c8e4bfd530e5584,scene4,"""To turn two of the triangles on their side if the star is yellow.""",0
+p37: 66826e9e2c8e4bfd530e5584,scene5,"""The number of  triangles has to do with the pattern.""",0
+p38: 65389f0b0f181197c4218f6d,scene1,"""When we see red angle formations, the stars light up as showcased by A, E and F and conversely the lack of red in B C D makes the stars remain unlit.""",1
+p38: 65389f0b0f181197c4218f6d,scene2,"""so any color can be upward facing but only blue can be singularly not mixed with another color lateral for the star to light…is strengthened by the F example where even though we have lateral blue we also have lateral red which keeps the star unlit""",0
+p38: 65389f0b0f181197c4218f6d,scene3,"""so the star lights up when there is a pair of lateral blues present
+\n BD E do not have this pair of lateral blues so are unlit""",1
+p38: 65389f0b0f181197c4218f6d,scene4,"""Noticed the 3 of a kind colors for the light to be off 2 of them either superposed or touching like in D 
+\n Really not enough time on this one and do not want to ruin the experiment procedure""",0
+p38: 65389f0b0f181197c4218f6d,scene5,"""for whenever the red angles are more numerous than  other colored angles the star lights up and this is reinforced by C D F where the reds are not the largest component of the angles therefore the stars remain unlit""",1
+p39: 67463480327b48a3f1380669,scene1,"""red cones provide a lit star""",1
+p39: 67463480327b48a3f1380669,scene2,"""a,b,c,d,f, have all three color cones
+\n abcdef all have 5 cones""",0
+p39: 67463480327b48a3f1380669,scene3,"""all 6 letters abcdef have the same 3 color cones""",0
+p39: 67463480327b48a3f1380669,scene4,"""a,c,f have 7 cones and lit stars""",0
+p39: 67463480327b48a3f1380669,scene5,"""c,d,f go in order from 3 hreen cone 4 green cones and 5 green cones in order""",0
+p40: 6715013670bed7e4e955f109,scene1,"""There must be a red triangle for the star to light up""",1
+p40: 6715013670bed7e4e955f109,scene2,"""one big green triangle with both points o the floor is required for the star to light up""",0
+p40: 6715013670bed7e4e955f109,scene3,"""they each have to have 2 red 2 blue and 1 or more green triangles for the star to be light up""",0
+p40: 6715013670bed7e4e955f109,scene4,"""they have to have 2 differently coloured triangles one on top of the other for the star to be light""",1
+p40: 6715013670bed7e4e955f109,scene5,"""there has to be only 2 green triangles in the box for the star to be lit""",1
+p41: 66d9869a4e9051cdf5d16fa3,scene1,"""The panels with the red cones have the stars lit up.""",1
+p41: 66d9869a4e9051cdf5d16fa3,scene2,"""it must contain a little purple cone""",1
+p41: 66d9869a4e9051cdf5d16fa3,scene3,"""The have to have 2 purple cones laying on their side.""",1
+p41: 66d9869a4e9051cdf5d16fa3,scene4,"""I could not figure out any possibility for a rule in this one""",0
+p41: 66d9869a4e9051cdf5d16fa3,scene5,"""Must have exactly 2 green cones""",1
+p42: 5fff2877a99bcb65a14a223c,scene1,"""for every lighted up  puzzle with yellow colours their must be a red cone in it... thus puzzle E, F, and A  all have a red cone in them""",1
+p42: 5fff2877a99bcb65a14a223c,scene2,"""i the rule for this puzzle is that for every yellow star puzzzle their must a standing green cone i.e the green cone must stand perfectly""",0
+p42: 5fff2877a99bcb65a14a223c,scene3,"""all the yellow stars cone all have a cone laying flat on the floor and also they all have a blue cone facing the right side while laying flat""",1
+p42: 5fff2877a99bcb65a14a223c,scene4,"""i think the rule for this puzzle is that all the labels without stars all have atleast a blue cone standing alright""",0
+p42: 5fff2877a99bcb65a14a223c,scene5,"""so i think the rule for this puzzle is that they have atleast a red cone laying flat on the floor.""",0

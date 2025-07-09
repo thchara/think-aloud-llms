@@ -42,7 +42,7 @@
     {
     "theme": "Evidence Evaluation",
     "DAT_code": "EVAL",
-    "member_codes": [ "ruleExclusion", "counterExampleSearch", "ruleGuess", "ruleConfidence", "supportEvidence", "re-confirmObservations", "Cross-Check", "Inference" ],
+    "member_codes": [ "ruleExclusion", "counterExampleSearch", "ruleConfidence", "supportEvidence", "re-confirmObservations", "Cross-Check", "Inference" ],
     "representative_ids": [
     { "participant_id": "p17_coded", "step_id": 40 },
     { "participant_id": "p29_coded", "step_id": 25 }
@@ -82,7 +82,7 @@
     {
     "theme": "Rule Expression",
     "DAT_code": "RUL",
-    "member_codes": [ "ruleArticulation", "ruleRevisit", "ruleInference", "ruleInsight", "ruleJustification" ],
+    "member_codes": [ "ruleArticulation", "ruleRevisit", "ruleInference", "ruleInsight", "ruleJustification", "ruleGuess" ],
     "representative_ids": [
     { "participant_id": "p19_coded", "step_id": 75 },
     { "participant_id": "p30_coded", "step_id": 80 }

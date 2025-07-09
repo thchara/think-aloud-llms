@@ -4,11 +4,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
 import os
 import pathlib
 from typing import Iterable
 
 import openai
+from tqdm import tqdm
 
 from src.preproc.prompts import get_open_coding_prompt
 
@@ -28,11 +30,11 @@ def call_model(client: openai.Client, prompt: str, text: str, model: str) -> lis
     resp = client.chat.completions.create(
         model=model,
         messages=msgs,
-        temperature=0.0,
     )
     try:
         return json.loads(resp.choices[0].message.content)
     except Exception:
+        logging.warning("Failed to parse JSON from model output", exc_info=True)
         return []
 
 
@@ -49,11 +51,13 @@ def process_file(
     out_path = out_dir / f"{scene}_{pid}.jsonl"
     with out_path.open("w", encoding="utf-8") as out_f:
         for record in records:
-            out_f.write(json.dumps(record) + "\n")
+            out_f.write(json.dumps(record, ensure_ascii=False, indent=2) + "\n")
+            out_f.write("\n") 
     return out_path
 
 
 def main(argv: Iterable[str] | None = None) -> None:
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--in_dir", required=True)
     parser.add_argument("--out_dir", required=True)
@@ -61,14 +65,23 @@ def main(argv: Iterable[str] | None = None) -> None:
     args = parser.parse_args(argv)
 
     in_root = pathlib.Path(args.in_dir)
-    out_root = pathlib.Path(args.out_dir) / "open-codes"
+    out_root = pathlib.Path(args.out_dir)
     out_root.mkdir(parents=True, exist_ok=True)
 
     prompt = get_open_coding_prompt()
     client = openai.Client(api_key=os.getenv("OPENAI_API_KEY"))
 
-    for txt_file in sorted(in_root.glob("*.txt")):
-        process_file(client, prompt, txt_file, out_root, args.model_name)
+    files = sorted(in_root.glob("*.txt"))
+    logging.info(f"Found {len(files)} transcript(s) in {in_root}")
+
+    for txt_file in tqdm(files, desc="Open‐coding transcripts"):
+        try:
+            out_path = process_file(client, prompt, txt_file, out_root, args.model_name)
+            logging.info(f"Wrote codes for {txt_file.name} → {out_path.name}")
+        except Exception:
+            logging.error(f"Error processing {txt_file.name}", exc_info=True)
+
+    logging.info("All done.")
 
 
 if __name__ == "__main__":

@@ -7,15 +7,17 @@ import pathlib
 
 # Load open-coding prompts from disk
 def get_open_coding_prompt() -> str:
-    """Load the open-coding prompt (with few-shot examples) from disk."""
-    path = (
-        pathlib.Path(__file__).parent.parent.parent
-        / "data"
-        / "meta"
-        / "prompts"
-        / "zendo_open_tag_prompt.txt"
-    )
-    return path.read_text(encoding="utf-8")
+    base = pathlib.Path(__file__).parent.parent.parent / "data" / "ZendoStudy" / "meta" / "prompts" / "zendo_open_tag_prompt.txt"
+    prompt_text = base.read_text(encoding="utf-8")
+
+    # load five few-shot examples
+    irr_folder = pathlib.Path(__file__).parent.parent.parent / "data" / "ZendoStudy" / "Humans" / "open-codes" / "IRR" / "llm-coded"
+    for example_file in sorted(irr_folder.glob("*.jsonl"))[:10]:
+        for line in example_file.read_text(encoding="utf-8").splitlines():
+            prompt_text += "\n" + line
+
+    return prompt_text
+
 
 
 # Read the GraphBuilder class code from reasoning_graph.py

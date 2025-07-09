@@ -57,9 +57,11 @@ number of completions in each condition.
 
 a. **Bulk open-coding** (Anthropic/OpenAI)
 ```bash
-python src/preproc/code_with_lm_batched.py \
-   --in_dir path/to/raw_outputs \
-   --out_dir data/ZendoStudy/LLMs/bufferX \
+python -m src.preproc.code_with_lm_batched \
+  --in_dir data/ZendoStudy/LLMs/buffer4/raw_outputs \
+  --out_dir data/ZendoStudy/LLMs/bufferX/ \
+  --model_name o3
+
    # installs src/preproc/prompts.py and uses zendo_open_tag_prompt.txt
 ```
 
@@ -70,4 +72,13 @@ python scripts/cluster_to_dat.py \
    --in_dir data/ZendoStudy/LLMs/bufferX/open-codes \
    --out_dir data/ZendoStudy/LLMs/bufferX/DAT \
    --codebook data/meta/codebook.json
+```
+
+
+c. split LLM tasks into 42 separate files
+   
+```bash
+python scripts/split_llm_runs.py \
+  --in_dir data/ZendoStudy/LLMs/buffer4/raw_outputs \
+  --out_dir data/ZendoStudy/LLMs/buffer4/raw_outputs_split
 ```
