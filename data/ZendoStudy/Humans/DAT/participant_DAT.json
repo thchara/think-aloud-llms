@@ -1,0 +1,4186 @@
+[
+{"participant_id": "p1",
+    "scenes": [
+      {
+        "scene": "scene1",
+        "sequence": [
+          "1. BGN",
+          "2. ORI",
+          "3. PLAN",
+          "4. PROC",
+          "5. PROC",
+          "6. PROC",
+          "7. PROC",
+          "8. PROC",
+          "9. PROC",
+          "10. PROC",
+          "11. PROC",
+          "12. META",
+          "13. HYPO",
+          "14. DEC",
+          "15. HYPO",
+          "16. DEC",
+          "17. RUL",
+          "18. META",
+          "19. FIN"
+        ]
+      },
+      {
+        "scene": "scene2",
+        "sequence": [
+          "1. BGN",
+          "2. PLAN",
+          "3. PROC",
+          "4. PROC",
+          "5. PROC",
+          "6. PROC",
+          "7. PROC",
+          "8. PROC",
+          "9. EVAL",
+          "10. EVAL",
+          "11. HYPO",
+          "12. PROC",
+          "13. HYPO",
+          "14. DEC",
+          "15. META",
+          "16. RUL",
+          "17. FIN"
+        ]
+      },
+      {
+        "scene": "scene3",
+        "sequence": [
+          "1. BGN",
+          "2. PROC",
+          "3. PROC",
+          "4. PROC",
+          "5. PROC",
+          "6. PROC",
+          "7. PROC",
+          "8. EVAL",
+          "9. HYPO",
+          "10. EVAL",
+          "11. EVAL",
+          "12. DEC",
+          "13. META",
+          "14. EVAL",
+          "15. RUL",
+          "16. FIN"
+        ]
+      },
+      {
+        "scene": "scene4",
+        "sequence": [
+          "1. BGN",
+          "2. PROC",
+          "3. PROC",
+          "4. PROC",
+          "5. PROC",
+          "6. PROC",
+          "7. PROC",
+          "8. PROC",
+          "9. META",
+          "10. EVAL",
+          "11. EVAL",
+          "12. PROC",
+          "13. PROC",
+          "14. HYPO",
+          "15. RUL",
+          "16. DEC",
+          "17. FIN"
+        ]
+      },
+      {
+        "scene": "scene5",
+        "sequence": [
+          "1. BGN",
+          "2. PLAN",
+          "3. PROC",
+          "4. PROC",
+          "5. PROC",
+          "6. PROC",
+          "7. PROC",
+          "8. PROC",
+          "9. HYPO",
+          "10. META",
+          "11. PROC",
+          "12. PROC",
+          "13. PROC",
+          "14. HYPO",
+          "15. EVAL",
+          "16. RUL",
+          "17. HYPO",
+          "18. RUL",
+          "19. FIN"
+        ]
+      }
+    ],
+    "aliases_found": {
+      "Orientation": "orientation"
+    },
+    "unmapped": [],
+    "codes_missing_FIN": []
+  },
+
+{"participant_id": "p2",
+    "scenes": [
+      {
+        "scene": "scene1",
+        "sequence": [
+          "1. BGN",
+          "2. ORI",
+          "3. PROC",
+          "4. PLAN",
+          "5. PROC",
+          "6. PLAN",
+          "7. PROC",
+          "8. PROC",
+          "9. HYPO",
+          "10. PLAN",
+          "11. PROC",
+          "12. PROC",
+          "13. HYPO",
+          "14. PROC",
+          "15. PLAN",
+          "16. HYPO",
+          "17. PROC",
+          "18. PROC",
+          "19. PROC",
+          "20. PROC",
+          "21. EVAL",
+          "22. DEC",
+          "23. RUL",
+          "24. META",
+          "25. FIN"
+        ]
+      },
+      {
+        "scene": "scene2",
+        "sequence": [
+          "1. BGN",
+          "2. ORI",
+          "3. PROC",
+          "4. PLAN",
+          "5. PLAN",
+          "6. PROC",
+          "7. PROC",
+          "8. PROC",
+          "9. HYPO",
+          "10. EVAL",
+          "11. DEC",
+          "12. EVAL",
+          "13. HYPO",
+          "14. DEC",
+          "15. EVAL",
+          "16. RUL",
+          "17. META",
+          "18. EVAL",
+          "19. PROC",
+          "20. EVAL",
+          "21. META",
+          "22. EVAL",
+          "23. META",
+          "24. HYPO",
+          "25. PROC",
+          "26. DEC",
+          "27. META",
+          "28. FIN"
+        ]
+      },
+      {
+        "scene": "scene3",
+        "sequence": [
+          "1. BGN",
+          "2. ORI",
+          "3. PROC",
+          "4. PROC",
+          "5. EVAL",
+          "6. EVAL",
+          "7. HYPO",
+          "8. DEC",
+          "9. META",
+          "10. HYPO",
+          "11. PROC",
+          "12. DEC",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL",
+          "16. EVAL",
+          "17. EVAL",
+          "18. EVAL",
+          "19. EVAL",
+          "20. EVAL",
+          "21. EVAL",
+          "22. PROC",
+          "23. DEC",
+          "24. FIN"
+        ]
+      },
+      {
+        "scene": "scene4",
+        "sequence": [
+          "1. BGN",
+          "2. ORI",
+          "3. PLAN",
+          "4. PLAN",
+          "5. PROC",
+          "6. EVAL",
+          "7. HYPO",
+          "8. PROC",
+          "9. HYPO",
+          "10. DEC",
+          "11. HYPO",
+          "12. DEC",
+          "13. HYPO",
+          "14. DEC",
+          "15. HYPO",
+          "16. DEC",
+          "17. META",
+          "18. HYPO",
+          "19. DEC",
+          "20. HYPO",
+          "21. DEC",
+          "22. RUL",
+          "23. META",
+          "24. META",
+          "25. FIN"
+        ]
+      },
+      {
+        "scene": "scene5",
+        "sequence": [
+          "1. BGN",
+          "2. ORI",
+          "3. PROC",
+          "4. EVAL",
+          "5. PROC",
+          "6. HYPO",
+          "7. PROC",
+          "8. DEC",
+          "9. HYPO",
+          "10. DEC",
+          "11. PLAN",
+          "12. PROC",
+          "13. HYPO",
+          "14. DEC",
+          "15. META",
+          "16. PROC",
+          "17. EVAL",
+          "18. HYPO",
+          "19. DEC",
+          "20. HYPO",
+          "21. PROC",
+          "22. EVAL",
+          "23. META",
+          "24. EVAL",
+          "25. HYPO",
+          "26. DEC",
+          "27. HYPO",
+          "28. PROC",
+          "29. DEC",
+          "30. FIN"
+        ]
+      }
+    ],
+    "aliases_found": {
+      "Orientation": "orientation",
+      "processingl": "processing"
+    },
+    "unmapped": [],
+    "codes_missing_FIN": []
+  },
+
+{"participant_id": "p3",
+    "scenes": [
+      {
+        "scene": "scene1",
+        "sequence": [
+          "1. BGN",
+          "2. PLAN",
+          "3. PROC",
+          "4. PROC",
+          "5. PROC",
+          "6. PROC",
+          "7. PROC",
+          "8. META",
+          "9. PROC",
+          "10. ORI",
+          "11. HYPO",
+          "12. FIN"
+        ]
+      },
+      {
+        "scene": "scene2",
+        "sequence": [
+          "1. BGN",
+          "2. PROC",
+          "3. PLAN",
+          "4. PROC",
+          "5. META",
+          "6. EVAL",
+          "7. HYPO",
+          "8. DEC",
+          "9. PROC",
+          "10. RUL",
+          "11. FIN"
+        ]
+      },
+      {
+        "scene": "scene3",
+        "sequence": [
+          "1. BGN",
+          "2. PLAN",
+          "3. PROC",
+          "4. PROC",
+          "5. META",
+          "6. HYPO",
+          "7. DEC",
+          "8. DEC",
+          "9. HYPO",
+          "10. HYPO",
+          "11. META",
+          "12. RUL",
+          "13. FIN"
+        ]
+      },
+      {
+        "scene": "scene4",
+        "sequence": [
+          "1. BGN",
+          "2. PROC",
+          "3. PROC",
+          "4. HYPO",
+          "5. DEC",
+          "6. HYPO",
+          "7. RUL",
+          "8. META",
+          "9. FIN"
+        ]
+      },
+      {
+        "scene": "scene5",
+        "sequence": [
+          "1. BGN",
+          "2. PROC",
+          "3. EVAL",
+          "4. EVAL",
+          "5. HYPO",
+          "6. HYPO",
+          "7. DEC",
+          "8. PROC",
+          "9. PROC",
+          "10. EVAL",
+          "11. PROC",
+          "12. HYPO",
+          "13. DEC",
+          "14. DEC",
+          "15. FIN"
+        ]
+      }
+    ],
+    "aliases_found": {
+      "Orientation": "orientation"
+    },
+    "unmapped": [],
+    "codes_missing_FIN": []
+  },
+
+{"participant_id": "p4",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:EVAL",
+        "08:PROC",
+        "09:PROC",
+        "10:PROC",
+        "11:HYPO",
+        "12:PLAN",
+        "13:EVAL",
+        "14:HYPO",
+        "15:PROC",
+        "16:PROC",
+        "17:DEC",
+        "18:EVAL",
+        "19:DEC",
+        "20:META",
+        "21:RUL",
+        "22:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PLAN",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:EVAL",
+        "09:PROC",
+        "10:EVAL",
+        "11:EVAL",
+        "12:PLAN",
+        "13:PROC",
+        "14:PROC",
+        "15:EVAL",
+        "16:META",
+        "17:PLAN",
+        "18:PROC",
+        "19:META",
+        "20:EVAL",
+        "21:PLAN",
+        "22:META",
+        "23:EVAL",
+        "24:META",
+        "25:META",
+        "26:EVAL",
+        "27:HYPO",
+        "28:HYPO",
+        "29:DEC",
+        "30:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:EVAL",
+        "06:PROC",
+        "07:EVAL",
+        "08:PROC",
+        "09:EVAL",
+        "10:PROC",
+        "11:PROC",
+        "12:HYPO",
+        "13:HYPO",
+        "14:PROC",
+        "15:PROC",
+        "16:PROC",
+        "17:HYPO",
+        "18:PROC",
+        "19:PROC",
+        "20:DEC",
+        "21:PROC",
+        "22:EVAL",
+        "23:EVAL",
+        "24:META",
+        "25:META",
+        "26:HYPO",
+        "27:EVAL",
+        "28:HYPO",
+        "29:META",
+        "30:EVAL",
+        "31:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PLAN",
+        "03:PLAN",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:META",
+        "08:PROC",
+        "09:META",
+        "10:PROC",
+        "11:HYPO",
+        "12:DEC",
+        "13:PLAN",
+        "14:PROC",
+        "15:PROC",
+        "16:PROC",
+        "17:EVAL",
+        "18:PROC",
+        "19:EVAL",
+        "20:META",
+        "21:PLAN",
+        "22:RUL",
+        "23:HYPO",
+        "24:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:META",
+        "03:PLAN",
+        "04:PROC",
+        "05:EVAL",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:EVAL",
+        "10:META",
+        "11:PROC",
+        "12:PROC",
+        "13:EVAL",
+        "14:EVAL",
+        "15:PLAN",
+        "16:PROC",
+        "17:EVAL",
+        "18:PLAN",
+        "19:PROC",
+        "20:PROC",
+        "21:EVAL",
+        "22:META",
+        "23:EVAL",
+        "24:META",
+        "25:META",
+        "26:EVAL",
+        "27:META",
+        "28:DEC",
+        "29:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {
+    "Orientation": "orientation"
+  },
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p5",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PLAN",
+        "04:HYPO",
+        "05:DEC",
+        "06:ORI",
+        "07:META",
+        "08:META",
+        "09:RUL",
+        "10:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:EVAL",
+        "04:HYPO",
+        "05:DEC",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:RUL",
+        "10:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:EVAL",
+        "04:HYPO",
+        "05:DEC",
+        "06:RUL",
+        "07:DEC",
+        "08:RUL",
+        "09:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PLAN",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:META",
+        "10:HYPO",
+        "11:RUL",
+        "12:PROC",
+        "13:META",
+        "14:META",
+        "15:META",
+        "16:RUL",
+        "17:RUL",
+        "18:META",
+        "19:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:META",
+        "04:PROC",
+        "05:PROC",
+        "06:HYPO",
+        "07:PROC",
+        "08:META",
+        "09:EVAL",
+        "10:MEM",
+        "11:MEM",
+        "12:RUL",
+        "13:PLAN",
+        "14:PROC",
+        "15:HYPO",
+        "16:RUL",
+        "17:META",
+        "18:MEM",
+        "19:META",
+        "20:HYPO",
+        "21:DEC",
+        "22:RUL",
+        "23:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {
+    "Orientation": "orientation"
+  },
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p6",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:HYPO",
+        "04:PROC",
+        "05:DEC",
+        "06:PLAN",
+        "07:EVAL",
+        "08:PROC",
+        "09:PROC",
+        "10:HYPO",
+        "11:RUL",
+        "12:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:EVAL",
+        "05:EVAL",
+        "06:EVAL",
+        "07:PROC",
+        "08:EVAL",
+        "09:EVAL",
+        "10:EVAL",
+        "11:META",
+        "12:EVAL",
+        "13:EVAL",
+        "14:META",
+        "15:EVAL",
+        "16:HYPO",
+        "17:DEC",
+        "18:META",
+        "19:EVAL",
+        "20:META",
+        "21:EVAL",
+        "22:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:EVAL",
+        "04:HYPO",
+        "05:PROC",
+        "06:DEC",
+        "07:PROC",
+        "08:EVAL",
+        "09:PROC",
+        "10:HYPO",
+        "11:EVAL",
+        "12:HYPO",
+        "13:DEC",
+        "14:HYPO",
+        "15:META",
+        "16:HYPO",
+        "17:RUL",
+        "18:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:HYPO",
+        "04:HYPO",
+        "05:PROC",
+        "06:HYPO",
+        "07:EVAL",
+        "08:PROC",
+        "09:DEC",
+        "10:META",
+        "11:HYPO",
+        "12:EVAL",
+        "13:RUL",
+        "14:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:HYPO",
+        "04:EVAL",
+        "05:EVAL",
+        "06:HYPO",
+        "07:HYPO",
+        "08:DEC",
+        "09:DEC",
+        "10:PROC",
+        "11:EVAL",
+        "12:EVAL",
+        "13:DEC",
+        "14:DEC",
+        "15:RUL",
+        "16:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {
+    "briefOrientation": "orientation"
+  },
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p7",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PLAN",
+        "04:PROC",
+        "05:EVAL",
+        "06:PLAN",
+        "07:META",
+        "08:PROC",
+        "09:HYPO",
+        "10:HYPO",
+        "11:DEC",
+        "12:PROC",
+        "13:EVAL",
+        "14:META",
+        "15:RUL",
+        "16:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PLAN",
+        "04:PROC",
+        "05:HYPO",
+        "06:DEC",
+        "07:EVAL",
+        "08:PLAN",
+        "09:EVAL",
+        "10:META",
+        "11:EVAL",
+        "12:PLAN",
+        "13:HYPO",
+        "14:DEC",
+        "15:META",
+        "16:EVAL",
+        "17:META",
+        "18:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:EVAL",
+        "05:PLAN",
+        "06:EVAL",
+        "07:PLAN",
+        "08:EVAL",
+        "09:HYPO",
+        "10:META",
+        "11:HYPO",
+        "12:DEC",
+        "13:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PLAN",
+        "03:PROC",
+        "04:EVAL",
+        "05:PLAN",
+        "06:PROC",
+        "07:PLAN",
+        "08:META",
+        "09:EVAL",
+        "10:EVAL",
+        "11:EVAL",
+        "12:META",
+        "13:PLAN",
+        "14:META",
+        "15:META",
+        "16:EVAL",
+        "17:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:PLAN",
+        "03:HYPO",
+        "04:HYPO",
+        "05:EVAL",
+        "06:DEC",
+        "07:PLAN",
+        "08:EVAL",
+        "09:EVAL",
+        "10:RUL",
+        "11:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p8",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:EVAL",
+        "07:PROC",
+        "08:PROC",
+        "09:EVAL",
+        "10:META",
+        "11:HYPO",
+        "12:DEC",
+        "13:HYPO",
+        "14:HYPO",
+        "15:RUL",
+        "16:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:META",
+        "07:EVAL",
+        "08:HYPO",
+        "09:DEC",
+        "10:META",
+        "11:PROC",
+        "12:META",
+        "13:EVAL",
+        "14:META",
+        "15:META",
+        "16:HYPO",
+        "17:DEC",
+        "18:DEC",
+        "19:RUL",
+        "20:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:META",
+        "07:PROC",
+        "08:EVAL",
+        "09:PROC",
+        "10:META",
+        "11:PLAN",
+        "12:PROC",
+        "13:PLAN",
+        "14:PROC",
+        "15:DEC",
+        "16:RUL",
+        "17:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:EVAL",
+        "05:HYPO",
+        "06:DEC",
+        "07:PROC",
+        "08:PROC",
+        "09:META",
+        "10:META",
+        "11:HYPO",
+        "12:DEC",
+        "13:META",
+        "14:PROC",
+        "15:HYPO",
+        "16:DEC",
+        "17:RUL",
+        "18:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:META",
+        "05:PROC",
+        "06:EVAL",
+        "07:META",
+        "08:PROC",
+        "09:PLAN",
+        "10:EVAL",
+        "11:META",
+        "12:PLAN",
+        "13:PROC",
+        "14:HYPO",
+        "15:META",
+        "16:PROC",
+        "17:DEC",
+        "18:RUL",
+        "19:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {
+    "Orientation": "orientation"
+  },
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p9",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:HYPO",
+        "03:DEC",
+        "04:META",
+        "05:HYPO",
+        "06:DEC",
+        "07:HYPO",
+        "08:DEC",
+        "09:EVAL",
+        "10:RUL",
+        "11:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:META",
+        "07:HYPO",
+        "08:EVAL",
+        "09:DEC",
+        "10:PROC",
+        "11:PROC",
+        "12:DEC",
+        "13:PROC",
+        "14:RUL",
+        "15:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:HYPO",
+        "05:EVAL",
+        "06:DEC",
+        "07:RUL",
+        "08:DEC",
+        "09:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:EVAL",
+        "04:PROC",
+        "05:PROC",
+        "06:EVAL",
+        "07:PROC",
+        "08:EVAL",
+        "09:PROC",
+        "10:META",
+        "11:PROC",
+        "12:EVAL",
+        "13:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:META",
+        "06:PROC",
+        "07:HYPO",
+        "08:DEC",
+        "09:META",
+        "10:EVAL",
+        "11:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p10",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:PROC",
+        "10:PROC",
+        "11:HYPO",
+        "12:EVAL",
+        "13:PROC",
+        "14:PROC",
+        "15:DEC",
+        "16:EVAL",
+        "17:HYPO",
+        "18:DEC",
+        "19:DEC",
+        "20:RUL",
+        "21:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:EVAL",
+        "09:PROC",
+        "10:HYPO",
+        "11:DEC",
+        "12:PROC",
+        "13:EVAL",
+        "14:META",
+        "15:HYPO",
+        "16:DEC",
+        "17:RUL",
+        "18:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:HYPO",
+        "09:PROC",
+        "10:DEC",
+        "11:EVAL",
+        "12:EVAL",
+        "13:EVAL",
+        "14:EVAL",
+        "15:EVAL",
+        "16:DEC",
+        "17:META",
+        "18:DEC",
+        "19:RUL",
+        "20:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:PROC",
+        "10:PROC",
+        "11:EVAL",
+        "12:EVAL",
+        "13:EVAL",
+        "14:EVAL",
+        "15:HYPO",
+        "16:DEC",
+        "17:EVAL",
+        "18:META",
+        "19:EVAL",
+        "20:META",
+        "21:EVAL",
+        "22:EVAL",
+        "23:PROC",
+        "24:HYPO",
+        "25:DEC",
+        "26:HYPO",
+        "27:EVAL",
+        "28:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:META",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:HYPO",
+        "10:DEC",
+        "11:HYPO",
+        "12:HYPO",
+        "13:DEC",
+        "14:HYPO",
+        "15:DEC",
+        "16:EVAL",
+        "17:EVAL",
+        "18:HYPO",
+        "19:PROC",
+        "20:PROC",
+        "21:DEC",
+        "22:RUL",
+        "23:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {
+    "Processing": "processing"
+  },
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p11",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:HYPO",
+        "04:DEC",
+        "05:HYPO",
+        "06:PLAN",
+        "07:PROC",
+        "08:EVAL",
+        "09:PROC",
+        "10:HYPO",
+        "11:PROC",
+        "12:RUL",
+        "13:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PLAN",
+        "04:PROC",
+        "05:EVAL",
+        "06:EVAL",
+        "07:PROC",
+        "08:EVAL",
+        "09:META",
+        "10:META",
+        "11:EVAL",
+        "12:HYPO",
+        "13:DEC",
+        "14:PROC",
+        "15:EVAL",
+        "16:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PLAN",
+        "05:PROC",
+        "06:HYPO",
+        "07:DEC",
+        "08:HYPO",
+        "09:DEC",
+        "10:HYPO",
+        "11:META",
+        "12:RUL",
+        "13:PLAN",
+        "14:DEC",
+        "15:META",
+        "16:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PLAN",
+        "06:HYPO",
+        "07:HYPO",
+        "08:EVAL",
+        "09:HYPO",
+        "10:HYPO",
+        "11:META",
+        "12:DEC",
+        "13:DEC",
+        "14:DEC",
+        "15:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:HYPO",
+        "07:EVAL",
+        "08:PROC",
+        "09:EVAL",
+        "10:HYPO",
+        "11:META",
+        "12:PLAN",
+        "13:EVAL",
+        "14:RUL",
+        "15:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p12",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:PROC",
+        "10:PROC",
+        "11:PROC",
+        "12:PROC",
+        "13:PROC",
+        "14:HYPO",
+        "15:DEC",
+        "16:RUL",
+        "17:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:EVAL",
+        "06:HYPO",
+        "07:PROC",
+        "08:DEC",
+        "09:HYPO",
+        "10:PROC",
+        "11:HYPO",
+        "12:DEC",
+        "13:META",
+        "14:EVAL",
+        "15:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:HYPO",
+        "05:PROC",
+        "06:EVAL",
+        "07:DEC",
+        "08:RUL",
+        "09:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PLAN",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:EVAL",
+        "10:HYPO",
+        "11:PROC",
+        "12:PROC",
+        "13:PROC",
+        "14:DEC",
+        "15:PROC",
+        "16:PROC",
+        "17:PROC",
+        "18:RUL",
+        "19:DEC",
+        "20:RUL",
+        "21:DEC",
+        "22:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:HYPO",
+        "08:PROC",
+        "09:PROC",
+        "10:HYPO",
+        "11:PROC",
+        "12:PROC",
+        "13:EVAL",
+        "14:EVAL",
+        "15:DEC",
+        "16:RUL",
+        "17:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p13",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:HYPO",
+        "06:PROC",
+        "07:EVAL",
+        "08:PROC",
+        "09:MEM",
+        "10:MEM",
+        "11:EVAL",
+        "12:META",
+        "13:DEC",
+        "14:PROC",
+        "15:EVAL",
+        "16:RUL",
+        "17:META",
+        "18:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:EVAL",
+        "04:EVAL",
+        "05:PROC",
+        "06:EVAL",
+        "07:META",
+        "08:PROC",
+        "09:EVAL",
+        "10:HYPO",
+        "11:DEC",
+        "12:META",
+        "13:EVAL",
+        "14:HYPO",
+        "15:DEC",
+        "16:META",
+        "17:PROC",
+        "18:META",
+        "19:EVAL",
+        "20:HYPO",
+        "21:META",
+        "22:META",
+        "23:PLAN",
+        "24:EVAL",
+        "25:EVAL",
+        "26:HYPO",
+        "27:DEC",
+        "28:EVAL",
+        "29:DEC",
+        "30:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:EVAL",
+        "06:PROC",
+        "07:PROC",
+        "08:EVAL",
+        "09:PROC",
+        "10:HYPO",
+        "11:DEC",
+        "12:EVAL",
+        "13:HYPO",
+        "14:DEC",
+        "15:META",
+        "16:EVAL",
+        "17:META",
+        "18:EVAL",
+        "19:EVAL",
+        "20:EVAL",
+        "21:DEC",
+        "22:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:HYPO",
+        "04:EVAL",
+        "05:PROC",
+        "06:PROC",
+        "07:DEC",
+        "08:META",
+        "09:PLAN",
+        "10:EVAL",
+        "11:EVAL",
+        "12:EVAL",
+        "13:HYPO",
+        "14:EVAL",
+        "15:MEM",
+        "16:MEM",
+        "17:META",
+        "18:DEC",
+        "19:RUL",
+        "20:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:META",
+        "04:EVAL",
+        "05:EVAL",
+        "06:EVAL",
+        "07:EVAL",
+        "08:HYPO",
+        "09:META",
+        "10:DEC",
+        "11:PLAN",
+        "12:HYPO",
+        "13:DEC",
+        "14:HYPO",
+        "15:DEC",
+        "16:RUL",
+        "17:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p14",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:META",
+        "04:META",
+        "05:PROC",
+        "06:EVAL",
+        "07:HYPO",
+        "08:META",
+        "09:META",
+        "10:META",
+        "11:DEC",
+        "12:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:META",
+        "08:META",
+        "09:HYPO",
+        "10:META",
+        "11:META",
+        "12:META",
+        "13:HYPO",
+        "14:PROC",
+        "15:META",
+        "16:META",
+        "17:DEC",
+        "18:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:META",
+        "06:PROC",
+        "07:PROC",
+        "08:PROC",
+        "09:META",
+        "10:PROC",
+        "11:HYPO",
+        "12:EVAL",
+        "13:HYPO",
+        "14:DEC",
+        "15:META",
+        "16:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:EVAL",
+        "07:PROC",
+        "08:EVAL",
+        "09:META",
+        "10:META",
+        "11:ORI",
+        "12:HYPO",
+        "13:PROC",
+        "14:DEC",
+        "15:PROC",
+        "16:PROC",
+        "17:DEC",
+        "18:PROC",
+        "19:DEC",
+        "20:HYPO",
+        "21:PROC",
+        "22:DEC",
+        "23:EVAL",
+        "24:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:PROC",
+        "07:META",
+        "08:PROC",
+        "09:PROC",
+        "10:EVAL",
+        "11:HYPO",
+        "12:META",
+        "13:PLAN",
+        "14:PROC",
+        "15:PROC",
+        "16:HYPO",
+        "17:RUL",
+        "18:DEC",
+        "19:META",
+        "20:DEC",
+        "21:META",
+        "22:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p15",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PLAN",
+        "04:PROC",
+        "05:EVAL",
+        "06:HYPO",
+        "07:DEC",
+        "08:EVAL",
+        "09:PROC",
+        "10:PROC",
+        "11:PROC",
+        "12:RUL",
+        "13:META",
+        "14:DEC",
+        "15:META",
+        "16:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:EVAL",
+        "06:PROC",
+        "07:EVAL",
+        "08:PLAN",
+        "09:EVAL",
+        "10:EVAL",
+        "11:HYPO",
+        "12:PROC",
+        "13:DEC",
+        "14:EVAL",
+        "15:DEC",
+        "16:PROC",
+        "17:META",
+        "18:META",
+        "19:DEC",
+        "20:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PLAN",
+        "04:PROC",
+        "05:EVAL",
+        "06:EVAL",
+        "07:PROC",
+        "08:HYPO",
+        "09:DEC",
+        "10:META",
+        "11:HYPO",
+        "12:DEC",
+        "13:HYPO",
+        "14:DEC",
+        "15:HYPO",
+        "16:DEC",
+        "17:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:HYPO",
+        "05:DEC",
+        "06:HYPO",
+        "07:DEC",
+        "08:HYPO",
+        "09:PROC",
+        "10:HYPO",
+        "11:EVAL",
+        "12:HYPO",
+        "13:DEC",
+        "14:META",
+        "15:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:PROC",
+        "05:PROC",
+        "06:HYPO",
+        "07:EVAL",
+        "08:DEC",
+        "09:PROC",
+        "10:META",
+        "11:PLAN",
+        "12:PROC",
+        "13:EVAL",
+        "14:DEC",
+        "15:EVAL",
+        "16:PROC",
+        "17:EVAL",
+        "18:META",
+        "19:RUL",
+        "20:EVAL",
+        "21:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p16",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "01:BGN",
+        "02:ORI",
+        "03:META",
+        "04:PROC",
+        "05:HYPO",
+        "06:PLAN",
+        "07:PROC",
+        "08:EVAL",
+        "09:HYPO",
+        "10:EVAL",
+        "11:HYPO",
+        "12:EVAL",
+        "13:META",
+        "14:RUL",
+        "15:META",
+        "16:EVAL",
+        "17:DEC",
+        "18:FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:EVAL",
+        "04:EVAL",
+        "05:PLAN",
+        "06:PROC",
+        "07:EVAL",
+        "08:EVAL",
+        "09:EVAL",
+        "10:META",
+        "11:PLAN",
+        "12:HYPO",
+        "13:DEC",
+        "14:META",
+        "15:RUL",
+        "16:PROC",
+        "17:DEC",
+        "18:PROC",
+        "19:HYPO",
+        "20:META",
+        "21:DEC",
+        "22:FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:EVAL",
+        "05:PLAN",
+        "06:PROC",
+        "07:EVAL",
+        "08:PROC",
+        "09:EVAL",
+        "10:DEC",
+        "11:PROC",
+        "12:HYPO",
+        "13:EVAL",
+        "14:EVAL",
+        "15:PROC",
+        "16:EVAL",
+        "17:DEC",
+        "18:META",
+        "19:RUL",
+        "20:FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "01:BGN",
+        "02:PLAN",
+        "03:PROC",
+        "04:EVAL",
+        "05:EVAL",
+        "06:EVAL",
+        "07:HYPO",
+        "08:DEC",
+        "09:EVAL",
+        "10:EVAL",
+        "11:EVAL",
+        "12:RUL",
+        "13:META",
+        "14:META",
+        "15:PROC",
+        "16:EVAL",
+        "17:RUL",
+        "18:FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "01:BGN",
+        "02:PROC",
+        "03:PROC",
+        "04:EVAL",
+        "05:META",
+        "06:PROC",
+        "07:HYPO",
+        "08:DEC",
+        "09:PLAN",
+        "10:PROC",
+        "11:EVAL",
+        "12:PROC",
+        "13:DEC",
+        "14:PROC",
+        "15:HYPO",
+        "16:EVAL",
+        "17:DEC",
+        "18:RUL",
+        "19:FIN"
+      ]
+    }
+  ],
+  "aliases_found": {
+    "Orientation": "orientation"
+  },
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p17",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", 
+        "2.ORI", 
+        "3.PROC", 
+        "4.META", 
+        "5.HYPO", 
+        "6.PROC", 
+        "7.HYPO", 
+        "8.META", 
+        "9.META", 
+        "10.PROC",
+        "11.PROC", 
+        "12.META", 
+        "13.PROC", 
+        "14.HYPO", 
+        "15.DEC", 
+        "16.META", 
+        "17.RUL", 
+        "18.HYPO", 
+        "19.DEC", 
+        "20.RUL",
+        "21.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", 
+        "2.ORI", 
+        "3.PROC", 
+        "4.PLAN", 
+        "5.PROC", 
+        "6.PROC", 
+        "7.EVAL", 
+        "8.HYPO", 
+        "9.DEC", 
+        "10.HYPO",
+        "11.DEC", 
+        "12.META", 
+        "13.HYPO", 
+        "14.DEC", 
+        "15.META", 
+        "16.PROC", 
+        "17.PROC", 
+        "18.META", 
+        "19.PLAN", 
+        "20.HYPO",
+        "21.PROC", 
+        "22.DEC", 
+        "23.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", 
+        "2.ORI", 
+        "3.PROC", 
+        "4.PROC", 
+        "5.EVAL", 
+        "6.DEC", 
+        "7.PLAN", 
+        "8.HYPO", 
+        "9.PROC", 
+        "10.DEC",
+        "11.META", 
+        "12.META", 
+        "13.DEC", 
+        "14.PLAN", 
+        "15.PROC", 
+        "16.EVAL", 
+        "17.DEC", 
+        "18.RUL", 
+        "19.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", 
+        "2.ORI", 
+        "3.PROC", 
+        "4.PLAN", 
+        "5.HYPO", 
+        "6.DEC", 
+        "7.HYPO", 
+        "8.PROC", 
+        "9.EVAL", 
+        "10.DEC",
+        "11.PLAN", 
+        "12.HYPO", 
+        "13.PROC", 
+        "14.PROC", 
+        "15.PROC", 
+        "16.EVAL", 
+        "17.PROC", 
+        "18.DEC", 
+        "19.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", 
+        "2.ORI", 
+        "3.PLAN", 
+        "4.PROC", 
+        "5.EVAL", 
+        "6.HYPO", 
+        "7.DEC", 
+        "8.HYPO", 
+        "9.DEC", 
+        "10.PLAN",
+        "11.PROC", 
+        "12.EVAL", 
+        "13.PLAN", 
+        "14.META", 
+        "15.PLAN", 
+        "16.HYPO", 
+        "17.EVAL", 
+        "18.META", 
+        "19.PROC",
+        "20.EVAL", 
+        "21.DEC", 
+        "22.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {
+    "Orientation": "orientation"
+  },
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p18",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.PROC",
+        "9.HYPO",
+        "10.EVAL",
+        "11.PROC",
+        "12.PROC",
+        "13.PROC",
+        "14.DEC",
+        "15.EVAL",
+        "16.HYPO",
+        "17.PROC",
+        "18.PROC",
+        "19.PROC",
+        "20.PROC",
+        "21.PROC",
+        "22.EVAL",
+        "23.ORI",
+        "24.RUL",
+        "25.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.PROC",
+        "9.EVAL",
+        "10.PROC",
+        "11.PROC",
+        "12.PROC",
+        "13.PROC",
+        "14.PROC",
+        "15.HYPO",
+        "16.HYPO",
+        "17.DEC",
+        "18.PLAN",
+        "19.PROC",
+        "20.META",
+        "21.HYPO",
+        "22.PROC",
+        "23.PROC",
+        "24.PROC",
+        "25.META",
+        "26.RUL",
+        "27.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.META",
+        "7.PROC",
+        "8.HYPO",
+        "9.PLAN",
+        "10.DEC",
+        "11.PROC",
+        "12.PROC",
+        "13.PROC",
+        "14.EVAL",
+        "15.META",
+        "16.EVAL",
+        "17.PROC",
+        "18.EVAL",
+        "19.EVAL",
+        "20.RUL",
+        "21.FIN"  
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.META",
+        "7.PROC",
+        "8.EVAL",
+        "9.EVAL",
+        "10.HYPO",
+        "11.DEC",
+        "12.EVAL",
+        "13.EVAL",
+        "14.EVAL",
+        "15.EVAL",
+        "16.EVAL",
+        "17.EVAL",
+        "18.DEC",
+        "19.PLAN",
+        "20.HYPO",
+        "21.PROC",
+        "22.EVAL",
+        "23.PROC",
+        "24.RUL",
+        "25.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.PLAN",
+        "5.HYPO",
+        "6.HYPO",
+        "7.EVAL",
+        "8.DEC",
+        "9.EVAL",
+        "10.EVAL",
+        "11.META",
+        "12.EVAL",
+        "13.PROC",
+        "14.PROC",
+        "15.PROC",
+        "16.EVAL",
+        "17.META",
+        "18.PROC",
+        "19.HYPO",
+        "20.DEC",
+        "21.EVAL",
+        "22.RUL", 
+        "23.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {
+    "Orientation": "orientation"
+  },
+  "unmapped": [
+    "otherEmergent_supportEvidence"
+  ],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p19",
+  "scenes": {
+    "scene1": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.HYPO",
+      "6.PROC",
+      "7.HYPO",
+      "8.HYPO",
+      "9.EVAL",
+      "10.HYPO",
+      "11.EVAL",
+      "12.HYPO",
+      "13.DEC",
+      "14.EVAL",
+      "15.HYPO",
+      "16.PROC",
+      "17.HYPO",
+      "18.DEC",
+      "19.DEC",
+      "20.PROC",
+      "21.PROC",
+      "22.PROC",
+      "23.HYPO",
+      "24.PROC",
+      "25.HYPO",
+      "26.META",
+      "27.HYPO",
+      "28.EVAL",
+      "29.DEC",
+      "30.EVAL",
+      "31.EVAL",
+      "32.META",
+      "33.RUL",
+      "34.FIN"],
+    "scene2": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.PROC",
+      "6.PROC",
+      "7.HYPO",
+      "8.EVAL",
+      "9.PROC",
+      "10.PROC",
+      "11.PROC",
+      "12.PROC",
+      "13.PROC",
+      "14.RUL",
+      "15.FIN"],
+    "scene3": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.PROC",
+      "6.PROC",
+      "7.PROC",
+      "8.PROC",
+      "9.HYPO",
+      "10.DEC",
+      "11.HYPO",
+      "12.HYPO",
+      "13.PROC",
+      "14.HYPO",
+      "15.PROC",
+      "16.HYPO",
+      "17.HYPO",
+      "18.DEC",
+      "19.HYPO",
+      "20.PROC",
+      "21.DEC",
+      "22.RUL",
+      "23.FIN"],
+    "scene4": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.PROC",
+      "6.PROC",
+      "7.PROC",
+      "8.PROC",
+      "9.HYPO",
+      "10.HYPO",
+      "11.HYPO",
+      "12.DEC",
+      "13.HYPO",
+      "14.HYPO",
+      "15.HYPO",
+      "16.EVAL",
+      "17.FIN"],
+    "scene5": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.PROC",
+      "6.PROC",
+      "7.PROC",
+      "8.PROC",
+      "9.PROC",
+      "10.PROC",
+      "11.PROC",
+      "12.HYPO",
+      "13.HYPO",
+      "14.PROC",
+      "15.EVAL",
+      "16.PROC",
+      "17.RUL",
+      "18.FIN"]
+  }
+},
+
+{"participant_id": "p20",
+  "scenes": {
+    "scene1": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.PROC",
+      "6.META",
+      "7.HYPO",
+      "8.PROC",
+      "9.PROC",
+      "10.HYPO",
+      "11.DEC",
+      "12.RUL",
+      "13.FIN"],
+    "scene2": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.META",
+      "6.PROC",
+      "7.PROC",
+      "8.PROC",
+      "9.META",
+      "10.PROC",
+      "11.PROC",
+      "12.META",
+      "13.PROC",
+      "14.META",
+      "15.META",
+      "16.META",
+      "17.PROC",
+      "18.META",
+      "19.META",
+      "20.META",
+      "21.PROC",
+      "22.PROC",
+      "23.META",
+      "24.RUL",
+      "25.EVAL",
+      "26.DEC",
+      "27.FIN"],
+    "scene3": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.PROC",
+      "6.PROC",
+      "7.PROC",
+      "8.PROC",
+      "9.PROC",
+      "10.PROC",
+      "11.HYPO",
+      "12.HYPO",
+      "13.RUL",
+      "14.DEC",
+      "15.FIN"],
+    "scene4": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.PLAN",
+      "6.PROC",
+      "7.PROC",
+      "8.META",
+      "9.PROC",
+      "10.EVAL",
+      "11.PROC",
+      "12.EVAL",
+      "13.FIN"],
+    "scene5": [
+      "1.BGN",
+      "2.PROC",
+      "3.PROC",
+      "4.PROC",
+      "5.META",
+      "6.PROC",
+      "7.PROC",
+      "8.PROC",
+      "9.META",
+      "10.PROC",
+      "11.PROC",
+      "12.META",
+      "13.META",
+      "14.META",
+      "15.PROC",
+      "16.META",
+      "17.HYPO",
+      "18.DEC",
+      "19.PROC",
+      "20.META",
+      "21.PROC",
+      "22.META",
+      "23.META",
+      "24.PROC",
+      "25.PROC",
+      "26.EVAL",
+      "27.PROC",
+      "28.PROC",
+      "29.EVAL",
+      "30.FIN"]
+  }
+},
+
+
+{"participant_id": "p21",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.HYPO", "8.PROC", "9.META",
+        "10.PROC", "11.DEC", "12.RUL", "13.EVAL", "14.RUL", "15.DEC", "16.META", "17.ORI",
+        "18.RUL", "19.RUL", "20.META", "21.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PLAN", "4.META", "5.PLAN", "6.EVAL", "7.PROC", "8.HYPO", "9.PROC",
+        "10.EVAL", "11.PROC", "12.HYPO", "13.EVAL", "14.RUL", "15.HYPO", "16.RUL", "17.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.PROC", "5.PROC", "6.EVAL", "7.HYPO", "8.HYPO", "9.HYPO",
+        "10.DEC", "11.META", "12.META", "13.EVAL", "14.META", "15.RUL", "16.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.META", "8.EVAL", "9.EVAL",
+        "10.EVAL", "11.EVAL", "12.RUL", "13.RUL", "14.DEC", "15.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PLAN", "4.PROC", "5.PROC", "6.PROC", "7.PROC", "8.META", "9.META",
+        "10.EVAL", "11.PROC", "12.PLAN", "13.PROC", "14.META", "15.EVAL", "16.RUL", "17.DEC", "18.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p22",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.HYPO", "5.META", "6.HYPO", "7.META", "8.PLAN", "9.HYPO",
+        "10.EVAL", "11.EVAL", "12.HYPO", "13.DEC", "14.DEC", "15.META", "16.PLAN", "17.HYPO",
+        "18.HYPO", "19.META", "20.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.EVAL", "5.PLAN", "6.PROC", "7.EVAL", "8.PLAN", "9.PROC",
+        "10.PROC", "11.META", "12.PLAN", "13.PLAN", "14.PROC", "15.PROC", "16.EVAL", "17.HYPO",
+        "18.PROC", "19.PROC", "20.EVAL", "21.META", "22.HYPO", "23.EVAL", "24.PROC", "25.DEC",
+        "26.DEC", "27.DEC", "28.RUL", "29.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.EVAL", "6.PROC", "7.PLAN", "8.PROC", "9.HYPO",
+        "10.EVAL", "11.DEC", "12.PLAN", "13.EVAL", "14.EVAL", "15.META", "16.RUL", "17.DEC",
+        "18.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.EVAL", "8.PLAN", "9.PROC",
+        "10.EVAL", "11.PROC", "12.EVAL", "13.EVAL", "14.PLAN", "15.HYPO", "16.EVAL", "17.HYPO",
+        "18.EVAL", "19.DEC", "20.RUL", "21.DEC", "22.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PLAN", "5.PROC", "6.PLAN", "7.HYPO", "8.PROC", "9.META",
+        "10.PROC", "11.PROC", "12.PROC", "13.DEC", "14.PROC", "15.PROC", "16.PROC", "17.META",
+        "18.RUL", "19.HYPO", "20.META", "21.META", "22.PLAN", "23.HYPO", "24.META", "25.DEC",
+        "26.RUL", "27.RUL", "28.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p23",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.META", "4.META", "5.PLAN", "6.PLAN", "7.PROC", "8.PLAN", "9.PROC",
+        "10.HYPO", "11.DEC", "12.PROC", "13.EVAL", "14.EVAL", "15.PROC", "16.EVAL", "17.RUL",
+        "18.META", "19.ORI", "20.RUL", "21.META", "22.ORI", "23.DEC", "24.META", "25.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.META", "4.PLAN", "5.META", "6.ORI", "7.PLAN", "8.PROC", "9.PROC",
+        "10.EVAL", "11.PROC", "12.EVAL", "13.PROC", "14.HYPO", "15.HYPO", "16.DEC", "17.RUL",
+        "18.DEC", "19.RUL", "20.ORI", "21.MEM", "22.RUL", "23.DEC", "24.META", "25.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.META", "5.PLAN", "6.PROC", "7.PROC", "8.PROC", "9.PROC",
+        "10.PROC", "11.META", "12.PROC", "13.META", "14.PROC", "15.PROC", "16.PLAN", "17.PROC",
+        "18.EVAL", "19.PROC", "20.META", "21.META", "22.EVAL", "23.DEC", "24.PLAN", "25.PROC",
+        "26.HYPO", "27.HYPO", "28.HYPO", "29.PLAN", "30.PROC", "31.EVAL", "32.EVAL", "33.EVAL",
+        "34.EVAL", "35.META", "36.META", "37.PLAN", "38.HYPO", "39.DEC", "40.HYPO", "41.DEC",
+        "42.RUL", "43.META", "44.META", "45.HYPO", "46.RUL", "47.DEC", "48.META", "49.META",
+        "50.MEM", "51.META", "52.DEC", "53.META", "54.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.PLAN", "5.PLAN", "6.PROC", "7.PROC", "8.EVAL", "9.PROC",
+        "10.META", "11.PROC", "12.PROC", "13.PROC", "14.PROC", "15.PROC", "16.PROC", "17.PROC",
+        "18.EVAL", "19.EVAL", "20.EVAL", "21.EVAL", "22.PROC", "23.PROC", "24.HYPO", "25.DEC",
+        "26.PROC", "27.HYPO", "28.RUL", "29.DEC", "30.DEC", "31.DEC", "32.RUL", "33.META",
+        "34.RUL", "35.DEC", "36.DEC", "37.PLAN", "38.EVAL", "39.DEC", "40.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.PLAN", "5.PROC", "6.PROC", "7.PROC", "8.PROC", "9.META",
+        "10.PROC", "11.PROC", "12.PROC", "13.EVAL", "14.EVAL", "15.EVAL", "16.EVAL", "17.PLAN",
+        "18.HYPO", "19.EVAL", "20.RUL", "21.DEC", "22.DEC", "23.RUL", "24.RUL", "25.PLAN",
+        "26.PLAN", "27.PLAN", "28.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p24",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.HYPO", "6.PROC", "7.HYPO",
+        "8.PROC", "9.META", "10.PROC", "11.PROC", "12.PROC", "13.DEC", "14.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.HYPO", "7.EVAL",
+        "8.PROC", "9.PROC", "10.PROC", "11.HYPO", "12.EVAL", "13.PROC", "14.EVAL", "15.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.PROC",
+        "8.PROC", "9.PROC", "10.META", "11.PROC", "12.PROC", "13.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.HYPO", "7.PROC",
+        "8.EVAL", "9.META", "10.EVAL", "11.HYPO", "12.PROC", "13.PROC",
+        "14.PROC", "15.EVAL", "16.DEC", "17.DEC", "18.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.META", "7.HYPO",
+        "8.PROC", "9.PROC", "10.HYPO", "11.EVAL", "12.HYPO", "13.PROC",
+        "14.PROC", "15.EVAL", "16.DEC", "17.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p25",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.ORI", "4.PROC", "5.META", "6.PROC", "7.PROC", "8.HYPO",
+        "9.DEC", "10.ORI", "11.DEC", "12.RUL", "13.RUL", "14.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.HYPO", "8.EVAL", "9.EVAL",
+        "10.PROC", "11.HYPO", "12.DEC", "13.META", "14.PROC", "15.META", "16.ORI", "17.META",
+        "18.ORI", "19.PLAN", "20.DEC", "21.ORI", "22.RUL", "23.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.HYPO", "6.PROC", "7.HYPO", "8.PROC",
+        "9.PROC", "10.EVAL", "11.HYPO", "12.PROC", "13.DEC", "14.META", "15.RUL", "16.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PLAN", "5.META", "6.PROC", "7.PROC", "8.PROC",
+        "9.META", "10.PROC", "11.META", "12.PROC", "13.PROC", "14.PROC", "15.HYPO", "16.HYPO",
+        "17.PROC", "18.PROC", "19.PROC", "20.PROC", "21.PROC", "22.DEC", "23.HYPO", "24.DEC",
+        "25.RUL", "26.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.EVAL", "7.PROC", "8.META",
+        "9.PLAN", "10.PROC", "11.META", "12.DEC", "13.EVAL", "14.RUL", "15.RUL", "16.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": ["misinterpretingInstructions"],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p26",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.PROC",
+        "8.META", "9.EVAL", "10.PROC", "11.PROC", "12.PROC", "13.PROC",
+        "14.EVAL", "15.META", "16.PROC", "17.HYPO", "18.PROC", "19.DEC",
+        "20.RUL", "21.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.PROC", "5.EVAL", "6.PROC", "7.PROC",
+        "8.PROC", "9.EVAL", "10.EVAL", "11.PLAN", "12.PROC", "13.EVAL",
+        "14.META", "15.PROC", "16.EVAL", "17.EVAL", "18.PROC", "19.HYPO",
+        "20.DEC", "21.HYPO", "22.RUL", "23.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.PROC",
+        "8.EVAL", "9.EVAL", "10.HYPO", "11.PROC", "12.PROC", "13.PROC",
+        "14.DEC", "15.RUL", "16.META", "17.PLAN", "18.EVAL", "19.EVAL",
+        "20.RUL", "21.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PLAN", "4.PROC", "5.EVAL", "6.PROC", "7.PROC",
+        "8.EVAL", "9.PROC", "10.PROC", "11.PROC", "12.PLAN", "13.PLAN",
+        "14.PROC", "15.PROC", "16.EVAL", "17.PROC", "18.EVAL", "19.PROC",
+        "20.PROC", "21.EVAL", "22.PROC", "23.PROC", "24.EVAL", "25.PLAN",
+        "26.PLAN", "27.HYPO", "28.PROC", "29.PROC", "30.PROC", "31.EVAL",
+        "32.EVAL", "33.EVAL", "34.META", "35.EVAL", "36.EVAL", "37.HYPO",
+        "38.META", "39.HYPO", "40.META", "41.META", "42.HYPO", "43.DEC",
+        "44.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.META", "4.PROC", "5.PLAN", "6.PROC", "7.PROC",
+        "8.EVAL", "9.PROC", "10.PROC", "11.EVAL", "12.PROC", "13.DEC",
+        "14.PROC", "15.PROC", "16.DEC", "17.META", "18.PROC", "19.PROC",
+        "20.PROC", "21.PROC", "22.EVAL", "23.PROC", "24.EVAL", "25.MEM",
+        "26.MEM", "27.PROC", "28.DEC", "29.RUL", "30.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [
+    "otherEmergent_clarifyTerm"
+  ],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p27",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.HYPO",
+        "5.HYPO",
+        "6.PROC",
+        "7.PROC",
+        "8.HYPO",
+        "9.META",
+        "10.PROC",
+        "11.EVAL",
+        "12.EVAL",
+        "13.PROC",
+        "14.META",
+        "15.META",
+        "16.PROC",
+        "17.RUL",
+        "18.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.PLAN",
+        "5.PLAN",
+        "6.EVAL",
+        "7.PROC",
+        "8.EVAL",
+        "9.PROC",
+        "10.PROC",
+        "11.META",
+        "12.PROC",
+        "13.PLAN",
+        "14.META",
+        "15.META",
+        "16.EVAL",
+        "17.PROC",
+        "18.PROC",
+        "19.HYPO",
+        "20.RUL",
+        "21.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN",
+        "2.PLAN",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.EVAL",
+        "8.EVAL",
+        "9.PROC",
+        "10.PROC",
+        "11.META",
+        "12.PROC",
+        "13.EVAL",
+        "14.META",
+        "15.PROC",
+        "16.EVAL",
+        "17.HYPO",
+        "18.PROC",
+        "19.META",
+        "20.DEC",
+        "21.RUL",
+        "22.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN",
+        "2.PLAN",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.EVAL",
+        "7.PROC",
+        "8.HYPO",
+        "9.EVAL",
+        "10.HYPO",
+        "11.PROC",
+        "12.META",
+        "13.META",
+        "14.EVAL",
+        "15.EVAL",
+        "16.EVAL",
+        "17.PROC",
+        "18.META",
+        "19.META",
+        "20.RUL",
+        "21.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.EVAL",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.EVAL",
+        "9.PROC",
+        "10.HYPO",
+        "11.EVAL",
+        "12.PROC",
+        "13.META",
+        "14.EVAL",
+        "15.META",
+        "16.EVAL",
+        "17.RUL",
+        "18.EVAL",
+        "19.PROC",
+        "20.DEC",
+        "21.RUL",
+        "22.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p28",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PLAN",
+        "4.HYPO",
+        "5.HYPO",
+        "6.EVAL",
+        "7.PROC",
+        "8.PLAN",
+        "9.PROC",
+        "10.EVAL",
+        "11.PLAN",
+        "12.HYPO",
+        "13.DEC",
+        "14.HYPO",
+        "15.EVAL",
+        "16.DEC",
+        "17.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.EVAL",
+        "5.HYPO",
+        "6.EVAL",
+        "7.DEC",
+        "8.PLAN",
+        "9.HYPO",
+        "10.EVAL",
+        "11.EVAL",
+        "12.PROC",
+        "13.HYPO",
+        "14.EVAL",
+        "15.HYPO",
+        "16.DEC",
+        "17.HYPO",
+        "18.EVAL",
+        "19.DEC",
+        "20.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PLAN",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.HYPO",
+        "9.HYPO",
+        "10.EVAL",
+        "11.EVAL",
+        "12.DEC",
+        "13.EVAL",
+        "14.RUL",
+        "15.EVAL",
+        "16.EVAL",
+        "17.DEC",
+        "18.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.PROC",
+        "5.HYPO",
+        "6.EVAL",
+        "7.PROC",
+        "8.HYPO",
+        "9.EVAL",
+        "10.HYPO",
+        "11.EVAL",
+        "12.PROC",
+        "13.EVAL",
+        "14.HYPO",
+        "15.EVAL",
+        "16.PROC",
+        "17.HYPO",
+        "18.EVAL",
+        "19.EVAL",
+        "20.META",
+        "21.PLAN",
+        "22.HYPO",
+        "23.HYPO",
+        "24.EVAL",
+        "25.HYPO",
+        "26.HYPO",
+        "27.EVAL",
+        "28.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.HYPO",
+        "5.EVAL",
+        "6.HYPO",
+        "7.EVAL",
+        "8.PROC",
+        "9.PROC",
+        "10.PROC",
+        "11.META",
+        "12.EVAL",
+        "13.HYPO",
+        "14.EVAL",
+        "15.DEC",
+        "16.RUL",
+        "17.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [
+    "moniterHighLevel"
+  ],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p29",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PLAN", "4.PROC", "5.PROC",
+        "6.HYPO", "7.DEC", "8.RUL", "9.RUL", "10.META",
+        "11.META", "12.PLAN", "13.META", "14.RUL", "15.RUL",
+        "16.META", "17.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.META", "3.PLAN", "4.PROC", "5.PROC",
+        "6.HYPO", "7.META", "8.META", "9.META", "10.PLAN",
+        "11.PROC", "12.PROC", "13.META", "14.PLAN", "15.EVAL",
+        "16.PROC", "17.META", "18.META", "19.PROC", "20.PROC",
+        "21.META", "22.PLAN", "23.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.META", "4.META", "5.PROC",
+        "6.EVAL", "7.PLAN", "8.META", "9.DEC", "10.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.META", "4.PLAN", "5.PROC",
+        "6.PLAN", "7.EVAL", "8.PLAN", "9.EVAL", "10.PLAN",
+        "11.META", "12.PLAN", "13.META", "14.META", "15.PROC",
+        "16.PROC", "17.DEC", "18.DEC", "19.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.META", "4.PLAN", "5.PROC",
+        "6.PROC", "7.PROC", "8.PROC", "9.HYPO", "10.HYPO",
+        "11.PROC", "12.HYPO", "13.META", "14.EVAL", "15.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p30",
+ "scenes": [{"scene": "scene1",
+   "sequence": [
+    "1.BGN",
+    "2.PROC",
+    "3.PROC",
+    "4.HYPO",
+    "5.PLAN",
+    "6.EVAL",
+    "7.PROC",
+    "8.DEC",
+    "9.PLAN",
+    "10.EVAL",
+    "11.EVAL",
+    "12.DEC",
+    "13.RUL",
+    "14.FIN"]},
+  {"scene": "scene2",
+   "sequence": [
+    "1.BGN",
+    "2.PROC",
+    "3.EVAL",
+    "4.PLAN",
+    "5.META",
+    "6.HYPO",
+    "7.EVAL",
+    "8.PROC",
+    "9.META",
+    "10.PROC",
+    "11.HYPO",
+    "12.PROC",
+    "13.META",
+    "14.HYPO",
+    "15.PROC",
+    "16.META",
+    "17.EVAL",
+    "18.PLAN",
+    "19.PROC",
+    "20.PROC",
+    "21.EVAL",
+    "22.META",
+    "23.EVAL",
+    "24.FIN"]},
+  {"scene": "scene3",
+   "sequence": [
+    "1.BGN",
+    "2.PLAN",
+    "3.PROC",
+    "4.PROC",
+    "5.EVAL",
+    "6.EVAL",
+    "7.EVAL",
+    "8.PROC",
+    "9.HYPO",
+    "10.HYPO",
+    "11.PROC",
+    "12.DEC",
+    "13.RUL",
+    "14.EVAL",
+    "15.FIN"]},
+  {"scene": "scene4",
+   "sequence": [
+    "1.BGN",
+    "2.PLAN",
+    "3.PROC",
+    "4.PROC",
+    "5.HYPO",
+    "6.EVAL",
+    "7.RUL",
+    "8.PLAN",
+    "9.PROC",
+    "10.EVAL",
+    "11.PROC",
+    "12.HYPO",
+    "13.EVAL",
+    "14.PLAN",
+    "15.EVAL",
+    "16.META",
+    "17.EVAL",
+    "18.FIN"]},
+  {"scene": "scene5",
+   "sequence": [
+    "1.BGN",
+    "2.PLAN",
+    "3.PROC",
+    "4.PLAN",
+    "5.EVAL",
+    "6.HYPO",
+    "7.PROC",
+    "8.EVAL",
+    "9.HYPO",
+    "10.PROC",
+    "11.META",
+    "12.HYPO",
+    "13.PROC",
+    "14.EVAL",
+    "15.PROC",
+    "16.EVAL",
+    "17.PROC",
+    "18.RUL",
+    "19.FIN"]}],
+ "aliases_found": {},
+ "unmapped": [],
+ "codes_missing_FIN": []
+},
+
+{"participant_id": "p31",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.PROC", "4.EVAL", "5.PROC", "6.EVAL", "7.PROC", "8.EVAL", "9.META",
+        "10.PROC", "11.HYPO", "12.EVAL", "13.META", "14.META", "15.HYPO", "16.DEC", "17.RUL",
+        "18.DEC", "19.RUL", "20.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.PROC", "4.EVAL", "5.PROC", "6.PROC", "7.PROC", "8.META", "9.META",
+        "10.PROC", "11.PLAN", "12.PROC", "13.EVAL", "14.PROC", "15.META", "16.PLAN", "17.EVAL",
+        "18.EVAL", "19.META", "20.META", "21.PROC", "22.HYPO", "23.META", "24.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.EVAL", "4.PROC", "5.HYPO", "6.HYPO", "7.EVAL", "8.HYPO", "9.PROC",
+        "10.PROC", "11.DEC", "12.PROC", "13.PROC", "14.DEC", "15.RUL", "16.PROC", "17.META",
+        "18.DEC", "19.RUL", "20.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.PROC", "4.DEC", "5.HYPO", "6.DEC", "7.PLAN", "8.HYPO", "9.EVAL",
+        "10.PROC", "11.HYPO", "12.EVAL", "13.RUL", "14.DEC", "15.PROC", "16.EVAL", "17.DEC",
+        "18.RUL", "19.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.PROC", "4.META", "5.PROC", "6.EVAL", "7.PROC", "8.EVAL", "9.PROC",
+        "10.HYPO", "11.META", "12.META", "13.EVAL", "14.HYPO", "15.DEC", "16.RUL", "17.RUL",
+        "18.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p32",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.META",
+        "8.PROC", "9.PROC", "10.PROC", "11.EVAL", "12.HYPO", "13.HYPO",
+        "14.EVAL", "15.HYPO", "16.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.PROC",
+        "8.PROC", "9.META", "10.PROC", "11.EVAL", "12.EVAL", "13.PROC",
+        "14.HYPO", "15.EVAL", "16.PLAN", "17.EVAL", "18.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.HYPO", "4.DEC", "5.HYPO", "6.PROC",
+        "7.EVAL", "8.RUL", "9.DEC", "10.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.HYPO",
+        "8.EVAL", "9.EVAL", "10.HYPO", "11.HYPO", "12.PROC", "13.HYPO",
+        "14.EVAL", "15.RUL", "16.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.PROC",
+        "8.PROC", "9.PROC", "10.PROC", "11.HYPO", "12.EVAL", "13.PROC",
+        "14.PROC", "15.HYPO", "16.DEC", "17.RUL", "18.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p33",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.ORI", "3.PROC", "4.PROC", "5.PROC", "6.PROC",
+        "7.HYPO", "8.EVAL", "9.DEC", "10.PROC", "11.EVAL", "12.DEC",
+        "13.HYPO", "14.EVAL", "15.EVAL", "16.EVAL", "17.RUL", "18.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PLAN", "4.PROC", "5.PROC", "6.PROC",
+        "7.HYPO", "8.EVAL", "9.DEC", "10.PROC", "11.HYPO", "12.EVAL",
+        "13.DEC", "14.RUL", "15.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.DEC", "5.HYPO", "6.EVAL",
+        "7.PROC", "8.EVAL", "9.PROC", "10.EVAL", "11.META", "12.RUL", "13.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.EVAL", "4.PROC", "5.EVAL", "6.META",
+        "7.EVAL", "8.PROC", "9.PROC", "10.HYPO", "11.EVAL", "12.PROC",
+        "13.EVAL", "14.PROC", "15.PROC", "16.DEC", "17.PROC", "18.DEC",
+        "19.EVAL", "20.RUL", "21.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.HYPO", "5.PROC", "6.EVAL",
+        "7.PLAN", "8.HYPO", "9.EVAL", "10.EVAL", "11.EVAL", "12.DEC",
+        "13.EVAL", "14.EVAL", "15.RUL", "16.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p34",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PROC", "4.PROC", "5.PROC", "6.PROC", "7.META",
+        "8.PROC", "9.EVAL", "10.HYPO", "11.EVAL", "12.DEC", "13.META",
+        "14.PROC", "15.META", "16.RUL", "17.META", "18.DEC", "19.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.PROC", "5.PROC", "6.EVAL", "7.HYPO",
+        "8.HYPO", "9.DEC", "10.PROC", "11.PROC", "12.EVAL", "13.EVAL", "14.DEC",
+        "15.PLAN", "16.PROC", "17.EVAL", "18.RUL", "19.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN", "2.PLAN", "3.PLAN", "4.PROC", "5.EVAL", "6.PROC", "7.META",
+        "8.HYPO", "9.PROC", "10.META", "11.EVAL", "12.RUL", "13.DEC", "14.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.META", "4.EVAL", "5.PLAN", "6.PROC", "7.EVAL",
+        "8.META", "9.HYPO", "10.PROC", "11.RUL", "12.META", "13.RUL", "14.META",
+        "15.DEC", "16.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN", "2.PROC", "3.PLAN", "4.META", "5.PLAN", "6.EVAL", "7.PROC",
+        "8.META", "9.PROC", "10.HYPO", "11.DEC", "12.META", "13.META", "14.PROC",
+        "15.EVAL", "16.RUL", "17.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p35",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.HYPO",
+        "4.HYPO",
+        "5.PROC",
+        "6.HYPO",
+        "7.EVAL",
+        "8.HYPO",
+        "9.EVAL",
+        "10.PROC",
+        "11.HYPO",
+        "12.PROC",
+        "13.EVAL",
+        "14.HYPO",
+        "15.META",
+        "16.EVAL",
+        "17.META",
+        "18.HYPO",
+        "19.EVAL",
+        "20.DEC",
+        "21.RUL",
+        "22.HYPO",
+        "23.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.EVAL",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.EVAL",
+        "9.HYPO",
+        "10.EVAL",
+        "11.HYPO",
+        "12.EVAL",
+        "13.HYPO",
+        "14.EVAL",
+        "15.META",
+        "16.HYPO",
+        "17.HYPO",
+        "18.PROC",
+        "19.DEC",
+        "20.EVAL",
+        "21.RUL",
+        "22.DEC",
+        "23.META",
+        "24.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.META",
+        "5.PROC",
+        "6.EVAL",
+        "7.HYPO",
+        "8.PROC",
+        "9.EVAL",
+        "10.PLAN",
+        "11.HYPO",
+        "12.PROC",
+        "13.PROC",
+        "14.HYPO",
+        "15.PROC",
+        "16.DEC",
+        "17.META",
+        "18.DEC",
+        "19.META",
+        "20.META",
+        "21.RUL",
+        "22.DEC",
+        "23.META",
+        "24.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.EVAL",
+        "4.PROC",
+        "5.EVAL",
+        "6.DEC",
+        "7.PLAN",
+        "8.HYPO",
+        "9.META",
+        "10.PROC",
+        "11.DEC",
+        "12.META",
+        "13.META",
+        "14.RUL",
+        "15.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN",
+        "2.META",
+        "3.PROC",
+        "4.PROC",
+        "5.EVAL",
+        "6.EVAL",
+        "7.HYPO",
+        "8.PROC",
+        "9.HYPO",
+        "10.PROC",
+        "11.PROC",
+        "12.DEC",
+        "13.DEC",
+        "14.PROC",
+        "15.EVAL",
+        "16.EVAL",
+        "17.DEC",
+        "18.PROC",
+        "19.DEC",
+        "20.RUL",
+        "21.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p36",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.PROC",
+        "9.PLAN",
+        "10.HYPO",
+        "11.META",
+        "12.PROC",
+        "13.DEC",
+        "14.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.EVAL",
+        "7.EVAL",
+        "8.EVAL",
+        "9.PLAN",
+        "10.HYPO",
+        "11.HYPO",
+        "12.EVAL",
+        "13.HYPO",
+        "14.HYPO",
+        "15.HYPO",
+        "16.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.PROC",
+        "9.HYPO",
+        "10.META",
+        "11.HYPO",
+        "12.EVAL",
+        "13.PROC",
+        "14.PROC",
+        "15.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN",
+        "2.PLAN",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PLAN",
+        "7.HYPO",
+        "8.PROC",
+        "9.PROC",
+        "10.META",
+        "11.META",
+        "12.PROC",
+        "13.PROC",
+        "14.PROC",
+        "15.PROC",
+        "16.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN",
+        "2.META",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PLAN",
+        "7.PROC",
+        "8.HYPO",
+        "9.META",
+        "10.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p37",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.PROC",
+        "9.PROC",
+        "10.PROC",
+        "11.PLAN",
+        "12.HYPO",
+        "13.HYPO",
+        "14.EVAL",
+        "15.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.HYPO",
+        "8.META",
+        "9.PROC",
+        "10.META",
+        "11.HYPO",
+        "12.META",
+        "13.PROC",
+        "14.PLAN",
+        "15.EVAL",
+        "16.META",
+        "17.META",
+        "18.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.META",
+        "5.PROC",
+        "6.PROC",
+        "7.HYPO",
+        "8.PROC",
+        "9.HYPO",
+        "10.PROC",
+        "11.META",
+        "12.PROC",
+        "13.PROC",
+        "14.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.META",
+        "6.PROC",
+        "7.HYPO",
+        "8.META",
+        "9.PROC",
+        "10.PROC",
+        "11.META",
+        "12.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN",
+        "2.ORI",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.PROC",
+        "9.PROC",
+        "10.HYPO",
+        "11.EVAL",
+        "12.DEC",
+        "13.META",
+        "14.META",
+        "15.EVAL",
+        "16.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p38",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1.BGN",
+        "2.PLAN",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.PROC",
+        "9.HYPO",
+        "10.DEC",
+        "11.PROC",
+        "12.PLAN",
+        "13.RUL",
+        "14.RUL",
+        "15.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1.BGN",
+        "2.PLAN",
+        "3.PROC",
+        "4.PROC",
+        "5.EVAL",
+        "6.EVAL",
+        "7.EVAL",
+        "8.PROC",
+        "9.PROC",
+        "10.HYPO",
+        "11.HYPO",
+        "12.HYPO",
+        "13.RUL",
+        "14.META",
+        "15.META",
+        "16.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1.BGN",
+        "2.PLAN",
+        "3.PROC",
+        "4.PROC",
+        "5.PROC",
+        "6.PROC",
+        "7.PROC",
+        "8.PROC",
+        "9.PROC",
+        "10.PROC",
+        "11.EVAL",
+        "12.PLAN",
+        "13.PROC",
+        "14.PROC",
+        "15.META",
+        "16.HYPO",
+        "17.EVAL",
+        "18.META",
+        "19.RUL",
+        "20.DEC",
+        "21.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1.BGN",
+        "2.PLAN",
+        "3.META",
+        "4.PROC",
+        "5.PROC",
+        "6.EVAL",
+        "7.PLAN",
+        "8.PROC",
+        "9.PROC",
+        "10.PROC",
+        "11.PROC",
+        "12.PROC",
+        "13.HYPO",
+        "14.EVAL",
+        "15.META",
+        "16.PROC",
+        "17.PROC",
+        "18.META",
+        "19.META",
+        "20.EVAL",
+        "21.EVAL",
+        "22.META",
+        "23.META",
+        "24.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1.BGN",
+        "2.PROC",
+        "3.PROC",
+        "4.PLAN",
+        "5.PROC",
+        "6.PROC",
+        "7.HYPO",
+        "8.EVAL",
+        "9.PROC",
+        "10.RUL",
+        "11.DEC",
+        "12.DEC",
+        "13.META",
+        "14.META",
+        "15.META",
+        "16.RUL",
+        "17.DEC",
+        "18.FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p39",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "DAT_sequence": [
+        "1.BGN", "2.PROC", "3.HYPO", "4.PROC", "5.META", "6.EVAL",
+        "7.EVAL", "8.EVAL", "9.PROC", "10.PROC", "11.META", "12.EVAL",
+        "13.PROC", "14.PROC", "15.HYPO", "16.META", "17.PROC", "18.PROC",
+        "19.PROC", "20.FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "DAT_sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.EVAL", "5.PROC", "6.PROC",
+        "7.META", "8.PROC", "9.PROC", "10.PLAN", "11.PROC", "12.PLAN",
+        "13.PROC", "14.META", "15.PROC", "16.META", "17.PROC", "18.DEC", "19.FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "DAT_sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.EVAL", "5.PROC", "6.META",
+        "7.PROC", "8.PROC", "9.PROC", "10.PROC", "11.PROC", "12.PROC",
+        "13.META", "14.EVAL", "15.PROC", "16.EVAL", "17.UNC", "18.PROC",
+        "19.META", "20.META", "21.EVAL", "22.PROC", "23.PROC", "24.META",
+        "25.PROC", "26.PROC", "27.EVAL", "28.META", "29.FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "DAT_sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.PROC", "5.HYPO", "6.DEC",
+        "7.PROC", "8.DEC", "9.PROC", "10.META", "11.PROC", "12.PROC",
+        "13.PROC", "14.PROC", "15.META", "16.META", "17.PROC", "18.EVAL",
+        "19.DEC", "20.FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "DAT_sequence": [
+        "1.BGN", "2.PLAN", "3.PROC", "4.EVAL", "5.PROC", "6.PROC",
+        "7.PROC", "8.PROC", "9.PROC", "10.PROC", "11.PROC", "12.HYPO",
+        "13.EVAL", "14.PROC", "15.META", "16.DEC", "17.PROC", "18.PROC",
+        "19.PROC", "20.EVAL", "21.META", "22.PROC", "23.DEC", "24.FIN"
+      ]
+    }
+  ]
+},
+
+{"participant_id": "p40",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1. BGN", "2. ORI", "3. META", "4. HYPO", "5. PROC", "6. DEC",
+        "7. PROC", "8. DEC", "9. PLAN", "10. RUL", "11. META", "12. META",
+        "13. META", "14. META", "15. PLAN", "16. RUL", "17. META", "18. FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1. BGN", "2. ORI", "3. PROC", "4. PLAN", "5. PLAN", "6. HYPO",
+        "7. HYPO", "8. META", "9. EVAL", "10. EVAL", "11. EVAL", "12. META",
+        "13. HYPO", "14. DEC", "15. HYPO", "16. EVAL", "17. META", "18. HYPO",
+        "19. FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1. BGN", "2. PROC", "3. PROC", "4. PLAN", "5. HYPO", "6. DEC",
+        "7. HYPO", "8. META", "9. DEC", "10. RUL", "11. META", "12. RUL",
+        "13. META", "14. RUL", "15. FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1. BGN", "2. ORI", "3. PROC", "4. META", "5. HYPO", "6. EVAL",
+        "7. PROC", "8. HYPO", "9. DEC", "10. RUL", "11. RUL", "12. META",
+        "13. META", "14. RUL", "15. DEC", "16. META", "17. FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1. BGN", "2. PROC", "3. META", "4. PROC", "5. META", "6. EVAL",
+        "7. EVAL", "8. META", "9. HYPO", "10. META", "11. META", "12. META",
+        "13. HYPO", "14. DEC", "15. RUL", "16. RUL", "17. FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p41",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1. BGN",
+        "2. PROC",
+        "3. PROC",
+        "4. HYPO",
+        "5. META",
+        "6. PROC",
+        "7. META",
+        "8. PROC",
+        "9. HYPO",
+        "10. FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1. BGN",
+        "2. PROC",
+        "3. PROC",
+        "4. PROC",
+        "5. META",
+        "6. META",
+        "7. EVAL",
+        "8. EVAL",
+        "9. HYPO",
+        "10. PROC",
+        "11. EVAL",
+        "12. HYPO",
+        "13. FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1. BGN",
+        "2. PROC",
+        "3. PROC",
+        "4. PROC",
+        "5. PROC",
+        "6. PROC",
+        "7. HYPO",
+        "8. PROC",
+        "9. EVAL",
+        "10. PROC",
+        "11. EVAL",
+        "12. EVAL",
+        "13. DEC",
+        "14. FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1. BGN",
+        "2. PROC",
+        "3. PROC",
+        "4. PROC",
+        "5. PROC",
+        "6. EVAL",
+        "7. PROC",
+        "8. EVAL",
+        "9. META",
+        "10. PROC",
+        "11. EVAL",
+        "12. META",
+        "13. PROC",
+        "14. FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1. BGN",
+        "2. PROC",
+        "3. PROC",
+        "4. PROC",
+        "5. EVAL",
+        "6. PROC",
+        "7. HYPO",
+        "8. HYPO",
+        "9. EVAL",
+        "10. META",
+        "11. HYPO",
+        "12. EVAL",
+        "13. FIN"
+      ]
+    }
+  ],
+  "aliases_found": {},
+  "unmapped": [],
+  "codes_missing_FIN": []
+},
+
+{"participant_id": "p42",
+  "scenes": [
+    {
+      "scene": "scene1",
+      "sequence": [
+        "1. BGN",
+        "2. PLAN",
+        "3. PROC",
+        "4. META",
+        "5. PROC",
+        "6. PROC",
+        "7. PROC",
+        "8. PROC",
+        "9. PROC",
+        "10. DEC",
+        "11. RUL",
+        "12. FIN"
+      ]
+    },
+    {
+      "scene": "scene2",
+      "sequence": [
+        "1. BGN",
+        "2. PLAN",
+        "3. HYPO",
+        "4. PROC",
+        "5. PROC",
+        "6. DEC",
+        "7. META",
+        "8. PROC",
+        "9. FIN"
+      ]
+    },
+    {
+      "scene": "scene3",
+      "sequence": [
+        "1. BGN",
+        "2. PLAN",
+        "3. PROC",
+        "4. PLAN",
+        "5. HYPO",
+        "6. DEC",
+        "7. HYPO",
+        "8. DEC",
+        "9. RUL",
+        "10. FIN"
+      ]
+    },
+    {
+      "scene": "scene4",
+      "sequence": [
+        "1. BGN",
+        "2. PROC",
+        "3. META",
+        "4. HYPO",
+        "5. PROC",
+        "6. META",
+        "7. META",
+        "8. HYPO",
+        "9. HYPO",
+        "10. RUL",
+        "11. FIN"
+      ]
+    },
+    {
+      "scene": "scene5",
+      "sequence": [
+        "1. BGN",
+        "2. PROC",
+        "3. PROC",
+        "4. EVAL",
+        "5. RUL",
+        "6. FIN"
+      ]
+    }
+  ]
+}
+]

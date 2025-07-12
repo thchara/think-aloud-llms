@@ -79,6 +79,6 @@ c. split LLM tasks into 42 separate files
    
 ```bash
 python scripts/split_llm_runs.py \
-  --in_dir data/ZendoStudy/LLMs/buffer4/raw_outputs \
-  --out_dir data/ZendoStudy/LLMs/buffer4/raw_outputs_split
+  --in_dir data/ZendoStudy/LLMs/buffer8/raw_outputs \
+  --out_dir data/ZendoStudy/LLMs/buffer8/raw_outputs_split
 ```

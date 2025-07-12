@@ -1,0 +1,1000 @@
+[
+  {
+    "run_id": "run01",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. EVAL",
+          "3. HYPO",
+          "4. EVAL",
+          "5. HYPO",
+          "6. HYPO",
+          "7. HYPO",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run02",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. EVAL",
+          "4. EVAL",
+          "5. EVAL",
+          "6. EVAL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run03",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. HYPO",
+          "3. EVAL",
+          "4. HYPO",
+          "5. EVAL",
+          "6. EVAL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. HYPO",
+          "10. EVAL",
+          "11. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run04",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. PROC",
+          "3. EVAL",
+          "4. HYPO",
+          "5. EVAL",
+          "6. EVAL",
+          "7. EVAL",
+          "8. HYPO",
+          "9. HYPO",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. RUL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run05",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. PROC",
+          "3. HYPO",
+          "4. HYPO",
+          "5. HYPO",
+          "6. EVAL",
+          "7. EVAL",
+          "8. DEC",
+          "9. HYPO",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run06",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. PROC",
+          "3. PROC",
+          "4. HYPO",
+          "5. EVAL",
+          "6. EVAL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. DEC"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run07",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. HYPO",
+          "4. EVAL",
+          "5. EVAL",
+          "6. RUL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run08",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. PROC",
+          "4. EVAL",
+          "5. HYPO",
+          "6. PROC",
+          "7. HYPO",
+          "8. EVAL",
+          "9. HYPO",
+          "10. RUL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run09",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. PROC",
+          "3. DEC",
+          "4. PROC",
+          "5. HYPO",
+          "6. DEC",
+          "7. EVAL",
+          "8. EVAL",
+          "9. HYPO",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. HYPO"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run10",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. EVAL",
+          "3. EVAL",
+          "4. HYPO",
+          "5. EVAL",
+          "6. HYPO",
+          "7. EVAL",
+          "8. HYPO",
+          "9. DEC",
+          "10. HYPO",
+          "11. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run11",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. EVAL",
+          "3. PROC",
+          "4. HYPO",
+          "5. EVAL",
+          "6. DEC",
+          "7. EVAL",
+          "8. EVAL",
+          "9. HYPO",
+          "10. EVAL",
+          "11. DEC",
+          "12. EVAL",
+          "13. EVAL",
+          "14. HYPO",
+          "15. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run12",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. EVAL",
+          "2. EVAL",
+          "3. EVAL",
+          "4. HYPO",
+          "5. EVAL",
+          "6. EVAL",
+          "7. DEC",
+          "8. HYPO",
+          "9. EVAL",
+          "10. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run13",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. EVAL",
+          "3. HYPO",
+          "4. EVAL",
+          "5. EVAL",
+          "6. EVAL",
+          "7. PLAN",
+          "8. HYPO",
+          "9. EVAL",
+          "10. HYPO",
+          "11. EVAL",
+          "12. HYPO",
+          "13. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run14",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. HYPO",
+          "3. EVAL",
+          "4. HYPO",
+          "5. EVAL",
+          "6. HYPO",
+          "7. EVAL",
+          "8. META",
+          "9. HYPO",
+          "10. EVAL",
+          "11. HYPO",
+          "12. HYPO",
+          "13. EVAL",
+          "14. HYPO",
+          "15. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run15",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. PROC",
+          "3. HYPO",
+          "4. EVAL",
+          "5. HYPO",
+          "6. EVAL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL",
+          "16. EVAL",
+          "17. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run16",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. HYPO",
+          "3. HYPO",
+          "4. HYPO",
+          "5. EVAL",
+          "6. EVAL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run17",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. HYPO",
+          "3. HYPO",
+          "4. HYPO",
+          "5. HYPO",
+          "6. HYPO",
+          "7. EVAL",
+          "8. HYPO",
+          "9. EVAL",
+          "10. DEC",
+          "11. EVAL",
+          "12. HYPO",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run18",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. EVAL",
+          "3. EVAL",
+          "4. HYPO",
+          "5. HYPO",
+          "6. EVAL",
+          "7. HYPO",
+          "8. HYPO",
+          "9. HYPO",
+          "10. EVAL",
+          "11. EVAL",
+          "12. HYPO",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run19",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. EVAL",
+          "3. HYPO",
+          "4. HYPO",
+          "5. HYPO",
+          "6. HYPO",
+          "7. HYPO",
+          "8. EVAL",
+          "9. DEC",
+          "10. EVAL",
+          "11. EVAL",
+          "12. HYPO",
+          "13. EVAL",
+          "14. EVAL",
+          "15. DEC",
+          "16. EVAL",
+          "17. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run20",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. DEC",
+          "3. HYPO",
+          "4. DEC",
+          "5. HYPO",
+          "6. EVAL",
+          "7. HYPO",
+          "8. EVAL",
+          "9. HYPO",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. DEC"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run21",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. HYPO",
+          "4. HYPO",
+          "5. HYPO",
+          "6. HYPO",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL",
+          "16. EVAL",
+          "17. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run22",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. HYPO",
+          "3. HYPO",
+          "4. EVAL",
+          "5. HYPO",
+          "6. HYPO",
+          "7. EVAL",
+          "8. HYPO",
+          "9. PROC",
+          "10. HYPO",
+          "11. DEC",
+          "12. EVAL",
+          "13. HYPO"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run23",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. EVAL",
+          "4. EVAL",
+          "5. EVAL",
+          "6. EVAL",
+          "7. HYPO",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run24",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. HYPO",
+          "4. EVAL",
+          "5. EVAL",
+          "6. EVAL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL",
+          "16. EVAL",
+          "17. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run25",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. HYPO",
+          "3. EVAL",
+          "4. HYPO",
+          "5. HYPO",
+          "6. EVAL",
+          "7. RUL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. DEC",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run26",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. EVAL",
+          "3. HYPO",
+          "4. EVAL",
+          "5. EVAL",
+          "6. RUL",
+          "7. HYPO",
+          "8. EVAL",
+          "9. EVAL",
+          "10. HYPO",
+          "11. EVAL",
+          "12. HYPO"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run27",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. PROC",
+          "3. EVAL",
+          "4. EVAL",
+          "5. HYPO",
+          "6. EVAL",
+          "7. PROC",
+          "8. HYPO",
+          "9. EVAL",
+          "10. EVAL",
+          "11. HYPO",
+          "12. HYPO"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run28",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. PROC",
+          "3. EVAL",
+          "4. HYPO",
+          "5. EVAL",
+          "6. EVAL",
+          "7. HYPO",
+          "8. EVAL",
+          "9. EVAL",
+          "10. RUL",
+          "11. EVAL",
+          "12. HYPO",
+          "13. RUL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run29",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. EVAL",
+          "4. HYPO",
+          "5. EVAL",
+          "6. DEC",
+          "7. EVAL",
+          "8. HYPO",
+          "9. RUL",
+          "10. EVAL",
+          "11. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run30",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. HYPO",
+          "3. HYPO",
+          "4. EVAL",
+          "5. EVAL",
+          "6. HYPO",
+          "7. EVAL",
+          "8. HYPO",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. DEC"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run31",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. HYPO",
+          "3. HYPO",
+          "4. EVAL",
+          "5. HYPO",
+          "6. HYPO",
+          "7. DEC",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run32",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. EVAL",
+          "4. PROC",
+          "5. HYPO",
+          "6. EVAL",
+          "7. HYPO",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. HYPO",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL",
+          "16. DEC",
+          "17. RUL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run33",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. HYPO",
+          "3. EVAL",
+          "4. EVAL",
+          "5. HYPO",
+          "6. DEC",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL",
+          "16. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run34",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. HYPO",
+          "4. HYPO",
+          "5. EVAL",
+          "6. DEC",
+          "7. HYPO",
+          "8. EVAL",
+          "9. EVAL",
+          "10. HYPO",
+          "11. EVAL",
+          "12. EVAL",
+          "13. HYPO",
+          "14. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run35",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. EVAL",
+          "3. EVAL",
+          "4. HYPO",
+          "5. HYPO",
+          "6. EVAL",
+          "7. RUL",
+          "8. HYPO",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. HYPO"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run36",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. HYPO",
+          "3. EVAL",
+          "4. HYPO",
+          "5. HYPO",
+          "6. EVAL",
+          "7. HYPO",
+          "8. EVAL",
+          "9. HYPO",
+          "10. HYPO",
+          "11. RUL",
+          "12. DEC",
+          "13. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run37",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. EVAL",
+          "4. HYPO",
+          "5. HYPO",
+          "6. EVAL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL",
+          "16. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run38",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. PROC",
+          "3. EVAL",
+          "4. HYPO",
+          "5. EVAL",
+          "6. EVAL",
+          "7. PROC",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run39",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. EVAL",
+          "4. HYPO",
+          "5. HYPO",
+          "6. DEC",
+          "7. HYPO",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run40",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. EVAL",
+          "4. EVAL",
+          "5. EVAL",
+          "6. EVAL",
+          "7. HYPO",
+          "8. EVAL",
+          "9. EVAL",
+          "10. EVAL",
+          "11. HYPO",
+          "12. EVAL",
+          "13. EVAL",
+          "14. HYPO",
+          "15. EVAL",
+          "16. RUL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run41",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. PROC",
+          "2. PROC",
+          "3. EVAL",
+          "4. EVAL",
+          "5. HYPO",
+          "6. EVAL",
+          "7. HYPO",
+          "8. HYPO",
+          "9. EVAL",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. EVAL",
+          "15. EVAL",
+          "16. EVAL",
+          "17. RUL"
+        ]
+      }
+    ]
+  },
+  {
+    "run_id": "run42",
+    "scenes": [
+      {
+        "scene": "task3",
+        "sequence": [
+          "1. HYPO",
+          "2. EVAL",
+          "3. HYPO",
+          "4. EVAL",
+          "5. HYPO",
+          "6. EVAL",
+          "7. EVAL",
+          "8. EVAL",
+          "9. HYPO",
+          "10. EVAL",
+          "11. EVAL",
+          "12. EVAL",
+          "13. EVAL",
+          "14. HYPO",
+          "15. EVAL"
+        ]
+      }
+    ]
+  }
+]

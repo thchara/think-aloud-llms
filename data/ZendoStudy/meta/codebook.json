@@ -2,7 +2,7 @@
     {
     "theme": "Task Orientation",
     "DAT_code": "ORI",
-    "member_codes": [ "orientation", "readingInstructions", "taskOrientation", "otherEmergent_taskStart" ],
+    "member_codes": [ "Orientation", "readingInstructions", "taskOrientation", "otherEmergent_taskStart" ],
     "representative_ids": [
     { "participant_id": "p10_coded", "step_id": 1 },
     { "participant_id": "p23_coded", "step_id": 1 }
@@ -52,7 +52,7 @@
     {
     "theme": "Decision Points",
     "DAT_code": "DEC",
-    "member_codes": [ "decisionConfirm", "decisionReject", "ruleImpasse", "submitAnswer" ],
+    "member_codes": [ "decisionConfirm", "decisionReject" ],
     "representative_ids": [
     { "participant_id": "p11_coded", "step_id": 50 },
     { "participant_id": "p24_coded", "step_id": 60 }
@@ -82,7 +82,7 @@
     {
     "theme": "Rule Expression",
     "DAT_code": "RUL",
-    "member_codes": [ "ruleArticulation", "ruleRevisit", "ruleInference", "ruleInsight", "ruleJustification", "ruleGuess" ],
+    "member_codes": [ "ruleArticulation", "ruleRevisit", "ruleInference", "ruleInsight", "ruleJustification", "ruleGuess", "ruleImpasse" ],
     "representative_ids": [
     { "participant_id": "p19_coded", "step_id": 75 },
     { "participant_id": "p30_coded", "step_id": 80 }

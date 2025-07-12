@@ -2798,7 +2798,7 @@
     "open_code": "counterExampleSearch",
     "summary": "cites F as counterexample",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "participant_id": "p13_coded",
@@ -4466,7 +4466,7 @@
     "open_code": "processingLocal",
     "summary": "Notes E lacks red color",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "participant_id": "p15_coded",
@@ -5619,7 +5619,7 @@
     "open_code": "processingLocal",
     "summary": "Observes E has three colors",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -7283,7 +7283,7 @@
     "open_code": "processingLocal",
     "summary": "states B color counts",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "participant_id": "p18_coded",
@@ -7295,7 +7295,7 @@
     "open_code": "processingLocal",
     "summary": "observes C color counts",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "participant_id": "p18_coded",
@@ -8348,7 +8348,7 @@
     "open_code": "processingLocal",
     "summary": "Notices stacking in panel D.",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "participant_id": "p19_coded",
@@ -9219,7 +9219,7 @@
     "open_code": "processingLocal",
     "summary": "Notes single tilted blue in D",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "participant_id": "p1_coded",
@@ -9231,7 +9231,7 @@
     "open_code": "processingLocal",
     "summary": "Observes star presence in E",
     "lenses": {
-      "processingStyle": "localDetail"
+      "processingStyle": "localScan"
     },
     "participant_id": "p1_coded",
     "scene": "scene1"
@@ -9254,7 +9254,7 @@
     "open_code": "processingLocal",
     "summary": "Notes many sideways/down triangles in F",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "participant_id": "p1_coded",
@@ -16175,7 +16175,7 @@
     "open_code": "processingLocal",
     "summary": "lists cone colors and counts in top panel",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16197,7 +16197,7 @@
     "open_code": "processingLocal",
     "summary": "notes paired upright cones and one tilted green",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -16330,7 +16330,7 @@
     "open_code": "processingLocal",
     "summary": "lists colors and upright cones in one panel",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16343,7 +16343,7 @@
     "open_code": "processingLocal",
     "summary": "describes greens and blues in another panel",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16556,7 +16556,7 @@
     "open_code": "processingLocal",
     "summary": "lists colors/counts in panel A",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16569,7 +16569,7 @@
     "open_code": "processingLocal",
     "summary": "describes counts/orientation in C",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16634,7 +16634,7 @@
     "open_code": "processingLocal",
     "summary": "notes two tilted blues in A",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16672,7 +16672,7 @@
     "open_code": "processingLocal",
     "summary": "notes tilted green in F",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16734,7 +16734,7 @@
     "open_code": "processingLocal",
     "summary": "observes A has many cones",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -16768,7 +16768,7 @@
     "open_code": "processingLocal",
     "summary": "lists colors/counts in A",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16781,7 +16781,7 @@
     "open_code": "processingLocal",
     "summary": "lists colors/counts in C",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16794,7 +16794,7 @@
     "open_code": "processingLocal",
     "summary": "notes two upright greens",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -16819,7 +16819,7 @@
     "open_code": "processingLocal",
     "summary": "lists colors/counts in F",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -16905,7 +16905,7 @@
     "open_code": "processingLocal",
     "summary": "notes differing red count elsewhere",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -16918,7 +16918,7 @@
     "open_code": "processingLocal",
     "summary": "observes two upright greens",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -16931,7 +16931,7 @@
     "open_code": "processingLocal",
     "summary": "notes absence of upright greens",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -16944,7 +16944,7 @@
     "open_code": "processingLocal",
     "summary": "compares upright vs tilted blues",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -16957,7 +16957,7 @@
     "open_code": "processingLocal",
     "summary": "counts tilted cones across panels",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -17032,7 +17032,7 @@
     "open_code": "processingLocal",
     "summary": "begins counting cones",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -17058,7 +17058,7 @@
     "open_code": "processingLocal",
     "summary": "counts cones across multiple panels",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -17083,7 +17083,7 @@
     "open_code": "processingLocal",
     "summary": "counts red cones in panels",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -17121,7 +17121,7 @@
     "open_code": "processingLocal",
     "summary": "notes two tilted greens",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -18927,7 +18927,7 @@
     "open_code": "processingLocal",
     "summary": "Notes unusual combined shapes in C",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -18966,7 +18966,7 @@
     "open_code": "processingLocal",
     "summary": "Quick recount to confirm counts",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -19097,7 +19097,7 @@
     "open_code": "processingLocal",
     "summary": "Murmurs colour observations",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -19303,7 +19303,7 @@
     "open_code": "processingLocal",
     "summary": "Notes stacked green triangle in C",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -19481,7 +19481,7 @@
     "open_code": "processingLocal",
     "summary": "Details purple triangle sizes/orientations",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -19571,7 +19571,7 @@
     "open_code": "processingLocal",
     "summary": "Murmurs colour sequence observations",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -19597,7 +19597,7 @@
     "open_code": "processingLocal",
     "summary": "Notes tilted-stack feature in A and C",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -19648,7 +19648,7 @@
     "open_code": "processingLocal",
     "summary": "Continues colour listing softly",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -19724,7 +19724,7 @@
     "open_code": "processingLocal",
     "summary": "Mentions uncertain count comparison",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -19787,7 +19787,7 @@
     "open_code": "processingLocal",
     "summary": "Counts triangles in panel A",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "check": "OK",
@@ -19812,7 +19812,7 @@
     "open_code": "processingLocal",
     "summary": "Notes side-tilted triangles in A",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -19825,7 +19825,7 @@
     "open_code": "processingLocal",
     "summary": "Observes similar tilt in E",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -19838,7 +19838,7 @@
     "open_code": "processingLocal",
     "summary": "Confirms B also has tilted triangle",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "gist"
     },
     "check": "OK",
@@ -23114,7 +23114,7 @@
     "open_code": "processingLocal",
     "summary": "Notes upright cones in A",
     "lenses": {
-      "processingStyle": "localDetail"
+      "processingStyle": "localScan"
     },
     "participant_id": "p2_coded",
     "scene": "scene5"
@@ -36224,7 +36224,7 @@
     "open_code": "processingLocal",
     "summary": "Counts triangles in F",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "perspectiveDepth": "0step",
       "representationGrain": "verbatim"
     },
@@ -37858,7 +37858,7 @@
     "open_code": "processingLocal",
     "summary": "Locates example green triangle",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "representationGrain": "verbatim"
     },
     "participant_id": "p6_coded",
@@ -39057,7 +39057,7 @@
     "open_code": "processingLocal",
     "summary": "notes blue covering in C",
     "lenses": {
-      "processingStyle": "localDetail",
+      "processingStyle": "localScan",
       "perspectiveDepth": "0step",
       "representationGrain": "gist"
     },

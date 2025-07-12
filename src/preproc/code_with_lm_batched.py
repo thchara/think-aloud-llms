@@ -65,13 +65,16 @@ def main(argv: Iterable[str] | None = None) -> None:
     args = parser.parse_args(argv)
 
     in_root = pathlib.Path(args.in_dir)
+    if in_root.is_file():
+        files = [in_root]
+    else:
+        files = sorted(in_root.glob("*.txt"))
     out_root = pathlib.Path(args.out_dir)
     out_root.mkdir(parents=True, exist_ok=True)
 
     prompt = get_open_coding_prompt()
     client = openai.Client(api_key=os.getenv("OPENAI_API_KEY"))
 
-    files = sorted(in_root.glob("*.txt"))
     logging.info(f"Found {len(files)} transcript(s) in {in_root}")
 
     for txt_file in tqdm(files, desc="Open‐coding transcripts"):
